@@ -135,7 +135,7 @@ def generate_premium_blog_content(topic=None):
     """
     
     try:
-        model = genai.GenerativeModel('gemini-pro')
+        model = genai.GenerativeModel('gemini-1.5-flash')
         response = model.generate_content(prompt)
         return response.text, topic
     except Exception as e:

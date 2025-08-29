@@ -1,11 +1,14 @@
 
-name: 📱 Google Drive → Notion/Obsidian 자동 동기화
+# DISABLED: 📱 Google Drive → Notion/Obsidian 자동 동기화
+# sync_script.py 파일이 없어서 임시 비활성화
+
+name: 📱 Google Drive → Notion/Obsidian 자동 동기화 (비활성화됨)
 
 on:
-  schedule:
-    # 10분마다 실행
-    - cron: '*/10 * * * *'
-  workflow_dispatch:
+  # schedule:
+  #   # 10분마다 실행
+  #   - cron: '*/10 * * * *'
+  workflow_dispatch: # 수동 실행만 허용
 
 jobs:
   sync:

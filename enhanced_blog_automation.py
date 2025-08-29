@@ -279,7 +279,7 @@ def post_to_blog(config, title, content, labels=None):
         'blog': {'id': config['blog_id']},
         'title': title,
         'content': content,
-        'labels': labels or ['AI', '자동포스팅', '블로그', '테크']
+        'labels': labels or ['AI', '블로그', '테크']
     }
     
     url = f'https://www.googleapis.com/blogger/v3/blogs/{config["blog_id"]}/posts'
@@ -366,7 +366,7 @@ def main():
     if args.labels:
         labels = [label.strip() for label in args.labels.split(',')]
     else:
-        labels = ['AI', '자동포스팅', '블로그', 'GitHub Actions']
+        labels = ['AI', '블로그', 'GitHub Actions']
     
     # 블로그 포스팅
     print("📝 블로그 포스팅 중...")

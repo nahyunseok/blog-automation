@@ -5,6 +5,7 @@ GitHub Actions용 향상된 블로그 자동화 시스템
 - Gemini AI로 고품질 콘텐츠 생성
 - Google Blogger API 자동 포스팅
 - 스케줄링 및 중복 방지
+- 실제 이미지 URL 및 프리미엄 스타일링
 """
 
 import os
@@ -43,6 +44,31 @@ def load_config():
     
     return config
 
+def get_unsplash_image_id(keyword):
+    """키워드에 맞는 고품질 Unsplash 이미지 ID 반환"""
+    image_collections = {
+        "ai": ["1525876698956-fb31d5f6c7d8", "1677442136019-21780ecad995", "1555255707-c07be19750ed"],
+        "technology": ["1518709268804-e9c82eae8e82", "1461749280684-dccba630e2f6", "1519389950473-47ba0277781c"],
+        "computer": ["1488590528505-98d02b6ab33a", "1517077304055-6e89abbf09b0", "1484807352052-23338990c6c6"],
+        "robot": ["1535378620166-273708d44e4c", "1551033406-611cf9a28f24", "1546776230-6d0d4fd7ea78"],
+        "productivity": ["1484480974693-6ca0a78fb36b", "1611224923853-80b023f02d71", "1507003211169-0a1dd7ef0a96"],
+        "workspace": ["1586953208448-b95a79798f07", "1541746972725-54cb8b6dd6ad", "1587560699334-bea93391dcef"],
+        "creativity": ["1506905925346-21bda4d32df4", "1558655146-364adaf1fcc9", "1513475382585-d06e58bcb0e0"],
+        "innovation": ["1485827404703-d89219db76e5", "1451187580459-43490c3819c7", "1519452634681-115ef5bd4e45"],
+        "future": ["1518611012118-696072aa579a", "1507146153580-69a1fe6d8aa1", "1518709594765-be188be2a4c8"],
+        "study": ["1434030216411-0b793f4b4173", "1513258496099-48168024aec0", "1456513080510-7bf3a84b82d8"]
+    }
+    
+    matching_images = []
+    for key, images in image_collections.items():
+        if key in keyword.lower() or keyword.lower() in key:
+            matching_images.extend(images)
+    
+    if not matching_images:
+        matching_images = image_collections["technology"]
+    
+    return random.choice(matching_images)
+
 def generate_premium_blog_content(topic=None):
     """AI로 프리미엄 스타일 블로그 콘텐츠 생성"""
     if not topic:
@@ -65,11 +91,12 @@ def generate_premium_blog_content(topic=None):
     
     # 주제에 맞는 이미지 키워드 선택
     image_keywords = {
-        "AI": ["artificial-intelligence", "technology", "robot", "computer", "ai"],
-        "생산성": ["productivity", "workspace", "laptop", "office", "work"],
-        "창작": ["creativity", "art", "design", "creative", "innovation"],
-        "미래": ["future", "tech", "digital", "innovation", "modern"],
-        "비교": ["comparison", "analysis", "charts", "data", "statistics"]
+        "AI": ["ai", "robot", "technology"], 
+        "공부": ["study", "productivity", "workspace"], 
+        "도구": ["technology", "computer", "innovation"],
+        "자동화": ["robot", "technology", "productivity"],
+        "트렌드": ["future", "innovation", "technology"],
+        "가이드": ["study", "productivity", "workspace"]
     }
     
     # 주제 기반 이미지 키워드 선택
@@ -78,6 +105,9 @@ def generate_premium_blog_content(topic=None):
         if key in topic:
             img_keyword = random.choice(keywords)
             break
+    
+    # 실제 이미지 ID 가져오기
+    image_id = get_unsplash_image_id(img_keyword)
     
     # 색상 테마 랜덤 선택
     color_themes = [
@@ -88,55 +118,126 @@ def generate_premium_blog_content(topic=None):
     ]
     theme = random.choice(color_themes)
     
+    # 이모지 선택
+    topic_emojis = {
+        "AI": "🤖", "공부": "📚", "도구": "🔧", "가이드": "📖",
+        "자동화": "⚙️", "트렌드": "🚀", "비교": "⚖️", "활용": "💡"
+    }
+    
+    emoji = "🤖"
+    for key, em in topic_emojis.items():
+        if key in topic:
+            emoji = em
+            break
+    
     prompt = f"""
     주제: {topic}
     
-    프리미엄 블로그 포스트를 위한 고품질 콘텐츠를 작성해주세요.
+    프리미엄 블로그 포스트를 위한 고품질 HTML 콘텐츠를 작성해주세요.
     
-    반드시 다음 HTML 구조를 사용해야 합니다:
+    다음 HTML 템플릿을 사용하되, 실제 내용으로 완성해주세요:
     
-    <div style="max-width: 800px; margin: 0 auto; font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); border-radius: 20px; padding: 40px; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+    <div style="max-width: 900px; margin: 0 auto; font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #333; background: #fff;">
         
-        <div style="text-align: center; margin-bottom: 50px;">
-            <div style="width: 120px; height: 120px; margin: 0 auto 30px; background: linear-gradient(45deg, {theme['primary']} 0%, {theme['secondary']} 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);">
-                <span style="font-size: 60px;">[주제에 맞는 이모지]</span>
+        <!-- 헤더 섹션 -->
+        <div style="text-align: center; margin-bottom: 50px; background: linear-gradient(135deg, {theme['primary']} 0%, {theme['secondary']} 100%); padding: 60px 40px; border-radius: 20px; color: white; position: relative; overflow: hidden;">
+            <div style="position: absolute; top: -50px; right: -50px; width: 200px; height: 200px; background: rgba(255,255,255,0.1); border-radius: 50%; opacity: 0.3;"></div>
+            <div style="position: absolute; bottom: -30px; left: -30px; width: 150px; height: 150px; background: rgba(255,255,255,0.1); border-radius: 50%; opacity: 0.2;"></div>
+            <div style="position: relative; z-index: 10;">
+                <div style="font-size: 80px; margin-bottom: 20px;">{emoji}</div>
+                <h1 style="font-size: 36px; font-weight: 800; margin: 0 0 20px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); line-height: 1.2;">[매력적인 제목으로 교체]</h1>
+                <p style="font-size: 20px; font-weight: 300; margin: 0; opacity: 0.9; line-height: 1.4;">[흥미로운 부제목으로 교체]</p>
             </div>
-            <h1 style="color: #2c3e50; font-size: 32px; font-weight: 800; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.1);">[매력적인 제목]</h1>
-            <p style="color: #34495e; font-size: 18px; font-weight: 500; margin: 15px 0 0 0;">[흥미로운 부제목]</p>
         </div>
         
-        <div style="text-align: center; margin: 40px 0;">
-            <img src="https://images.unsplash.com/photo-[이미지ID]?w=600&h=300&fit=crop&crop=center" 
+        <!-- 메인 이미지 -->
+        <div style="text-align: center; margin: 50px 0;">
+            <img src="https://images.unsplash.com/photo-{image_id}?w=800&h=400&fit=crop&crop=center&auto=format&q=80" 
                  alt="{topic}" 
-                 style="width: 100%; max-width: 600px; height: 300px; object-fit: cover; border-radius: 15px; box-shadow: 0 15px 35px rgba(0,0,0,0.1);">
+                 style="width: 100%; max-width: 800px; height: 400px; object-fit: cover; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.15); transition: transform 0.3s ease;">
         </div>
         
-        [여기에 3-4개 섹션, 각각 다른 색상 테마와 아이콘 사용]
-        
-        <div style="background: linear-gradient(135deg, {theme['primary']} 0%, {theme['secondary']} 100%); color: white; padding: 40px; border-radius: 15px; margin: 40px 0; box-shadow: 0 15px 35px rgba(102, 126, 234, 0.3);">
-            [핵심 팁이나 요약 섹션]
+        <!-- 서론 섹션 -->
+        <div style="background: #f8fafc; padding: 40px; border-radius: 15px; margin: 40px 0; border-left: 5px solid {theme['primary']};">
+            <h2 style="color: {theme['primary']}; font-size: 28px; font-weight: 700; margin: 0 0 20px 0; display: flex; align-items: center;">
+                <span style="margin-right: 10px;">💭</span> 들어가며
+            </h2>
+            <p style="font-size: 18px; line-height: 1.8; margin: 0; color: #555;">[서론 내용 - 독자의 관심을 끌고 주제의 중요성을 설명]</p>
         </div>
         
-        <div style="background: #fff; padding: 30px; border-radius: 15px; text-align: center; margin-top: 40px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
-            [마무리 및 독자 참여 유도]
+        <!-- 주요 내용 섹션들 (3-4개) -->
+        <div style="margin: 50px 0;">
+            <h2 style="color: #2c3e50; font-size: 30px; font-weight: 800; margin: 0 0 30px 0; position: relative; padding-left: 20px;">
+                <span style="position: absolute; left: -5px; top: 0; width: 4px; height: 100%; background: {theme['accent']}; border-radius: 2px;"></span>
+                🎯 [섹션 제목 1]
+            </h2>
+            <div style="background: white; padding: 35px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); margin-bottom: 30px;">
+                <p style="font-size: 18px; line-height: 1.8; margin-bottom: 20px; color: #444;">[구체적이고 실용적인 내용]</p>
+                <ul style="font-size: 18px; line-height: 1.8; color: #555; padding-left: 20px;">
+                    <li style="margin-bottom: 10px;">[구체적인 팁이나 예시 1]</li>
+                    <li style="margin-bottom: 10px;">[구체적인 팁이나 예시 2]</li>
+                    <li style="margin-bottom: 10px;">[구체적인 팁이나 예시 3]</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- 핵심 팁 하이라이트 박스 -->
+        <div style="background: linear-gradient(135deg, {theme['primary']} 0%, {theme['secondary']} 100%); color: white; padding: 50px 40px; border-radius: 20px; margin: 50px 0; text-align: center; position: relative; overflow: hidden;">
+            <div style="position: absolute; top: 20px; left: 20px; font-size: 120px; opacity: 0.1;">💡</div>
+            <h3 style="font-size: 28px; font-weight: 700; margin: 0 0 25px 0; position: relative; z-index: 10;">🔥 핵심 포인트</h3>
+            <p style="font-size: 20px; line-height: 1.6; margin: 0; font-weight: 400; position: relative; z-index: 10;">[가장 중요한 핵심 내용이나 팁]</p>
+        </div>
+        
+        <!-- 실제 경험담 섹션 -->
+        <div style="margin: 50px 0;">
+            <h2 style="color: #2c3e50; font-size: 30px; font-weight: 800; margin: 0 0 30px 0; position: relative; padding-left: 20px;">
+                <span style="position: absolute; left: -5px; top: 0; width: 4px; height: 100%; background: {theme['accent']}; border-radius: 2px;"></span>
+                📝 실제 사용 후기
+            </h2>
+            <div style="background: #fff7ed; padding: 35px; border-radius: 15px; border: 1px solid #fed7aa; margin-bottom: 30px;">
+                <p style="font-size: 18px; line-height: 1.8; color: #9a3412; margin: 0; font-style: italic;">[개인적인 경험담이나 구체적인 예시를 포함한 내용]</p>
+            </div>
+        </div>
+        
+        <!-- 마무리 및 실행 가이드 -->
+        <div style="background: #f0f9ff; padding: 40px; border-radius: 15px; margin: 50px 0 30px 0; border: 1px solid #bae6fd; text-align: center;">
+            <h3 style="color: #0c4a6e; font-size: 26px; font-weight: 700; margin: 0 0 20px 0;">🎯 오늘부터 시작해보세요!</h3>
+            <p style="font-size: 18px; line-height: 1.8; color: #0c4a6e; margin: 0 0 25px 0;">[독자가 실제로 행동할 수 있는 구체적인 가이드]</p>
+            <div style="display: inline-block; background: {theme['primary']}; color: white; padding: 12px 30px; border-radius: 30px; font-weight: 600; font-size: 16px;">
+                💪 지금 바로 실행하기
+            </div>
+        </div>
+        
+        <!-- 댓글 참여 유도 -->
+        <div style="background: white; padding: 30px; border-radius: 15px; text-align: center; margin-top: 40px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
+            <p style="font-size: 18px; color: #666; margin: 0 0 15px 0;">이 글이 도움이 되셨나요? 여러분의 경험도 댓글로 공유해주세요!</p>
+            <div style="font-size: 24px; margin: 10px 0;">💬 ❤️ 🔄</div>
+            <p style="font-size: 14px; color: #999; margin: 0;">좋아요, 댓글, 공유로 더 많은 분들과 함께해요 ✨</p>
         </div>
     </div>
 
     요구사항:
-    1. 위 HTML 구조를 정확히 따르되, 내용은 창의적으로 작성
-    2. Unsplash 이미지 사용 (실제 photo ID 포함)
-    3. 각 섹션마다 다른 색상과 이모지 사용
-    4. 2500-3500자 분량의 실질적 내용
-    5. 개인적 경험담과 구체적 예시 포함
-    6. 독자 참여를 유도하는 마무리
-    
-    이미지 키워드: {img_keyword}
-    색상 테마: {theme}
+    1. 위 HTML 템플릿의 [대괄호] 부분을 모두 실제 내용으로 교체
+    2. 주제에 맞는 구체적이고 실용적인 내용으로 작성
+    3. 3000-4000자 분량의 고품질 콘텐츠
+    4. 개인적 경험담과 구체적 예시 포함
+    5. 독자가 바로 실행할 수 있는 실용적 팁 제공
+    6. SEO 친화적이고 읽기 쉬운 구조
+    7. 이미지는 이미 올바른 ID로 설정됨: {image_id}
+    8. 색상 테마도 이미 설정됨: {theme}
     """
     
     try:
         model = genai.GenerativeModel('gemini-1.5-flash')
-        response = model.generate_content(prompt)
+        response = model.generate_content(
+            prompt,
+            generation_config={
+                "temperature": 0.8,
+                "max_output_tokens": 4000,
+                "top_p": 0.9,
+                "top_k": 40
+            }
+        )
         return response.text, topic
     except Exception as e:
         print(f"❌ 콘텐츠 생성 실패: {e}")

@@ -16,7 +16,7 @@ on:
         description: 'Post labels (comma-separated)'
         required: false
         type: string
-        default: 'AI,자동포스팅,블로그'
+        default: 'AI,블로그'
 
 jobs:
   auto-blog-post:
@@ -57,7 +57,7 @@ jobs:
         max_tokens = 2000
         
         [CONTENT]
-        default_labels = AI,자동포스팅,블로그,GitHub
+        default_labels = AI,블로그,GitHub
         post_format = html
         language = ko
         
@@ -72,6 +72,11 @@ jobs:
         echo '${{ secrets.BLOGGER_TOKEN_JSON }}' > blogger_token.json
         
     - name: Run automated blog posting
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+        GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+        BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
       run: |
         if [[ -n "${{ github.event.inputs.topic }}" ]]; then
           python enhanced_blog_automation.py --topic "${{ github.event.inputs.topic }}" --labels "${{ github.event.inputs.labels }}"

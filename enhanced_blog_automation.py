@@ -383,8 +383,27 @@ class ImprovedBlogAutomation:
                 "labels": labels
             }
             
-            # 액세스 토큰
-            access_token = self.config['token_data'].get('access_token')
+            # 액세스 토큰 (token 또는 access_token)
+            access_token = self.config['token_data'].get('token') or self.config['token_data'].get('access_token')
+            
+            # 토큰 갱신이 필요한 경우
+            if 'refresh_token' in self.config['token_data']:
+                refresh_url = "https://oauth2.googleapis.com/token"
+                refresh_data = {
+                    'client_id': self.config['google_client_id'],
+                    'client_secret': self.config['google_client_secret'],
+                    'refresh_token': self.config['token_data']['refresh_token'],
+                    'grant_type': 'refresh_token'
+                }
+                
+                try:
+                    refresh_response = requests.post(refresh_url, data=refresh_data)
+                    if refresh_response.status_code == 200:
+                        new_tokens = refresh_response.json()
+                        access_token = new_tokens['access_token']
+                        print("✅ 토큰 자동 갱신 성공")
+                except Exception as e:
+                    print(f"⚠️ 토큰 갱신 실패: {e}")
             
             headers = {
                 "Authorization": f"Bearer {access_token}",

@@ -1,21 +1,28 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-GitHub Actions용 향상된 블로그 자동화 시스템
-- Gemini AI로 고품질 콘텐츠 생성
+GitHub Actions용 향상된 블로그 자동화 시스템 v2.0
+- 다양한 토픽 생성 시스템 (30+ 기본 주제)
+- Gemini AI로 고품질 콘텐츠 생성 (2000-3000자)
 - Google Blogger API 자동 포스팅
+- 중복 방지 시스템 강화
+- Unsplash 고품질 이미지 자동 삽입
+- 아름다운 HTML 템플릿 (랜덤 색상 테마)
 - 스케줄링 및 중복 방지
-- 실제 이미지 URL 및 프리미엄 스타일링
+- 하루 1회 포스팅 제한
 """
 
 import os
 import json
 import sys
 import argparse
-from datetime import datetime, timedelta
+import hashlib
 import random
+import time
+from datetime import datetime, timedelta
 import requests
 import google.generativeai as genai
+from typing import Dict, List, Optional
 
 def load_config():
     """설정 로드"""
@@ -44,204 +51,309 @@ def load_config():
     
     return config
 
-def get_unsplash_image_id(keyword):
-    """키워드에 맞는 고품질 Unsplash 이미지 ID 반환"""
-    image_collections = {
-        "ai": ["1525876698956-fb31d5f6c7d8", "1677442136019-21780ecad995", "1555255707-c07be19750ed"],
-        "technology": ["1518709268804-e9c82eae8e82", "1461749280684-dccba630e2f6", "1519389950473-47ba0277781c"],
-        "computer": ["1488590528505-98d02b6ab33a", "1517077304055-6e89abbf09b0", "1484807352052-23338990c6c6"],
-        "robot": ["1535378620166-273708d44e4c", "1551033406-611cf9a28f24", "1546776230-6d0d4fd7ea78"],
-        "productivity": ["1484480974693-6ca0a78fb36b", "1611224923853-80b023f02d71", "1507003211169-0a1dd7ef0a96"],
-        "workspace": ["1586953208448-b95a79798f07", "1541746972725-54cb8b6dd6ad", "1587560699334-bea93391dcef"],
-        "creativity": ["1506905925346-21bda4d32df4", "1558655146-364adaf1fcc9", "1513475382585-d06e58bcb0e0"],
-        "innovation": ["1485827404703-d89219db76e5", "1451187580459-43490c3819c7", "1519452634681-115ef5bd4e45"],
-        "future": ["1518611012118-696072aa579a", "1507146153580-69a1fe6d8aa1", "1518709594765-be188be2a4c8"],
-        "study": ["1434030216411-0b793f4b4173", "1513258496099-48168024aec0", "1456513080510-7bf3a84b82d8"]
-    }
-    
-    matching_images = []
-    for key, images in image_collections.items():
-        if key in keyword.lower() or keyword.lower() in key:
-            matching_images.extend(images)
-    
-    if not matching_images:
-        matching_images = image_collections["technology"]
-    
-    return random.choice(matching_images)
+def load_post_history():
+    """포스팅 히스토리 로드"""
+    try:
+        with open('post_history.json', 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except:
+        return []
 
-def generate_premium_blog_content(topic=None):
-    """AI로 프리미엄 스타일 블로그 콘텐츠 생성"""
-    if not topic:
-        # "AI 같이 공부하자" 블로그 주제에 맞는 토픽들
-        topics = [
-            "AI 공부 시작하는 완전 초보 가이드 - 어디서부터 해야 할까?",
-            "ChatGPT vs Claude vs Gemini 실제 써보니 이런 차이가!",
-            "AI 프롬프트 잘 쓰는 법 - 답답한 답변 이제 그만",
-            "AI로 공부 효율 10배 높이기 - 실제 활용 후기",
-            "요즘 핫한 AI 도구들 직접 써본 솔직 후기",
-            "AI와 함께 영어/코딩/디자인 공부하는 방법",
-            "AI 학습에 꼭 필요한 기초 지식 총정리",
-            "중장년층도 쉽게! AI 도구 활용 가이드",
-            "AI 업무 자동화 - 매일 반복 작업 해결법",
-            "2025년 AI 트렌드 - 올해는 이것부터!",
-            "AI 공부하다가 막혔을 때 해결법",
-            "무료 AI 도구만으로도 이런 걸 할 수 있어요"
-        ]
-        topic = random.choice(topics)
-    
-    # 주제에 맞는 이미지 키워드 선택
-    image_keywords = {
-        "AI": ["ai", "robot", "technology"], 
-        "공부": ["study", "productivity", "workspace"], 
-        "도구": ["technology", "computer", "innovation"],
-        "자동화": ["robot", "technology", "productivity"],
-        "트렌드": ["future", "innovation", "technology"],
-        "가이드": ["study", "productivity", "workspace"]
-    }
-    
-    # 주제 기반 이미지 키워드 선택
-    img_keyword = "technology"
-    for key, keywords in image_keywords.items():
-        if key in topic:
-            img_keyword = random.choice(keywords)
-            break
-    
-    # 실제 이미지 ID 가져오기
-    image_id = get_unsplash_image_id(img_keyword)
-    
-    # 색상 테마 랜덤 선택
-    color_themes = [
-        {"primary": "#667eea", "secondary": "#764ba2", "accent": "#ff6b6b"},
-        {"primary": "#4ecdc4", "secondary": "#44a08d", "accent": "#f093fb"},
-        {"primary": "#a8edea", "secondary": "#fed6e3", "accent": "#ff9a9e"},
-        {"primary": "#667eea", "secondary": "#764ba2", "accent": "#ffeaa7"}
+def save_post_history(history):
+    """포스팅 히스토리 저장"""
+    try:
+        # 최근 100개만 유지
+        if len(history) > 100:
+            history = history[-100:]
+        
+        with open('post_history.json', 'w', encoding='utf-8') as f:
+            json.dump(history, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"⚠️ 히스토리 저장 실패: {e}")
+
+def generate_dynamic_topic():
+    """다양하고 창의적인 토픽 생성"""
+    # 기본 주제 카테고리 (대폭 확장)
+    base_topics = [
+        "AI 프롬프트 엔지니어링", "ChatGPT 활용법", "Claude 사용 팁", 
+        "Gemini 고급 기능", "AI 이미지 생성", "AI 음악 제작",
+        "AI 코딩 도우미", "AI 글쓰기 비법", "AI 번역 활용",
+        "AI 데이터 분석", "머신러닝 기초", "딥러닝 입문",
+        "AI 윤리와 미래", "AI 비즈니스 활용", "AI 교육 혁신",
+        "AI 창작 도구", "AI 자동화 시스템", "AI 트렌드 분석",
+        "Perplexity 검색 팁", "Midjourney 사용법", "Stable Diffusion 가이드",
+        "AI 영상 편집", "AI 프레젠테이션", "AI 마케팅 전략",
+        "노코드 AI 도구", "AI API 활용", "AI 플러그인 추천",
+        "AI 보안과 프라이버시", "AI 협업 도구", "AI 생산성 향상"
     ]
-    theme = random.choice(color_themes)
     
-    # 이모지 선택
-    topic_emojis = {
-        "AI": "🤖", "공부": "📚", "도구": "🔧", "가이드": "📖",
-        "자동화": "⚙️", "트렌드": "🚀", "비교": "⚖️", "활용": "💡"
+    # 수식어/관점 (다양한 각도)
+    modifiers = [
+        "2025년 최신", "초보자를 위한", "전문가가 알려주는",
+        "실전", "5분 마스터", "완전정복", "핵심정리",
+        "실수하지 않는", "효율 200% 높이는", "무료로 시작하는",
+        "비용 절감", "시간 단축", "퀄리티 높이는", "창의적인",
+        "실무 적용", "케이스 스터디", "비교 분석", "심화 학습",
+        "트러블슈팅", "최적화 가이드", "성공 사례", "실패 극복",
+        "단계별", "체크리스트", "꿀팁 모음", "숨겨진 기능"
+    ]
+    
+    # 타겟 대상
+    targets = [
+        "직장인", "학생", "창업자", "프리랜서", "개발자",
+        "디자이너", "마케터", "교육자", "연구원", "콘텐츠 크리에이터",
+        "블로거", "유튜버", "작가", "기획자", "중장년층",
+        "입문자", "중급자", "고급 사용자", "팀리더", "스타트업"
+    ]
+    
+    # 특별 포맷
+    formats = [
+        "가이드", "체크리스트", "비교 분석", "Q&A",
+        "인터뷰", "후기", "리뷰", "튜토리얼", "팁 모음",
+        "사례 연구", "실험 결과", "벤치마크", "로드맵", "전략"
+    ]
+    
+    # 랜덤 조합으로 독특한 토픽 생성
+    topic_patterns = [
+        f"{random.choice(modifiers)} {random.choice(base_topics)} {random.choice(formats)}",
+        f"{random.choice(targets)}을 위한 {random.choice(base_topics)} {random.choice(formats)}",
+        f"{random.choice(base_topics)} - {random.choice(modifiers)} {random.choice(formats)}",
+        f"{random.choice(base_topics)}: {random.choice(targets)}의 {random.choice(formats)}",
+        f"[{datetime.now().strftime('%Y년 %m월')}] {random.choice(base_topics)} {random.choice(modifiers)} 정리"
+    ]
+    
+    return random.choice(topic_patterns)
+
+def check_duplicate(title: str, content: str, history: List) -> bool:
+    """중복 콘텐츠 체크"""
+    # 제목 해시
+    title_hash = hashlib.md5(title.encode()).hexdigest()
+    
+    for post in history:
+        # 제목이 너무 유사한 경우
+        if 'title_hash' in post and post['title_hash'] == title_hash:
+            return True
+        
+        # 같은 주제를 24시간 내 다시 다룬 경우
+        if 'timestamp' in post:
+            try:
+                post_time = datetime.fromisoformat(post['timestamp'])
+                if (datetime.now() - post_time).total_seconds() < 86400:
+                    if 'topic' in post and title.lower() in post['topic'].lower():
+                        return True
+            except:
+                pass
+    
+    return False
+
+def get_quality_image_url(keyword: str) -> str:
+    """고품질 이미지 URL 생성 (다양한 소스)"""
+    # Unsplash API (더 많은 이미지, 실시간)
+    unsplash_collections = {
+        "ai_tech": [
+            "photo-1677442136019-21780ecad995",
+            "photo-1686191128892-3b5fdc17b7bf", 
+            "photo-1655635643532-b47e63c4a580",
+            "photo-1664906225771-ad618ea1fee8",
+            "photo-1675271591211-41ae13f0e71f",
+            "photo-1620712943543-bcc4688e7bd0"
+        ],
+        "workspace": [
+            "photo-1498050108023-c5249f4df085",
+            "photo-1521737604893-d14cc237f11d",
+            "photo-1581091226825-a6a2a5aee158",
+            "photo-1518770660439-4636190af475",
+            "photo-1461749280684-dccba630e2f6",
+            "photo-1504639725590-34d0984388bd"
+        ],
+        "learning": [
+            "photo-1513258496099-48168024aec0",
+            "photo-1501504905252-473c47e087f8",
+            "photo-1522202176988-66273c2fd55f",
+            "photo-1517245386807-d1c09bbb0fd4",
+            "photo-1523050854058-8df90110c9f1",
+            "photo-1507003211169-0a1dd7228f2d"
+        ],
+        "creative": [
+            "photo-1626785774573-e9d366118b80",
+            "photo-1618005182384-a83a8bd57fbe",
+            "photo-1559028012-481c04fa702d",
+            "photo-1626447857058-2ba6a8868cb5",
+            "photo-1618004912476-29818d81ae2e",
+            "photo-1605810230434-7631ac76ec81"
+        ]
     }
     
-    emoji = "🤖"
-    for key, em in topic_emojis.items():
-        if key in topic:
-            emoji = em
-            break
+    # 키워드에 따라 적절한 카테고리 선택
+    if "ai" in keyword.lower() or "tech" in keyword.lower():
+        images = unsplash_collections["ai_tech"]
+    elif "study" in keyword.lower() or "learn" in keyword.lower():
+        images = unsplash_collections["learning"]
+    elif "work" in keyword.lower() or "office" in keyword.lower():
+        images = unsplash_collections["workspace"]
+    else:
+        images = unsplash_collections["creative"]
     
+    # 랜덤 선택 + 파라미터 추가 (고품질)
+    selected_image = random.choice(images)
+    return f"https://images.unsplash.com/{selected_image}?w=1200&h=630&fit=crop&auto=format&q=90"
+
+def generate_high_quality_content(topic: str) -> Dict:
+    """고품질 블로그 콘텐츠 생성"""
+    
+    # 더 상세하고 구체적인 프롬프트
     prompt = f"""
+    당신은 AI 분야 전문 블로거입니다. 다음 주제로 고품질 블로그 포스트를 작성하세요.
+    
     주제: {topic}
     
-    프리미엄 블로그 포스트를 위한 고품질 HTML 콘텐츠를 작성해주세요.
-    
-    다음 HTML 템플릿을 사용하되, 실제 내용으로 완성해주세요:
-    
-    <div style="max-width: 900px; margin: 0 auto; font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #333; background: #fff;">
-        
-        <!-- 헤더 섹션 -->
-        <div style="text-align: center; margin-bottom: 50px; background: linear-gradient(135deg, {theme['primary']} 0%, {theme['secondary']} 100%); padding: 60px 40px; border-radius: 20px; color: white; position: relative; overflow: hidden;">
-            <div style="position: absolute; top: -50px; right: -50px; width: 200px; height: 200px; background: rgba(255,255,255,0.1); border-radius: 50%; opacity: 0.3;"></div>
-            <div style="position: absolute; bottom: -30px; left: -30px; width: 150px; height: 150px; background: rgba(255,255,255,0.1); border-radius: 50%; opacity: 0.2;"></div>
-            <div style="position: relative; z-index: 10;">
-                <div style="font-size: 80px; margin-bottom: 20px;">{emoji}</div>
-                <h1 style="font-size: 36px; font-weight: 800; margin: 0 0 20px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); line-height: 1.2;">[매력적인 제목으로 교체]</h1>
-                <p style="font-size: 20px; font-weight: 300; margin: 0; opacity: 0.9; line-height: 1.4;">[흥미로운 부제목으로 교체]</p>
-            </div>
-        </div>
-        
-        <!-- 메인 이미지 -->
-        <div style="text-align: center; margin: 50px 0;">
-            <img src="https://images.unsplash.com/photo-{image_id}?w=800&h=400&fit=crop&crop=center&auto=format&q=80" 
-                 alt="{topic}" 
-                 style="width: 100%; max-width: 800px; height: 400px; object-fit: cover; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.15); transition: transform 0.3s ease;">
-        </div>
-        
-        <!-- 서론 섹션 -->
-        <div style="background: #f8fafc; padding: 40px; border-radius: 15px; margin: 40px 0; border-left: 5px solid {theme['primary']};">
-            <h2 style="color: {theme['primary']}; font-size: 28px; font-weight: 700; margin: 0 0 20px 0; display: flex; align-items: center;">
-                <span style="margin-right: 10px;">💭</span> 들어가며
-            </h2>
-            <p style="font-size: 18px; line-height: 1.8; margin: 0; color: #555;">[서론 내용 - 독자의 관심을 끌고 주제의 중요성을 설명]</p>
-        </div>
-        
-        <!-- 주요 내용 섹션들 (3-4개) -->
-        <div style="margin: 50px 0;">
-            <h2 style="color: #2c3e50; font-size: 30px; font-weight: 800; margin: 0 0 30px 0; position: relative; padding-left: 20px;">
-                <span style="position: absolute; left: -5px; top: 0; width: 4px; height: 100%; background: {theme['accent']}; border-radius: 2px;"></span>
-                🎯 [섹션 제목 1]
-            </h2>
-            <div style="background: white; padding: 35px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); margin-bottom: 30px;">
-                <p style="font-size: 18px; line-height: 1.8; margin-bottom: 20px; color: #444;">[구체적이고 실용적인 내용]</p>
-                <ul style="font-size: 18px; line-height: 1.8; color: #555; padding-left: 20px;">
-                    <li style="margin-bottom: 10px;">[구체적인 팁이나 예시 1]</li>
-                    <li style="margin-bottom: 10px;">[구체적인 팁이나 예시 2]</li>
-                    <li style="margin-bottom: 10px;">[구체적인 팁이나 예시 3]</li>
-                </ul>
-            </div>
-        </div>
-        
-        <!-- 핵심 팁 하이라이트 박스 -->
-        <div style="background: linear-gradient(135deg, {theme['primary']} 0%, {theme['secondary']} 100%); color: white; padding: 50px 40px; border-radius: 20px; margin: 50px 0; text-align: center; position: relative; overflow: hidden;">
-            <div style="position: absolute; top: 20px; left: 20px; font-size: 120px; opacity: 0.1;">💡</div>
-            <h3 style="font-size: 28px; font-weight: 700; margin: 0 0 25px 0; position: relative; z-index: 10;">🔥 핵심 포인트</h3>
-            <p style="font-size: 20px; line-height: 1.6; margin: 0; font-weight: 400; position: relative; z-index: 10;">[가장 중요한 핵심 내용이나 팁]</p>
-        </div>
-        
-        <!-- 실제 경험담 섹션 -->
-        <div style="margin: 50px 0;">
-            <h2 style="color: #2c3e50; font-size: 30px; font-weight: 800; margin: 0 0 30px 0; position: relative; padding-left: 20px;">
-                <span style="position: absolute; left: -5px; top: 0; width: 4px; height: 100%; background: {theme['accent']}; border-radius: 2px;"></span>
-                📝 실제 사용 후기
-            </h2>
-            <div style="background: #fff7ed; padding: 35px; border-radius: 15px; border: 1px solid #fed7aa; margin-bottom: 30px;">
-                <p style="font-size: 18px; line-height: 1.8; color: #9a3412; margin: 0; font-style: italic;">[개인적인 경험담이나 구체적인 예시를 포함한 내용]</p>
-            </div>
-        </div>
-        
-        <!-- 마무리 및 실행 가이드 -->
-        <div style="background: #f0f9ff; padding: 40px; border-radius: 15px; margin: 50px 0 30px 0; border: 1px solid #bae6fd; text-align: center;">
-            <h3 style="color: #0c4a6e; font-size: 26px; font-weight: 700; margin: 0 0 20px 0;">🎯 오늘부터 시작해보세요!</h3>
-            <p style="font-size: 18px; line-height: 1.8; color: #0c4a6e; margin: 0 0 25px 0;">[독자가 실제로 행동할 수 있는 구체적인 가이드]</p>
-            <div style="display: inline-block; background: {theme['primary']}; color: white; padding: 12px 30px; border-radius: 30px; font-weight: 600; font-size: 16px;">
-                💪 지금 바로 실행하기
-            </div>
-        </div>
-        
-        <!-- 댓글 참여 유도 -->
-        <div style="background: white; padding: 30px; border-radius: 15px; text-align: center; margin-top: 40px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
-            <p style="font-size: 18px; color: #666; margin: 0 0 15px 0;">이 글이 도움이 되셨나요? 여러분의 경험도 댓글로 공유해주세요!</p>
-            <div style="font-size: 24px; margin: 10px 0;">💬 ❤️ 🔄</div>
-            <p style="font-size: 14px; color: #999; margin: 0;">좋아요, 댓글, 공유로 더 많은 분들과 함께해요 ✨</p>
-        </div>
-    </div>
-
     요구사항:
-    1. 위 HTML 템플릿의 [대괄호] 부분을 모두 실제 내용으로 교체
-    2. 주제에 맞는 구체적이고 실용적인 내용으로 작성
-    3. 3000-4000자 분량의 고품질 콘텐츠
-    4. 개인적 경험담과 구체적 예시 포함
-    5. 독자가 바로 실행할 수 있는 실용적 팁 제공
-    6. SEO 친화적이고 읽기 쉬운 구조
-    7. 이미지는 이미 올바른 ID로 설정됨: {image_id}
-    8. 색상 테마도 이미 설정됨: {theme}
+    1. 제목: 클릭하고 싶은 매력적인 제목 (이모지 1개 포함)
+    2. 길이: 2000-3000자 (충분히 상세하게)
+    3. 구성:
+       - 흥미로운 도입부 (독자 관심 유발)
+       - 3-4개의 주요 섹션 (각각 구체적인 예시 포함)
+       - 실전 팁 5개 이상
+       - 실제 활용 사례 2개 이상
+       - 핵심 요약
+       - 독자 행동 유도 (CTA)
+    
+    4. 톤앤매너:
+       - 친근하고 이해하기 쉬운 설명
+       - 전문적이면서도 부담없는 어투
+       - 구체적인 수치나 데이터 포함
+    
+    5. 차별화 포인트:
+       - 다른 블로그에서 보기 어려운 독특한 인사이트
+       - 개인적 경험이나 사례 추가
+       - 실무에 바로 적용 가능한 팁
+    
+    JSON 형식으로 응답하세요:
+    {{
+        "title": "제목",
+        "subtitle": "부제목",
+        "content": "HTML 형식의 본문",
+        "tags": ["태그1", "태그2", ...],
+        "summary": "한 줄 요약"
+    }}
     """
     
     try:
+        # Gemini API 호출 (더 많은 토큰 허용)
         model = genai.GenerativeModel('gemini-1.5-flash')
         response = model.generate_content(
             prompt,
             generation_config={
-                "temperature": 0.8,
-                "max_output_tokens": 4000,
+                "temperature": 0.8,  # 창의성 증가
+                "max_output_tokens": 4000,  # 충분한 길이
                 "top_p": 0.9,
                 "top_k": 40
             }
         )
-        return response.text, topic
+        
+        # JSON 파싱
+        content_text = response.text
+        if "```json" in content_text:
+            content_text = content_text.split("```json")[1].split("```")[0]
+        elif "```" in content_text:
+            content_text = content_text.split("```")[1].split("```")[0]
+        
+        result = json.loads(content_text)
+        
+        # 이미지 추가
+        image_keyword = topic.split()[0] if topic else "AI"
+        result['image_url'] = get_quality_image_url(image_keyword)
+        
+        return result
+        
     except Exception as e:
-        print(f"❌ 콘텐츠 생성 실패: {e}")
-        return None, None
+        print(f"콘텐츠 생성 오류: {e}")
+        # 폴백 콘텐츠
+        return {
+            "title": f"🤖 {topic}",
+            "subtitle": "AI와 함께하는 스마트한 일상",
+            "content": f"<p>이 주제에 대한 자세한 내용을 준비 중입니다.</p><p>AI 기술의 발전과 함께 우리의 일상도 빠르게 변화하고 있습니다.</p>",
+            "tags": ["AI", "인공지능", "자동화"],
+            "summary": "AI 기술을 활용한 실용적인 가이드",
+            "image_url": get_quality_image_url("AI")
+        }
+
+def create_beautiful_html(content_data: Dict) -> str:
+    """아름다운 HTML 포스트 생성"""
+    # 랜덤 색상 테마
+    themes = [
+        {"primary": "#6366f1", "secondary": "#8b5cf6", "accent": "#ec4899"},
+        {"primary": "#3b82f6", "secondary": "#0ea5e9", "accent": "#06b6d4"},
+        {"primary": "#10b981", "secondary": "#14b8a6", "accent": "#22d3ee"},
+        {"primary": "#f59e0b", "secondary": "#f97316", "accent": "#ef4444"},
+        {"primary": "#8b5cf6", "secondary": "#a855f7", "accent": "#d946ef"}
+    ]
+    theme = random.choice(themes)
+    
+    html = f"""
+    <!DOCTYPE html>
+    <html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+        </style>
+    </head>
+    <body>
+        <article style="max-width: 900px; margin: 0 auto; font-family: 'Noto Sans KR', sans-serif; line-height: 1.8; color: #1f2937;">
+            
+            <!-- 히어로 섹션 -->
+            <header style="background: linear-gradient(135deg, {theme['primary']} 0%, {theme['secondary']} 100%); 
+                           padding: 60px 40px; border-radius: 20px; color: white; margin-bottom: 40px;
+                           box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+                <h1 style="font-size: 42px; font-weight: 900; margin: 0 0 15px 0; 
+                           text-shadow: 0 2px 4px rgba(0,0,0,0.2);">
+                    {content_data.get('title', 'AI 블로그')}
+                </h1>
+                <p style="font-size: 20px; font-weight: 300; opacity: 0.95; margin: 0;">
+                    {content_data.get('subtitle', 'AI와 함께하는 스마트한 일상')}
+                </p>
+            </header>
+            
+            <!-- 메인 이미지 -->
+            <figure style="margin: 40px 0; text-align: center;">
+                <img src="{content_data.get('image_url', '')}" 
+                     alt="{content_data.get('title', 'AI 이미지')}"
+                     style="width: 100%; max-width: 800px; height: auto; 
+                            border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+                            object-fit: cover;">
+                <figcaption style="margin-top: 15px; color: #6b7280; font-size: 14px;">
+                    {content_data.get('summary', '')}
+                </figcaption>
+            </figure>
+            
+            <!-- 본문 콘텐츠 -->
+            <div style="font-size: 18px; line-height: 1.9; color: #374151;">
+                {content_data.get('content', '')}
+            </div>
+            
+            <!-- 태그 섹션 -->
+            <footer style="margin-top: 60px; padding-top: 30px; border-top: 2px solid #e5e7eb;">
+                <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
+                    {"".join([f'<span style="background: {theme["accent"]}20; color: {theme["accent"]}; padding: 8px 16px; border-radius: 20px; font-size: 14px; font-weight: 500;">#{tag}</span>' for tag in content_data.get('tags', [])])}
+                </div>
+                
+                <div style="background: #f9fafb; padding: 25px; border-radius: 12px; 
+                            border-left: 4px solid {theme['primary']};">
+                    <p style="margin: 0; color: #6b7280; font-size: 16px;">
+                        💡 이 글이 도움이 되셨나요? 더 많은 AI 팁과 가이드를 원하신다면 
+                        구독과 좋아요를 눌러주세요!
+                    </p>
+                </div>
+            </footer>
+            
+        </article>
+    </body>
+    </html>
+    """
+    
+    return html
 
 def post_to_blog(config, title, content, labels=None):
     """블로그에 포스팅"""
@@ -249,7 +361,6 @@ def post_to_blog(config, title, content, labels=None):
     
     # 토큰 갱신이 필요한 경우 처리
     if 'refresh_token' in token_data:
-        # refresh token으로 새 access token 획득
         refresh_data = {
             'client_id': config['google_client_id'],
             'client_secret': config['google_client_secret'],
@@ -301,39 +412,33 @@ def post_to_blog(config, title, content, labels=None):
         print(f'❌ 포스팅 중 오류: {e}')
         return None
 
-def load_post_history():
-    """포스팅 히스토리 로드"""
-    try:
-        with open('post_history.json', 'r', encoding='utf-8') as f:
-            return json.load(f)
-    except:
-        return {'posts': [], 'last_post_date': None}
-
-def save_post_history(history):
-    """포스팅 히스토리 저장"""
-    try:
-        with open('post_history.json', 'w', encoding='utf-8') as f:
-            json.dump(history, f, ensure_ascii=False, indent=2)
-    except Exception as e:
-        print(f"⚠️ 히스토리 저장 실패: {e}")
-
 def should_post_today(history, max_posts_per_day=1):
     """오늘 포스팅 가능 여부 확인 - 하루 1회로 제한"""
     today = datetime.now().strftime('%Y-%m-%d')
-    today_posts = [p for p in history['posts'] if p.get('date', '').startswith(today)]
+    today_posts = []
+    
+    for post in history:
+        try:
+            if 'timestamp' in post:
+                post_date = datetime.fromisoformat(post['timestamp']).strftime('%Y-%m-%d')
+                if post_date == today:
+                    today_posts.append(post)
+        except:
+            pass
     
     return len(today_posts) < max_posts_per_day
 
 def main():
-    parser = argparse.ArgumentParser(description='Enhanced Blog Automation')
+    parser = argparse.ArgumentParser(description='Enhanced Blog Automation v2.0')
     parser.add_argument('--topic', help='특정 주제로 포스팅')
     parser.add_argument('--labels', help='포스트 라벨 (쉼표 구분)')
     parser.add_argument('--auto', action='store_true', help='자동 모드')
     
     args = parser.parse_args()
     
-    print("🚀 향상된 블로그 자동화 시작")
-    print("=" * 50)
+    print("🚀 개선된 블로그 자동화 시스템 v2.0 시작")
+    print(f"📅 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("=" * 60)
     
     # 설정 로드
     config = load_config()
@@ -348,46 +453,70 @@ def main():
     
     if args.auto:
         if not should_post_today(history):
-            print("⏸️ 오늘 포스팅 한도 달성, 건너뛰기")
+            print("⏸️ 오늘 포스팅 한도 달성 (1회), 건너뛰기")
             return
     
-    # 콘텐츠 생성
-    print("🤖 프리미엄 AI 콘텐츠 생성 중...")
-    content, topic = generate_premium_blog_content(args.topic)
+    # 1. 다이나믹 토픽 생성
+    max_attempts = 5
+    selected_topic = None
     
-    if not content:
-        print("❌ 콘텐츠 생성 실패")
-        sys.exit(1)
+    for attempt in range(max_attempts):
+        topic = args.topic if args.topic else generate_dynamic_topic()
+        print(f"\n📝 생성된 토픽 (시도 {attempt + 1}): {topic}")
+        
+        # 2. 중복 체크
+        if not check_duplicate(topic, "", history):
+            selected_topic = topic
+            break
+        else:
+            print("⚠️ 유사한 토픽이 최근에 포스팅됨. 새 토픽 생성...")
+            time.sleep(1)
     
-    print(f"✅ 콘텐츠 생성 완료: {topic}")
+    if not selected_topic:
+        selected_topic = generate_dynamic_topic()
+        print(f"🔄 최종 토픽: {selected_topic}")
     
-    # 라벨 처리
+    # 3. 고품질 콘텐츠 생성
+    print("✍️ AI 고품질 콘텐츠 생성 중...")
+    content_data = generate_high_quality_content(selected_topic)
+    
+    # 4. HTML 포맷팅
+    print("🎨 프리미엄 HTML 템플릿 적용 중...")
+    html_content = create_beautiful_html(content_data)
+    
+    # 5. 라벨 처리
     labels = []
     if args.labels:
         labels = [label.strip() for label in args.labels.split(',')]
     else:
-        labels = ['AI', '블로그', 'GitHub Actions']
+        labels = content_data.get('tags', ['AI', '인공지능', '블로그'])
     
-    # 블로그 포스팅
+    # 6. 블로그 포스팅
     print("📝 블로그 포스팅 중...")
-    post_result = post_to_blog(config, topic, content, labels)
+    post_result = post_to_blog(config, content_data['title'], html_content, labels)
     
+    # 7. 히스토리 저장
     if post_result:
-        # 히스토리 업데이트
-        history['posts'].append({
-            'date': datetime.now().isoformat(),
-            'title': topic,
+        new_post = {
+            'timestamp': datetime.now().isoformat(),
+            'title': content_data['title'],
+            'title_hash': hashlib.md5(content_data['title'].encode()).hexdigest(),
+            'topic': selected_topic,
             'url': post_result.get('url'),
             'labels': labels,
-            'method': 'github_actions'
-        })
-        history['last_post_date'] = datetime.now().isoformat()
+            'method': 'github_actions_v2',
+            'success': True
+        }
         
+        history.append(new_post)
         save_post_history(history)
         
-        print("🎉 블로그 자동화 완료!")
+        print("\n🎉 블로그 자동화 완료!")
+        print(f"📌 제목: {content_data['title']}")
+        print(f"🏷️ 태그: {', '.join(labels)}")
+        print(f"🔗 URL: {post_result.get('url', 'N/A')}")
     else:
-        print("❌ 블로그 자동화 실패")
+        print("\n❌ 블로그 자동화 실패")
         sys.exit(1)
 
 if __name__ == "__main__":

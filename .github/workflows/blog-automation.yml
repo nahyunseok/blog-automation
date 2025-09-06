@@ -2,10 +2,8 @@ name: Enhanced Blog Automation
 
 on:
   schedule:
-    # 매일 오전 9시, 오후 2시, 오후 8시 (한국시간)
-    - cron: '0 0 * * *'   # 오전 9:00 KST = UTC 00:00
-    - cron: '0 5 * * *'   # 오후 2:00 KST = UTC 05:00  
-    - cron: '0 11 * * *'  # 오후 8:00 KST = UTC 11:00
+    # 매일 오후 1시 (한국시간) - 하루에 한 번만 실행
+    - cron: '0 4 * * *'   # 오후 1:00 KST = UTC 04:00
   workflow_dispatch: # 수동 실행
     inputs:
       topic:

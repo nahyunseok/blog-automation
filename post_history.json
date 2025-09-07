@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2025-09-07T08:08:28.141941",
+    "title": "AI 프레젠테이션 마스터하기 🚀: 청중을 사로잡는 핵심 전략",
+    "title_hash": "a9171753e2b50ec1f1ffe01b28a48e99",
+    "topic": "실전 AI 프레젠테이션 가이드",
+    "url": "http://gost1227.blogspot.com/2025/09/ai_67.html",
+    "labels": [
+      "AI",
+      "프레젠테이션",
+      "스토리텔링",
+      "데이터 시각화",
+      "실전 가이드",
+      "팁",
+      "사례 연구"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  }
+]

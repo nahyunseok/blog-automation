@@ -16,6 +16,9 @@ on:
         type: string
         default: 'AI,블로그'
 
+permissions:
+  contents: write
+
 jobs:
   auto-blog-post:
     runs-on: ubuntu-latest

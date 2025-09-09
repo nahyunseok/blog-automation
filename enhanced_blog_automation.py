@@ -147,56 +147,66 @@ def check_duplicate(title: str, content: str, history: List) -> bool:
     return False
 
 def get_quality_image_url(keyword: str) -> str:
-    """고품질 이미지 URL 생성 (다양한 소스)"""
-    # Unsplash API (더 많은 이미지, 실시간)
+    """고품질 이미지 URL 생성 (Unsplash 직접 URL)"""
+    # Unsplash 이미지 컬렉션 (직접 URL 사용)
     unsplash_collections = {
         "ai_tech": [
-            "photo-1677442136019-21780ecad995",
-            "photo-1686191128892-3b5fdc17b7bf", 
-            "photo-1655635643532-b47e63c4a580",
-            "photo-1664906225771-ad618ea1fee8",
-            "photo-1675271591211-41ae13f0e71f",
-            "photo-1620712943543-bcc4688e7bd0"
+            "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+            "https://images.unsplash.com/photo-1686191128892-3b5fdc17b7bf", 
+            "https://images.unsplash.com/photo-1655635643532-b47e63c4a580",
+            "https://images.unsplash.com/photo-1664906225771-ad618ea1fee8",
+            "https://images.unsplash.com/photo-1675271591211-41ae13f0e71f",
+            "https://images.unsplash.com/photo-1620712943543-bcc4688e7bd0",
+            "https://images.unsplash.com/photo-1535378917042-10a22c95931a",
+            "https://images.unsplash.com/photo-1555255707-c07966088b7b"
         ],
         "workspace": [
-            "photo-1498050108023-c5249f4df085",
-            "photo-1521737604893-d14cc237f11d",
-            "photo-1581091226825-a6a2a5aee158",
-            "photo-1518770660439-4636190af475",
-            "photo-1461749280684-dccba630e2f6",
-            "photo-1504639725590-34d0984388bd"
+            "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+            "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+            "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+            "https://images.unsplash.com/photo-1518770660439-4636190af475",
+            "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+            "https://images.unsplash.com/photo-1504639725590-34d0984388bd",
+            "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+            "https://images.unsplash.com/photo-1496181133206-80ce9b88a853"
         ],
         "learning": [
-            "photo-1513258496099-48168024aec0",
-            "photo-1501504905252-473c47e087f8",
-            "photo-1522202176988-66273c2fd55f",
-            "photo-1517245386807-d1c09bbb0fd4",
-            "photo-1523050854058-8df90110c9f1",
-            "photo-1507003211169-0a1dd7228f2d"
+            "https://images.unsplash.com/photo-1513258496099-48168024aec0",
+            "https://images.unsplash.com/photo-1501504905252-473c47e087f8",
+            "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+            "https://images.unsplash.com/photo-1517245386807-d1c09bbb0fd4",
+            "https://images.unsplash.com/photo-1523050854058-8df90110c9f1",
+            "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+            "https://images.unsplash.com/photo-1481627834876-b7833e8f5570",
+            "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8"
         ],
         "creative": [
-            "photo-1626785774573-e9d366118b80",
-            "photo-1618005182384-a83a8bd57fbe",
-            "photo-1559028012-481c04fa702d",
-            "photo-1626447857058-2ba6a8868cb5",
-            "photo-1618004912476-29818d81ae2e",
-            "photo-1605810230434-7631ac76ec81"
+            "https://images.unsplash.com/photo-1626785774573-e9d366118b80",
+            "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe",
+            "https://images.unsplash.com/photo-1559028012-481c04fa702d",
+            "https://images.unsplash.com/photo-1626447857058-2ba6a8868cb5",
+            "https://images.unsplash.com/photo-1618004912476-29818d81ae2e",
+            "https://images.unsplash.com/photo-1605810230434-7631ac76ec81",
+            "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+            "https://images.unsplash.com/photo-1611162617474-5b21e879e113"
         ]
     }
     
     # 키워드에 따라 적절한 카테고리 선택
-    if "ai" in keyword.lower() or "tech" in keyword.lower():
+    keyword_lower = keyword.lower()
+    if any(term in keyword_lower for term in ["ai", "인공지능", "기술", "tech", "로봇", "자동"]):
         images = unsplash_collections["ai_tech"]
-    elif "study" in keyword.lower() or "learn" in keyword.lower():
+    elif any(term in keyword_lower for term in ["학습", "공부", "교육", "study", "learn"]):
         images = unsplash_collections["learning"]
-    elif "work" in keyword.lower() or "office" in keyword.lower():
+    elif any(term in keyword_lower for term in ["업무", "직장", "work", "office", "비즈니스"]):
         images = unsplash_collections["workspace"]
     else:
         images = unsplash_collections["creative"]
     
-    # 랜덤 선택 + 파라미터 추가 (고품질)
+    # 랜덤 선택 + 고품질 파라미터
     selected_image = random.choice(images)
-    return f"https://images.unsplash.com/{selected_image}?w=1200&h=630&fit=crop&auto=format&q=90"
+    # 직접 URL 사용으로 이미지 로딩 보장
+    return f"{selected_image}?w=1200&h=630&fit=crop&auto=format&q=85"
 
 def generate_high_quality_content(topic: str) -> Dict:
     """고품질 블로그 콘텐츠 생성"""
@@ -279,14 +289,14 @@ def generate_high_quality_content(topic: str) -> Dict:
         }
 
 def create_beautiful_html(content_data: Dict) -> str:
-    """아름다운 HTML 포스트 생성"""
-    # 랜덤 색상 테마
+    """아름다운 HTML 포스트 생성 - 가독성 최우선"""
+    # 안전한 색상 테마 (가독성 중심)
     themes = [
-        {"primary": "#6366f1", "secondary": "#8b5cf6", "accent": "#ec4899"},
-        {"primary": "#3b82f6", "secondary": "#0ea5e9", "accent": "#06b6d4"},
-        {"primary": "#10b981", "secondary": "#14b8a6", "accent": "#22d3ee"},
-        {"primary": "#f59e0b", "secondary": "#f97316", "accent": "#ef4444"},
-        {"primary": "#8b5cf6", "secondary": "#a855f7", "accent": "#d946ef"}
+        {"primary": "#2563eb", "secondary": "#1e40af", "accent": "#dc2626"},  # 파란색 테마
+        {"primary": "#059669", "secondary": "#047857", "accent": "#ea580c"},  # 초록색 테마
+        {"primary": "#7c3aed", "secondary": "#6d28d9", "accent": "#dc2626"},  # 보라색 테마
+        {"primary": "#dc2626", "secondary": "#b91c1c", "accent": "#2563eb"},  # 빨간색 테마
+        {"primary": "#ea580c", "secondary": "#dc2626", "accent": "#059669"}   # 오렌지 테마
     ]
     theme = random.choice(themes)
     
@@ -298,50 +308,100 @@ def create_beautiful_html(content_data: Dict) -> str:
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+            
+            /* 중요: 모든 스타일에 !important로 강제 적용 */
+            * {{
+                box-sizing: border-box;
+            }}
+            
+            /* 블로거 기본 스타일 완전 재정의 */
+            body, .post-body, .post-content, .Blog, .blog-post, article, main, div {{
+                background-color: #ffffff !important;
+                color: #111827 !important;
+            }}
+            
+            /* 모든 텍스트 요소 명시적 색상 - 더 진한 색상 */
+            p, span, li, td, th {{
+                color: #111827 !important;
+                background-color: transparent !important;
+            }}
+            
+            h1, h2, h3, h4, h5, h6 {{
+                color: #000000 !important;
+                background-color: transparent !important;
+            }}
+            
+            /* 링크 색상 */
+            a {{
+                color: {theme['primary']} !important;
+                text-decoration: none !important;
+                background-color: transparent !important;
+            }}
+            
+            a:hover {{
+                color: {theme['secondary']} !important;
+                text-decoration: underline !important;
+            }}
+            
+            /* 코드 블록 스타일 */
+            code, pre {{
+                background-color: #f3f4f6 !important;
+                color: #111827 !important;
+                padding: 2px 6px !important;
+                border-radius: 4px !important;
+            }}
         </style>
     </head>
-    <body>
-        <article style="max-width: 900px; margin: 0 auto; font-family: 'Noto Sans KR', sans-serif; line-height: 1.8; color: #1f2937;">
+    <body style="background-color: #ffffff !important; margin: 0; padding: 20px; color: #111827 !important;">
+        <article style="max-width: 900px; margin: 0 auto; font-family: 'Noto Sans KR', sans-serif; 
+                        line-height: 1.8; color: #111827 !important; background-color: #ffffff !important; 
+                        padding: 30px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
             
             <!-- 히어로 섹션 -->
             <header style="background: linear-gradient(135deg, {theme['primary']} 0%, {theme['secondary']} 100%); 
-                           padding: 60px 40px; border-radius: 20px; color: white; margin-bottom: 40px;
+                           padding: 60px 40px; border-radius: 20px; color: #ffffff !important; margin-bottom: 40px;
                            box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
                 <h1 style="font-size: 42px; font-weight: 900; margin: 0 0 15px 0; 
-                           text-shadow: 0 2px 4px rgba(0,0,0,0.2);">
+                           text-shadow: 0 2px 4px rgba(0,0,0,0.2); color: #ffffff !important;">
                     {content_data.get('title', 'AI 블로그')}
                 </h1>
-                <p style="font-size: 20px; font-weight: 300; opacity: 0.95; margin: 0;">
+                <p style="font-size: 20px; font-weight: 300; opacity: 0.95; margin: 0; color: #ffffff !important;">
                     {content_data.get('subtitle', 'AI와 함께하는 스마트한 일상')}
                 </p>
             </header>
             
-            <!-- 메인 이미지 -->
-            <figure style="margin: 40px 0; text-align: center;">
-                <img src="{content_data.get('image_url', '')}" 
+            <!-- 메인 이미지 (확실하게 표시) -->
+            <div style="margin: 40px 0; text-align: center;">
+                <img src="{content_data.get('image_url', 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=630&fit=crop&auto=format&q=85')}" 
                      alt="{content_data.get('title', 'AI 이미지')}"
-                     style="width: 100%; max-width: 800px; height: auto; 
+                     loading="lazy"
+                     onerror="this.src='https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=630&fit=crop&auto=format&q=85'"
+                     style="width: 100%; max-width: 100%; height: auto; 
                             border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-                            object-fit: cover;">
-                <figcaption style="margin-top: 15px; color: #6b7280; font-size: 14px;">
+                            display: block; margin: 0 auto;">
+                <p style="margin-top: 15px; color: #6b7280 !important; font-size: 14px;">
                     {content_data.get('summary', '')}
-                </figcaption>
-            </figure>
+                </p>
+            </div>
             
-            <!-- 본문 콘텐츠 -->
-            <div style="font-size: 18px; line-height: 1.9; color: #374151;">
-                {content_data.get('content', '')}
+            <!-- 본문 콘텐츠 컨테이너 -->
+            <div style="background-color: #ffffff !important; padding: 30px; border-radius: 12px; 
+                        margin: 30px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+                <div class="content-wrapper" style="font-size: 18px; line-height: 1.9; color: #111827 !important;">
+                    {content_data.get('content', '')}
+                </div>
             </div>
             
             <!-- 태그 섹션 -->
-            <footer style="margin-top: 60px; padding-top: 30px; border-top: 2px solid #e5e7eb;">
+            <footer style="margin-top: 60px; padding-top: 30px; border-top: 2px solid #e5e7eb; 
+                           background-color: #ffffff !important;">
                 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
-                    {"".join([f'<span style="background: {theme["accent"]}20; color: {theme["accent"]}; padding: 8px 16px; border-radius: 20px; font-size: 14px; font-weight: 500;">#{tag}</span>' for tag in content_data.get('tags', [])])}
+                    {"".join([f'<span style="background: {theme["accent"]}20; color: {theme["accent"]} !important; padding: 8px 16px; border-radius: 20px; font-size: 14px; font-weight: 500;">#{tag}</span>' for tag in content_data.get('tags', [])])}
                 </div>
                 
-                <div style="background: #f9fafb; padding: 25px; border-radius: 12px; 
-                            border-left: 4px solid {theme['primary']};">
-                    <p style="margin: 0; color: #6b7280; font-size: 16px;">
+                <div style="background: #f8fafc !important; padding: 25px; border-radius: 12px; 
+                            border-left: 4px solid {theme['primary']}; color: #1f2937 !important;">
+                    <p style="margin: 0; color: #4b5563 !important; font-size: 16px;">
                         💡 이 글이 도움이 되셨나요? 더 많은 AI 팁과 가이드를 원하신다면 
                         구독과 좋아요를 눌러주세요!
                     </p>
@@ -349,6 +409,58 @@ def create_beautiful_html(content_data: Dict) -> str:
             </footer>
             
         </article>
+        
+        <!-- 강제 스타일 적용 스크립트 -->
+        <script>
+            // DOM이 로드된 후 스타일 강제 적용
+            window.onload = function() {{
+                // 모든 텍스트 요소의 색상을 강제로 설정
+                const allElements = document.querySelectorAll('*');
+                allElements.forEach(function(element) {{
+                    // 헤더와 푸터 제외
+                    if (!element.closest('header') && !element.classList.contains('tag')) {{
+                        element.style.setProperty('background-color', 'transparent', 'important');
+                        
+                        // 텍스트 요소인 경우 색상 설정
+                        if (element.tagName.match(/^(P|SPAN|DIV|LI|TD|TH)$/i)) {{
+                            element.style.setProperty('color', '#111827', 'important');
+                        }}
+                        // 제목 요소
+                        if (element.tagName.match(/^H[1-6]$/i)) {{
+                            element.style.setProperty('color', '#000000', 'important');
+                        }}
+                    }}
+                }});
+                
+                // body와 article 배경색 강제 설정
+                document.body.style.setProperty('background-color', '#ffffff', 'important');
+                document.body.style.setProperty('color', '#111827', 'important');
+                
+                const article = document.querySelector('article');
+                if (article) {{
+                    article.style.setProperty('background-color', '#ffffff', 'important');
+                    article.style.setProperty('color', '#111827', 'important');
+                }}
+                
+                // 블로거 특정 클래스 재정의
+                const bloggerElements = document.querySelectorAll('.post-body, .post-content, .Blog, .blog-posts');
+                bloggerElements.forEach(function(element) {{
+                    element.style.setProperty('background-color', '#ffffff', 'important');
+                    element.style.setProperty('color', '#111827', 'important');
+                }});
+                
+                // 본문 콘텐츠 강제 스타일
+                const contentWrapper = document.querySelector('.content-wrapper');
+                if (contentWrapper) {{
+                    contentWrapper.style.setProperty('color', '#111827', 'important');
+                    const contentParagraphs = contentWrapper.querySelectorAll('p, span, div');
+                    contentParagraphs.forEach(function(p) {{
+                        p.style.setProperty('color', '#111827', 'important');
+                        p.style.setProperty('background-color', 'transparent', 'important');
+                    }});
+                }}
+            }};
+        </script>
     </body>
     </html>
     """

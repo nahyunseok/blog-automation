@@ -98,5 +98,25 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-09-11T04:18:51.752475",
+    "title": "AI 이미지 생성기 완전 정복 벤치마크 🚀  어떤 모델이 최고일까?",
+    "title_hash": "be048200075d78ae540f927db7cd7ff1",
+    "topic": "AI 이미지 생성 - 완전정복 벤치마크",
+    "url": "http://gost1227.blogspot.com/2025/09/ai_11.html",
+    "labels": [
+      "AI",
+      "이미지 생성",
+      "Midjourney",
+      "Stable Diffusion",
+      "Dall-E 2",
+      "프롬프트 엔지니어링",
+      "벤치마크",
+      "AI 아트",
+      "딥러닝"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

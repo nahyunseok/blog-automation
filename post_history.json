@@ -118,5 +118,24 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-09-12T04:18:04.385261",
+    "title": "Stable Diffusion 마스터하기 ✨: 초보자를 위한 완벽 가이드 & 벤치마크",
+    "title_hash": "b94b60df5b28b3e9c541276646d0ad71",
+    "topic": "Stable Diffusion 가이드: 입문자의 벤치마크",
+    "url": "http://gost1227.blogspot.com/2025/09/stable-diffusion.html",
+    "labels": [
+      "Stable Diffusion",
+      "AI 이미지 생성",
+      "AI",
+      "튜토리얼",
+      "가이드",
+      "프롬프트 엔지니어링",
+      "벤치마크",
+      "오픈소스"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

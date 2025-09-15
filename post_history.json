@@ -176,5 +176,25 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-09-15T04:19:19.336625",
+    "title": "🚀 효율 200% UP! AI 코딩 도우미 벤치마크: 당신의 코딩 시간을 절약하는 핵심 전략",
+    "title_hash": "66152c06716c8d55212404630b4c5ad1",
+    "topic": "효율 200% 높이는 AI 코딩 도우미 벤치마크",
+    "url": "http://gost1227.blogspot.com/2025/09/200-up-ai.html",
+    "labels": [
+      "AI",
+      "코딩",
+      "도우미",
+      "GitHub Copilot",
+      "Tabnine",
+      "Amazon CodeWhisperer",
+      "생산성",
+      "벤치마크",
+      "개발"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

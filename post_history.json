@@ -196,5 +196,27 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-09-16T04:18:20.316204",
+    "title": "🚀 2025년 9월, AI 플러그인 혁명! 당신의 업무 효율을 200% 끌어올릴 핵심 플러그인 4選",
+    "title_hash": "e514a1513dfd453082c4da22dd08a7c3",
+    "topic": "[2025년 09월] AI 플러그인 추천 케이스 스터디 정리",
+    "url": "http://gost1227.blogspot.com/2025/09/2025-9-ai-200-4.html",
+    "labels": [
+      "AI",
+      "플러그인",
+      "AI 플러그인 추천",
+      "생산성 향상",
+      "업무 효율",
+      "케이스 스터디",
+      "2025",
+      "마케팅",
+      "번역",
+      "데이터 분석",
+      "콘텐츠 제작"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

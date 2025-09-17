@@ -218,5 +218,25 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-09-17T04:18:40.632853",
+    "title": "AI 음악 제작 완전 정복 후기 🎧: 꿈만 같던 음악 제작, 이젠 현실입니다!",
+    "title_hash": "b848a13d17fe80c99340afb7ed419aa2",
+    "topic": "AI 음악 제작 - 완전정복 후기",
+    "url": "http://gost1227.blogspot.com/2025/09/ai_17.html",
+    "labels": [
+      "AI",
+      "음악",
+      "제작",
+      "AI 음악",
+      "플랫폼",
+      "후기",
+      "튜토리얼",
+      "팁",
+      "가이드"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

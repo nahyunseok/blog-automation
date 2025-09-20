@@ -275,5 +275,25 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-09-20T04:18:20.785386",
+    "title": "AI 데이터 분석: 초보자도 쉽게 시작하는 비교 분석 가이드 🚀",
+    "title_hash": "ddddfb561cb8e906b67613409ee42f22",
+    "topic": "초보자를 위한 AI 데이터 분석 비교 분석",
+    "url": "http://gost1227.blogspot.com/2025/09/ai_20.html",
+    "labels": [
+      "AI",
+      "데이터 분석",
+      "머신러닝",
+      "초보자",
+      "비교 분석",
+      "Google Cloud AutoML",
+      "Amazon SageMaker",
+      "Tableau",
+      "Power BI"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

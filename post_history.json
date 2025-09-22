@@ -315,5 +315,26 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-09-22T04:18:55.960568",
+    "title": "🚀 AI API 활용 완전 정복! 실전 체크리스트 10가지",
+    "title_hash": "e8ec342245f7b5374de62be69c7047dd",
+    "topic": "AI API 활용 - 실전 체크리스트",
+    "url": "http://gost1227.blogspot.com/2025/09/ai-api-10.html",
+    "labels": [
+      "AI",
+      "API",
+      "인공지능",
+      "머신러닝",
+      "체크리스트",
+      "실전 가이드",
+      "Google Cloud API",
+      "OpenAI",
+      "Amazon Rekognition",
+      "프로그래밍"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

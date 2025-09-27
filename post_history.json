@@ -410,5 +410,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-09-27T04:18:02.449762",
+    "title": "🤖 [2025년 09월] AI 코딩 도우미 완전정복 정리",
+    "title_hash": "b4574daca85e951fd664db0644f23a1d",
+    "topic": "[2025년 09월] AI 코딩 도우미 완전정복 정리",
+    "url": "http://gost1227.blogspot.com/2025/09/2025-09-ai.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

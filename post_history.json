@@ -438,5 +438,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-09-29T04:19:09.143513",
+    "title": "🤖 입문자을 위한 AI 협업 도구 실험 결과",
+    "title_hash": "a350e900621a7f261801d195983d29dd",
+    "topic": "입문자을 위한 AI 협업 도구 실험 결과",
+    "url": "http://gost1227.blogspot.com/2025/09/ai_29.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

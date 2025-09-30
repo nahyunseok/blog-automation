@@ -452,5 +452,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-09-30T04:18:48.141590",
+    "title": "🤖 AI 윤리와 미래 - 효율 200% 높이는 벤치마크",
+    "title_hash": "64589ecc075a43f9ca733e5f431c4c3c",
+    "topic": "AI 윤리와 미래 - 효율 200% 높이는 벤치마크",
+    "url": "http://gost1227.blogspot.com/2025/09/ai-200.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

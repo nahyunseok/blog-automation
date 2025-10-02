@@ -480,5 +480,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-10-02T04:17:45.478822",
+    "title": "🤖 [2025년 10월] AI 윤리와 미래 5분 마스터 정리",
+    "title_hash": "32a7d617c745acb6b5a594976b0d568b",
+    "topic": "[2025년 10월] AI 윤리와 미래 5분 마스터 정리",
+    "url": "http://gost1227.blogspot.com/2025/10/2025-10-ai-5.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

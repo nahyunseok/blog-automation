@@ -522,5 +522,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-10-05T04:17:16.273496",
+    "title": "🤖 [2025년 10월] AI 글쓰기 비법 꿀팁 모음 정리",
+    "title_hash": "6128364bc1bb5871b015947578965a33",
+    "topic": "[2025년 10월] AI 글쓰기 비법 꿀팁 모음 정리",
+    "url": "http://gost1227.blogspot.com/2025/10/2025-10-ai_5.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

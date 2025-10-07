@@ -550,5 +550,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-10-07T04:18:56.142629",
+    "title": "🤖 [2025년 10월] AI 교육 혁신 핵심정리 정리",
+    "title_hash": "5128bae841aba5507cee2e864339e28f",
+    "topic": "[2025년 10월] AI 교육 혁신 핵심정리 정리",
+    "url": "http://gost1227.blogspot.com/2025/10/2025-10-ai_7.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

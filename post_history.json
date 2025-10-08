@@ -564,5 +564,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-10-08T04:18:16.866046",
+    "title": "🤖 효율 200% 높이는 AI 비즈니스 활용 튜토리얼",
+    "title_hash": "fb73c402dcfcff6f1ebdafeae69b2fd1",
+    "topic": "효율 200% 높이는 AI 비즈니스 활용 튜토리얼",
+    "url": "http://gost1227.blogspot.com/2025/10/200-ai.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

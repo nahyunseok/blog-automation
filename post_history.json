@@ -578,5 +578,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-10-09T04:18:51.312426",
+    "title": "🤖 AI 번역 활용: 마케터의 리뷰",
+    "title_hash": "a374183d436a2619ef4126f1b167e53d",
+    "topic": "AI 번역 활용: 마케터의 리뷰",
+    "url": "http://gost1227.blogspot.com/2025/10/ai_9.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

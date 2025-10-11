@@ -606,5 +606,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-10-11T04:17:28.737593",
+    "title": "🤖 실수하지 않는 AI 프롬프트 엔지니어링 실험 결과",
+    "title_hash": "146104fb93e618b052e19f87e93782e2",
+    "topic": "실수하지 않는 AI 프롬프트 엔지니어링 실험 결과",
+    "url": "http://gost1227.blogspot.com/2025/10/ai_11.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

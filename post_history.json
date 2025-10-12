@@ -620,5 +620,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-10-12T04:17:51.291354",
+    "title": "🤖 기획자을 위한 AI 이미지 생성 로드맵",
+    "title_hash": "62ef017be3472668bba9a300b1f58e7f",
+    "topic": "기획자을 위한 AI 이미지 생성 로드맵",
+    "url": "http://gost1227.blogspot.com/2025/10/ai_12.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

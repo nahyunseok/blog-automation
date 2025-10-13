@@ -634,5 +634,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-10-13T04:18:54.140155",
+    "title": "🤖 AI 플러그인 추천 - 완전정복 실험 결과",
+    "title_hash": "ce0fcf5c3fc94494c4fc14a926b8b8b2",
+    "topic": "AI 플러그인 추천 - 완전정복 실험 결과",
+    "url": "http://gost1227.blogspot.com/2025/10/ai_13.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

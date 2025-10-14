@@ -648,5 +648,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-10-14T04:18:43.995854",
+    "title": "🤖 학생을 위한 ChatGPT 활용법 튜토리얼",
+    "title_hash": "b88c43e8ee9ca4c296d1df895d9cc259",
+    "topic": "학생을 위한 ChatGPT 활용법 튜토리얼",
+    "url": "http://gost1227.blogspot.com/2025/10/chatgpt_14.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

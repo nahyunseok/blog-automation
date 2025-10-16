@@ -676,5 +676,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-10-16T04:18:15.108933",
+    "title": "🤖 AI 보안과 프라이버시 - 전문가가 알려주는 벤치마크",
+    "title_hash": "68dbcaaa64e20ac1973fbc0c52cf27d6",
+    "topic": "AI 보안과 프라이버시 - 전문가가 알려주는 벤치마크",
+    "url": "http://gost1227.blogspot.com/2025/10/ai_16.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

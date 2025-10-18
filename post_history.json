@@ -704,5 +704,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-10-18T04:17:48.182627",
+    "title": "🤖 AI 트렌드 분석 - 체크리스트 체크리스트",
+    "title_hash": "c20cedd561883848f50ff0146ce35cad",
+    "topic": "AI 트렌드 분석 - 체크리스트 체크리스트",
+    "url": "http://gost1227.blogspot.com/2025/10/ai_18.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

@@ -718,5 +718,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-10-19T04:19:41.204843",
+    "title": "🤖 실패 극복 AI 프롬프트 엔지니어링 리뷰",
+    "title_hash": "4003c789dc6a002e1de4c56358374ce7",
+    "topic": "실패 극복 AI 프롬프트 엔지니어링 리뷰",
+    "url": "http://gost1227.blogspot.com/2025/10/ai_19.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

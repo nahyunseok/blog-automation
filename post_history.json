@@ -746,5 +746,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-10-21T04:18:58.946280",
+    "title": "🤖 노코드 AI 도구 - 시간 단축 실험 결과",
+    "title_hash": "3da70e2713cb519fffdb4ed0ac631caa",
+    "topic": "노코드 AI 도구 - 시간 단축 실험 결과",
+    "url": "http://gost1227.blogspot.com/2025/10/ai_21.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

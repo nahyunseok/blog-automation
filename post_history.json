@@ -760,5 +760,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-10-22T04:18:59.496412",
+    "title": "🤖 Gemini 고급 기능: 유튜버의 팁 모음",
+    "title_hash": "942157ad51a08b1d6ed70661a1c5a38f",
+    "topic": "Gemini 고급 기능: 유튜버의 팁 모음",
+    "url": "http://gost1227.blogspot.com/2025/10/gemini.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

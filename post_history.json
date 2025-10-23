@@ -774,5 +774,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-10-23T04:18:40.060652",
+    "title": "🤖 [2025년 10월] 딥러닝 입문 5분 마스터 정리",
+    "title_hash": "91f8c0aed64fe55cf56bc1f67c81d60f",
+    "topic": "[2025년 10월] 딥러닝 입문 5분 마스터 정리",
+    "url": "http://gost1227.blogspot.com/2025/10/2025-10-5.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

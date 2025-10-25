@@ -802,5 +802,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-10-25T04:17:54.004331",
+    "title": "🤖 AI 보안과 프라이버시: 콘텐츠 크리에이터의 전략",
+    "title_hash": "e79a06d1691de8604eb96c77fc2621d1",
+    "topic": "AI 보안과 프라이버시: 콘텐츠 크리에이터의 전략",
+    "url": "http://gost1227.blogspot.com/2025/10/ai_25.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

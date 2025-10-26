@@ -816,5 +816,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-10-26T04:18:04.525770",
+    "title": "🤖 AI 트렌드 분석: 중급자의 인터뷰",
+    "title_hash": "37385fc814378b725e95811b0f41da89",
+    "topic": "AI 트렌드 분석: 중급자의 인터뷰",
+    "url": "http://gost1227.blogspot.com/2025/10/ai_26.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

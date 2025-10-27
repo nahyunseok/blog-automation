@@ -830,5 +830,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-10-27T04:26:13.861172",
+    "title": "🤖 AI 글쓰기 비법 - 단계별 벤치마크",
+    "title_hash": "1cc67dcf23f163edc053198821f7eb04",
+    "topic": "AI 글쓰기 비법 - 단계별 벤치마크",
+    "url": "http://gost1227.blogspot.com/2025/10/ai_57.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

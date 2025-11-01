@@ -886,5 +886,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-01T04:17:29.687153",
+    "title": "🤖 [2025년 11월] AI 비즈니스 활용 실패 극복 정리",
+    "title_hash": "fc011fb744b98785a360be2b202aa329",
+    "topic": "[2025년 11월] AI 비즈니스 활용 실패 극복 정리",
+    "url": "https://gost1227.blogspot.com/2025/11/2025-11-ai.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

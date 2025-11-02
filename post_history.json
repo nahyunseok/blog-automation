@@ -900,5 +900,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-02T04:19:14.853675",
+    "title": "🤖 창업자을 위한 노코드 AI 도구 벤치마크",
+    "title_hash": "5a23a7a0fa7fff733db4764a7ce0f547",
+    "topic": "창업자을 위한 노코드 AI 도구 벤치마크",
+    "url": "https://gost1227.blogspot.com/2025/11/ai.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

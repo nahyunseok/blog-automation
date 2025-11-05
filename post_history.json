@@ -942,5 +942,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-05T04:19:19.294895",
+    "title": "🤖 머신러닝 기초 - 2025년 최신 체크리스트",
+    "title_hash": "96a13223efb2df01ecab89b5666350b1",
+    "topic": "머신러닝 기초 - 2025년 최신 체크리스트",
+    "url": "https://gost1227.blogspot.com/2025/11/2025_01901775009.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

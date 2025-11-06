@@ -956,5 +956,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-06T04:22:31.913935",
+    "title": "🤖 초보자를 위한 Claude 사용 팁 팁 모음",
+    "title_hash": "bc4d41b286b329f71e3b82ffde34ce59",
+    "topic": "초보자를 위한 Claude 사용 팁 팁 모음",
+    "url": "https://gost1227.blogspot.com/2025/11/claude.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

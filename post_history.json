@@ -970,5 +970,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-07T04:18:38.727954",
+    "title": "🤖 숨겨진 기능 AI 프레젠테이션 리뷰",
+    "title_hash": "6e62ecdfd00cea2091cfc63338a2e104",
+    "topic": "숨겨진 기능 AI 프레젠테이션 리뷰",
+    "url": "https://gost1227.blogspot.com/2025/11/ai_0732164337.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

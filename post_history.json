@@ -984,5 +984,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-08T04:18:04.105039",
+    "title": "🤖 AI 교육 혁신: 마케터의 전략",
+    "title_hash": "d8ffa1acb55b9eb87da19cfc90a92060",
+    "topic": "AI 교육 혁신: 마케터의 전략",
+    "url": "https://gost1227.blogspot.com/2025/11/ai_0707899699.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

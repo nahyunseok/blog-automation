@@ -1026,5 +1026,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-11T04:20:50.556216",
+    "title": "🤖 스타트업을 위한 AI 글쓰기 비법 팁 모음",
+    "title_hash": "9416dc157fdcc53fe3929a5bf9eeee56",
+    "topic": "스타트업을 위한 AI 글쓰기 비법 팁 모음",
+    "url": "https://gost1227.blogspot.com/2025/11/ai_01172664950.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

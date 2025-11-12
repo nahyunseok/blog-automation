@@ -1040,5 +1040,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-12T04:20:08.466187",
+    "title": "🤖 AI 협업 도구: 유튜버의 팁 모음",
+    "title_hash": "4611c85744a415507861fe5350e0e67c",
+    "topic": "AI 협업 도구: 유튜버의 팁 모음",
+    "url": "https://gost1227.blogspot.com/2025/11/ai_01707546978.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

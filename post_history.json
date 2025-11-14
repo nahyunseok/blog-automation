@@ -1068,5 +1068,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-14T04:19:36.239049",
+    "title": "🤖 중급자을 위한 Perplexity 검색 팁 팁 모음",
+    "title_hash": "e944a5c096196e03e5eb830964fb0da7",
+    "topic": "중급자을 위한 Perplexity 검색 팁 팁 모음",
+    "url": "https://gost1227.blogspot.com/2025/11/perplexity.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

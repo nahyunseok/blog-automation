@@ -1082,5 +1082,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-15T04:18:27.943634",
+    "title": "🤖 기획자을 위한 AI 이미지 생성 튜토리얼",
+    "title_hash": "38a2a82adcac92b13142d9046eecd1bc",
+    "topic": "기획자을 위한 AI 이미지 생성 튜토리얼",
+    "url": "https://gost1227.blogspot.com/2025/11/ai_01477824809.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

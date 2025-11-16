@@ -1096,5 +1096,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-16T04:22:25.285778",
+    "title": "🤖 AI 비즈니스 활용 - 최적화 가이드 리뷰",
+    "title_hash": "ed77440129793c89f526f8d61f34c045",
+    "topic": "AI 비즈니스 활용 - 최적화 가이드 리뷰",
+    "url": "https://gost1227.blogspot.com/2025/11/ai_02127336780.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

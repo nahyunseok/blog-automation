@@ -1110,5 +1110,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-17T04:22:50.423043",
+    "title": "🤖 AI 번역 활용 - 실무 적용 사례 연구",
+    "title_hash": "dbd131c810bd89f41ae6dd40abcef442",
+    "topic": "AI 번역 활용 - 실무 적용 사례 연구",
+    "url": "https://gost1227.blogspot.com/2025/11/ai_021359708.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

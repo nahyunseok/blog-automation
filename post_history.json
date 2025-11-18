@@ -1124,5 +1124,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-18T04:20:22.646774",
+    "title": "🤖 학생을 위한 Midjourney 사용법 로드맵",
+    "title_hash": "3693eac804d006c7dbf1fdc13cf2cc31",
+    "topic": "학생을 위한 Midjourney 사용법 로드맵",
+    "url": "https://gost1227.blogspot.com/2025/11/midjourney.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

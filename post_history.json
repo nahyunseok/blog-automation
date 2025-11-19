@@ -1138,5 +1138,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-19T04:19:55.817485",
+    "title": "🤖 노코드 AI 도구: 스타트업의 팁 모음",
+    "title_hash": "9733b5ce63d2bcd55aa99125598692d4",
+    "topic": "노코드 AI 도구: 스타트업의 팁 모음",
+    "url": "https://gost1227.blogspot.com/2025/11/ai_01769817179.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

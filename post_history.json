@@ -1152,5 +1152,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-20T04:18:36.953743",
+    "title": "🤖 [2025년 11월] AI 마케팅 전략 창의적인 정리",
+    "title_hash": "24018e23aff83a01e300815c992f50bf",
+    "topic": "[2025년 11월] AI 마케팅 전략 창의적인 정리",
+    "url": "https://gost1227.blogspot.com/2025/11/2025-11-ai_01287501055.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

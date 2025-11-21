@@ -1166,5 +1166,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-21T04:19:47.115775",
+    "title": "🤖 노코드 AI 도구: 교육자의 가이드",
+    "title_hash": "c0ca38f0546355dde457627cd6da3ef5",
+    "topic": "노코드 AI 도구: 교육자의 가이드",
+    "url": "https://gost1227.blogspot.com/2025/11/ai_01727551601.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

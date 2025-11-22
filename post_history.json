@@ -1180,5 +1180,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-22T04:18:40.670834",
+    "title": "🤖 학생을 위한 AI 트렌드 분석 전략",
+    "title_hash": "5b59df67dd879d06c6dc7c78cfa390f0",
+    "topic": "학생을 위한 AI 트렌드 분석 전략",
+    "url": "https://gost1227.blogspot.com/2025/11/ai_0963465595.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

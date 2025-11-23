@@ -1194,5 +1194,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-23T04:30:06.997459",
+    "title": "🤖 AI 이미지 생성 - 퀄리티 높이는 튜토리얼",
+    "title_hash": "a0513ff713b040bfea4244f1adf13d6a",
+    "topic": "AI 이미지 생성 - 퀄리티 높이는 튜토리얼",
+    "url": "https://gost1227.blogspot.com/2025/11/ai_0269061361.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

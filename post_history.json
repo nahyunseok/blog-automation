@@ -1222,5 +1222,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-25T04:22:51.317082",
+    "title": "🤖 스타트업을 위한 AI API 활용 전략",
+    "title_hash": "adb4abc2fd44861eb22b4a7e96d9daae",
+    "topic": "스타트업을 위한 AI API 활용 전략",
+    "url": "https://gost1227.blogspot.com/2025/11/ai-api.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

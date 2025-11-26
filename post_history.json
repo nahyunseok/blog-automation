@@ -1236,5 +1236,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-26T04:21:58.358438",
+    "title": "🤖 Perplexity 검색 팁: 콘텐츠 크리에이터의 인터뷰",
+    "title_hash": "a147a4e57a1332bc48b3d24da65547fb",
+    "topic": "Perplexity 검색 팁: 콘텐츠 크리에이터의 인터뷰",
+    "url": "https://gost1227.blogspot.com/2025/11/perplexity_020527632.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

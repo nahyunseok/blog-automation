@@ -1250,5 +1250,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-27T04:20:22.064223",
+    "title": "🤖 [2025년 11월] AI 글쓰기 비법 숨겨진 기능 정리",
+    "title_hash": "c021d096845d0100303f9b431d70261a",
+    "topic": "[2025년 11월] AI 글쓰기 비법 숨겨진 기능 정리",
+    "url": "https://gost1227.blogspot.com/2025/11/2025-11-ai_01116704988.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

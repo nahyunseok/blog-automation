@@ -1264,5 +1264,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-28T04:20:11.959599",
+    "title": "🤖 입문자을 위한 AI 비즈니스 활용 리뷰",
+    "title_hash": "77cf9036f8841115560fe06408aa283b",
+    "topic": "입문자을 위한 AI 비즈니스 활용 리뷰",
+    "url": "https://gost1227.blogspot.com/2025/11/ai_01907684990.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

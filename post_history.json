@@ -1278,5 +1278,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-29T04:19:27.107859",
+    "title": "🤖 고급 사용자을 위한 Stable Diffusion 가이드 Q&A",
+    "title_hash": "b5c5b121a38f42975eb5d9c683427508",
+    "topic": "고급 사용자을 위한 Stable Diffusion 가이드 Q&A",
+    "url": "https://gost1227.blogspot.com/2025/11/stable-diffusion-q.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

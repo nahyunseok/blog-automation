@@ -1292,5 +1292,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-11-30T04:31:09.462328",
+    "title": "🤖 [2025년 11월] AI 코딩 도우미 전문가가 알려주는 정리",
+    "title_hash": "47e88a43ebf1f02a8c3d282811e95c01",
+    "topic": "[2025년 11월] AI 코딩 도우미 전문가가 알려주는 정리",
+    "url": "https://gost1227.blogspot.com/2025/11/2025-11-ai_084932009.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

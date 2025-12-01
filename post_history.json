@@ -1306,5 +1306,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-12-01T04:45:40.630163",
+    "title": "🤖 디자이너을 위한 ChatGPT 활용법 체크리스트",
+    "title_hash": "1d6fdc3fe4c77c3b5f458a5bce39c38d",
+    "topic": "디자이너을 위한 ChatGPT 활용법 체크리스트",
+    "url": "https://gost1227.blogspot.com/2025/12/chatgpt.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

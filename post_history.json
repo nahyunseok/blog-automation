@@ -1334,5 +1334,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-12-03T04:25:32.598122",
+    "title": "🤖 AI 창작 도구 - 완전정복 Q&A",
+    "title_hash": "91ad1df44f39815957b2ed2f21fa5e89",
+    "topic": "AI 창작 도구 - 완전정복 Q&A",
+    "url": "https://gost1227.blogspot.com/2025/12/ai-q_01082082585.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

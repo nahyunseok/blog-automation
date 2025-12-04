@@ -1348,5 +1348,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-12-04T04:27:37.820661",
+    "title": "🤖 AI 창작 도구: 기획자의 튜토리얼",
+    "title_hash": "c39a6befd54858a73e47bd0055897da3",
+    "topic": "AI 창작 도구: 기획자의 튜토리얼",
+    "url": "https://gost1227.blogspot.com/2025/12/ai_0232898734.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

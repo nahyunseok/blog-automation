@@ -1362,5 +1362,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-12-05T04:26:15.998040",
+    "title": "🤖 유튜버을 위한 노코드 AI 도구 인터뷰",
+    "title_hash": "ad21b5eabdf383f20406e1b6d7508b88",
+    "topic": "유튜버을 위한 노코드 AI 도구 인터뷰",
+    "url": "https://gost1227.blogspot.com/2025/12/ai_0446842598.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

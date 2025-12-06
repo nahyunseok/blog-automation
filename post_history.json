@@ -1376,5 +1376,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-12-06T04:18:35.929249",
+    "title": "🤖 콘텐츠 크리에이터을 위한 AI API 활용 Q&A",
+    "title_hash": "c53a984dca03586023005fbbe4c6949a",
+    "topic": "콘텐츠 크리에이터을 위한 AI API 활용 Q&A",
+    "url": "https://gost1227.blogspot.com/2025/12/ai-api-q.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

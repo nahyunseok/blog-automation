@@ -1390,5 +1390,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-12-07T04:30:07.951425",
+    "title": "🤖 [2025년 12월] AI 이미지 생성 효율 200% 높이는 정리",
+    "title_hash": "cb7af87f6fc34416deef9e6ffa66d2e3",
+    "topic": "[2025년 12월] AI 이미지 생성 효율 200% 높이는 정리",
+    "url": "https://gost1227.blogspot.com/2025/12/2025-12-ai-200.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

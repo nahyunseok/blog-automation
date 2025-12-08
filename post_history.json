@@ -1404,5 +1404,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-12-08T04:30:44.882866",
+    "title": "🤖 AI 보안과 프라이버시: 기획자의 체크리스트",
+    "title_hash": "2c6a72df61558e67c71e54a17e974f18",
+    "topic": "AI 보안과 프라이버시: 기획자의 체크리스트",
+    "url": "https://gost1227.blogspot.com/2025/12/ai_01666132417.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

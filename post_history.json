@@ -1432,5 +1432,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-12-10T04:30:17.816704",
+    "title": "🤖 직장인을 위한 Midjourney 사용법 인터뷰",
+    "title_hash": "9cc2eb89bd10524015ff6b97eca20db9",
+    "topic": "직장인을 위한 Midjourney 사용법 인터뷰",
+    "url": "https://gost1227.blogspot.com/2025/12/midjourney.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

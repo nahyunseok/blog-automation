@@ -1446,5 +1446,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-12-11T04:32:19.235793",
+    "title": "🤖 성공 사례 AI 이미지 생성 체크리스트",
+    "title_hash": "470f450e62e740cbef3f4d76909ba1e9",
+    "topic": "성공 사례 AI 이미지 생성 체크리스트",
+    "url": "https://gost1227.blogspot.com/2025/12/ai_01465837571.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

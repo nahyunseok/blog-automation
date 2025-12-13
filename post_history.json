@@ -1474,5 +1474,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-12-13T04:22:40.884762",
+    "title": "🤖 [2025년 12월] AI 이미지 생성 성공 사례 정리",
+    "title_hash": "7082cd83ec76e56d8cfe943137b4dc56",
+    "topic": "[2025년 12월] AI 이미지 생성 성공 사례 정리",
+    "url": "https://gost1227.blogspot.com/2025/12/2025-12-ai.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

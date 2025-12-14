@@ -1488,5 +1488,19 @@
     ],
     "method": "github_actions_v2",
     "success": true
+  },
+  {
+    "timestamp": "2025-12-14T04:33:19.833738",
+    "title": "🤖 Perplexity 검색 팁: 작가의 Q&A",
+    "title_hash": "d06f829eb13c921378a779d2f11763be",
+    "topic": "Perplexity 검색 팁: 작가의 Q&A",
+    "url": "https://gost1227.blogspot.com/2025/12/perplexity-q.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
   }
 ]

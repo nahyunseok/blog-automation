@@ -1,24 +1,5 @@
 [
   {
-    "timestamp": "2025-09-12T04:18:04.385261",
-    "title": "Stable Diffusion 마스터하기 ✨: 초보자를 위한 완벽 가이드 & 벤치마크",
-    "title_hash": "b94b60df5b28b3e9c541276646d0ad71",
-    "topic": "Stable Diffusion 가이드: 입문자의 벤치마크",
-    "url": "http://gost1227.blogspot.com/2025/09/stable-diffusion.html",
-    "labels": [
-      "Stable Diffusion",
-      "AI 이미지 생성",
-      "AI",
-      "튜토리얼",
-      "가이드",
-      "프롬프트 엔지니어링",
-      "벤치마크",
-      "오픈소스"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-09-13T04:17:06.357590",
     "title": "🚀 AI 글쓰기 비법: 스타트업 리뷰 폭발시키는 핵심 전략!",
     "title_hash": "1ecd53c9c97b376306f4eed34a8506ce",
@@ -1473,6 +1454,20 @@
     "title_hash": "a40a5306f6a86eebfd387bb1353a1439",
     "topic": "연구원을 위한 AI 비즈니스 활용 팁 모음",
     "url": "https://gost1227.blogspot.com/2025/12/ai_0346284060.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2025-12-22T04:36:42.598858",
+    "title": "🤖 노코드 AI 도구: 기획자의 인터뷰",
+    "title_hash": "435c448ed9c9087f64d9273180a36d2a",
+    "topic": "노코드 AI 도구: 기획자의 인터뷰",
+    "url": "https://gost1227.blogspot.com/2025/12/ai_0518175858.html",
     "labels": [
       "AI",
       "인공지능",

@@ -1,26 +1,5 @@
 [
   {
-    "timestamp": "2025-09-24T04:18:34.733745",
-    "title": "🚀 AI로 업무 효율 200% UP! 직장인 생산성 극대화 튜토리얼",
-    "title_hash": "8de5d9cc125fc03ede9c9c178564e3c7",
-    "topic": "AI 생산성 향상: 직장인의 튜토리얼",
-    "url": "http://gost1227.blogspot.com/2025/09/ai-200-up.html",
-    "labels": [
-      "AI",
-      "생산성",
-      "업무 효율",
-      "직장인",
-      "튜토리얼",
-      "AI 도구",
-      "자동화",
-      "데이터 분석",
-      "시간 관리",
-      "생산성 향상"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-09-25T04:18:34.310297",
     "title": "🚀 AI 데이터 분석 2025: 최신 기술 비교분석 & 실전 활용 전략!",
     "title_hash": "c2e25903c06c512f04c82c4f00a457cf",
@@ -1405,6 +1384,20 @@
     "title_hash": "2fc9d369f9cab75db391229e4ddeeb9b",
     "topic": "[2026년 01월] AI 이미지 생성 창의적인 정리",
     "url": "https://gost1227.blogspot.com/2026/01/2026-01-ai.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-01-03T04:29:25.481791",
+    "title": "🤖 Midjourney 사용법: 직장인의 후기",
+    "title_hash": "0d6def22dfb5056360b8fd0e6c7907db",
+    "topic": "Midjourney 사용법: 직장인의 후기",
+    "url": "https://gost1227.blogspot.com/2026/01/midjourney.html",
     "labels": [
       "AI",
       "인공지능",

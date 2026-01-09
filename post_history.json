@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-09-30T04:18:48.141590",
-    "title": "🤖 AI 윤리와 미래 - 효율 200% 높이는 벤치마크",
-    "title_hash": "64589ecc075a43f9ca733e5f431c4c3c",
-    "topic": "AI 윤리와 미래 - 효율 200% 높이는 벤치마크",
-    "url": "http://gost1227.blogspot.com/2025/09/ai-200.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-10-01T04:18:25.068022",
     "title": "🤖 AI 음악 제작: 중급자의 실험 결과",
     "title_hash": "a36b067b87eb08f271a6f3b6ed0c5eee",
@@ -1391,6 +1377,20 @@
     "title_hash": "d1fa2bf7111716ccca4321cc604881c7",
     "topic": "Stable Diffusion 가이드 - 체크리스트 튜토리얼",
     "url": "https://gost1227.blogspot.com/2026/01/stable-diffusion.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-01-09T04:37:04.098614",
+    "title": "🤖 유튜버을 위한 AI 트렌드 분석 전략",
+    "title_hash": "3839d0ae36fc0a8e462d5cef450de211",
+    "topic": "유튜버을 위한 AI 트렌드 분석 전략",
+    "url": "https://gost1227.blogspot.com/2026/01/ai_0967974680.html",
     "labels": [
       "AI",
       "인공지능",

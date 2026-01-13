@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-10-04T04:17:43.595723",
-    "title": "🤖 AI 프레젠테이션 - 숨겨진 기능 후기",
-    "title_hash": "acf5486dd93e4cfcc061a5c4910ab5a3",
-    "topic": "AI 프레젠테이션 - 숨겨진 기능 후기",
-    "url": "http://gost1227.blogspot.com/2025/10/ai_4.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-10-05T04:17:16.273496",
     "title": "🤖 [2025년 10월] AI 글쓰기 비법 꿀팁 모음 정리",
     "title_hash": "6128364bc1bb5871b015947578965a33",
@@ -1391,6 +1377,20 @@
     "title_hash": "cd68cf2c15fc414da596b42b407c08d2",
     "topic": "심화 학습 ChatGPT 활용법 후기",
     "url": "https://gost1227.blogspot.com/2026/01/chatgpt_02012778189.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-01-13T04:36:57.083755",
+    "title": "🤖 Claude 사용 팁 - 완전정복 인터뷰",
+    "title_hash": "96bfd0dbf5d626eace2d5206f6864731",
+    "topic": "Claude 사용 팁 - 완전정복 인터뷰",
+    "url": "https://gost1227.blogspot.com/2026/01/claude_0117155069.html",
     "labels": [
       "AI",
       "인공지능",

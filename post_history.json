@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-10-05T04:17:16.273496",
-    "title": "🤖 [2025년 10월] AI 글쓰기 비법 꿀팁 모음 정리",
-    "title_hash": "6128364bc1bb5871b015947578965a33",
-    "topic": "[2025년 10월] AI 글쓰기 비법 꿀팁 모음 정리",
-    "url": "http://gost1227.blogspot.com/2025/10/2025-10-ai_5.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-10-06T04:18:36.133848",
     "title": "🤖 AI 음악 제작 - 실전 전략",
     "title_hash": "31af67efc029e67f791aa7e625f6ded0",
@@ -1391,6 +1377,20 @@
     "title_hash": "96bfd0dbf5d626eace2d5206f6864731",
     "topic": "Claude 사용 팁 - 완전정복 인터뷰",
     "url": "https://gost1227.blogspot.com/2026/01/claude_0117155069.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-01-14T04:43:21.455004",
+    "title": "🤖 AI 비즈니스 활용: 유튜버의 체크리스트",
+    "title_hash": "ea4b57bb86c84318798c865823aef99e",
+    "topic": "AI 비즈니스 활용: 유튜버의 체크리스트",
+    "url": "https://gost1227.blogspot.com/2026/01/ai_01921210233.html",
     "labels": [
       "AI",
       "인공지능",

@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-10-06T04:18:36.133848",
-    "title": "🤖 AI 음악 제작 - 실전 전략",
-    "title_hash": "31af67efc029e67f791aa7e625f6ded0",
-    "topic": "AI 음악 제작 - 실전 전략",
-    "url": "http://gost1227.blogspot.com/2025/10/ai_6.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-10-07T04:18:56.142629",
     "title": "🤖 [2025년 10월] AI 교육 혁신 핵심정리 정리",
     "title_hash": "5128bae841aba5507cee2e864339e28f",
@@ -1391,6 +1377,20 @@
     "title_hash": "ea4b57bb86c84318798c865823aef99e",
     "topic": "AI 비즈니스 활용: 유튜버의 체크리스트",
     "url": "https://gost1227.blogspot.com/2026/01/ai_01921210233.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-01-15T04:36:59.041841",
+    "title": "🤖 중장년층을 위한 AI 생산성 향상 Q&A",
+    "title_hash": "8f3f2731d9a42b11965e0cee3d3c45e4",
+    "topic": "중장년층을 위한 AI 생산성 향상 Q&A",
+    "url": "https://gost1227.blogspot.com/2026/01/ai-q.html",
     "labels": [
       "AI",
       "인공지능",

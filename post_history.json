@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-10-07T04:18:56.142629",
-    "title": "🤖 [2025년 10월] AI 교육 혁신 핵심정리 정리",
-    "title_hash": "5128bae841aba5507cee2e864339e28f",
-    "topic": "[2025년 10월] AI 교육 혁신 핵심정리 정리",
-    "url": "http://gost1227.blogspot.com/2025/10/2025-10-ai_7.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-10-08T04:18:16.866046",
     "title": "🤖 효율 200% 높이는 AI 비즈니스 활용 튜토리얼",
     "title_hash": "fb73c402dcfcff6f1ebdafeae69b2fd1",
@@ -1391,6 +1377,20 @@
     "title_hash": "8f3f2731d9a42b11965e0cee3d3c45e4",
     "topic": "중장년층을 위한 AI 생산성 향상 Q&A",
     "url": "https://gost1227.blogspot.com/2026/01/ai-q.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-01-16T04:36:50.483443",
+    "title": "🤖 학생을 위한 AI 윤리와 미래 튜토리얼",
+    "title_hash": "6d383e415cd3e35992a41e330f972819",
+    "topic": "학생을 위한 AI 윤리와 미래 튜토리얼",
+    "url": "https://gost1227.blogspot.com/2026/01/ai_01209012098.html",
     "labels": [
       "AI",
       "인공지능",

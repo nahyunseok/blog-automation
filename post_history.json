@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-10-09T04:18:51.312426",
-    "title": "🤖 AI 번역 활용: 마케터의 리뷰",
-    "title_hash": "a374183d436a2619ef4126f1b167e53d",
-    "topic": "AI 번역 활용: 마케터의 리뷰",
-    "url": "http://gost1227.blogspot.com/2025/10/ai_9.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-10-10T04:18:33.324349",
     "title": "🤖 AI 음악 제작 - 꿀팁 모음 Q&A",
     "title_hash": "8fa3ce6667db9fc6ee129768044c7426",
@@ -1391,6 +1377,20 @@
     "title_hash": "672f141993a33a32c101928cf81615ee",
     "topic": "AI 플러그인 추천 - 초보자를 위한 가이드",
     "url": "https://gost1227.blogspot.com/2026/01/ai_01793983154.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-01-18T04:38:45.040985",
+    "title": "🤖 작가을 위한 AI 번역 활용 벤치마크",
+    "title_hash": "1af7167ab792ae687565c412f226d087",
+    "topic": "작가을 위한 AI 번역 활용 벤치마크",
+    "url": "https://gost1227.blogspot.com/2026/01/ai_087218661.html",
     "labels": [
       "AI",
       "인공지능",

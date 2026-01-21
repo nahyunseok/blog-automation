@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-10-12T04:17:51.291354",
-    "title": "🤖 기획자을 위한 AI 이미지 생성 로드맵",
-    "title_hash": "62ef017be3472668bba9a300b1f58e7f",
-    "topic": "기획자을 위한 AI 이미지 생성 로드맵",
-    "url": "http://gost1227.blogspot.com/2025/10/ai_12.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-10-13T04:18:54.140155",
     "title": "🤖 AI 플러그인 추천 - 완전정복 실험 결과",
     "title_hash": "ce0fcf5c3fc94494c4fc14a926b8b8b2",
@@ -1391,6 +1377,20 @@
     "title_hash": "05bb3954c73bf6f843ab3cfd7ae73f67",
     "topic": "AI 글쓰기 비법: 학생의 가이드",
     "url": "https://gost1227.blogspot.com/2026/01/ai_01036704651.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-01-21T04:40:27.367498",
+    "title": "🤖 [2026년 01월] AI 마케팅 전략 비교 분석 정리",
+    "title_hash": "92ca12f1d4afd8fca08a9303c1b6f6de",
+    "topic": "[2026년 01월] AI 마케팅 전략 비교 분석 정리",
+    "url": "https://gost1227.blogspot.com/2026/01/2026-01-ai_0991979526.html",
     "labels": [
       "AI",
       "인공지능",

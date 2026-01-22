@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-10-13T04:18:54.140155",
-    "title": "🤖 AI 플러그인 추천 - 완전정복 실험 결과",
-    "title_hash": "ce0fcf5c3fc94494c4fc14a926b8b8b2",
-    "topic": "AI 플러그인 추천 - 완전정복 실험 결과",
-    "url": "http://gost1227.blogspot.com/2025/10/ai_13.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-10-14T04:18:43.995854",
     "title": "🤖 학생을 위한 ChatGPT 활용법 튜토리얼",
     "title_hash": "b88c43e8ee9ca4c296d1df895d9cc259",
@@ -1391,6 +1377,20 @@
     "title_hash": "92ca12f1d4afd8fca08a9303c1b6f6de",
     "topic": "[2026년 01월] AI 마케팅 전략 비교 분석 정리",
     "url": "https://gost1227.blogspot.com/2026/01/2026-01-ai_0991979526.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-01-22T04:44:05.605526",
+    "title": "🤖 5분 마스터 AI 데이터 분석 팁 모음",
+    "title_hash": "563761c533555ad3c5d49ddce5b4a6fe",
+    "topic": "5분 마스터 AI 데이터 분석 팁 모음",
+    "url": "https://gost1227.blogspot.com/2026/01/5-ai.html",
     "labels": [
       "AI",
       "인공지능",

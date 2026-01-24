@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-10-15T04:18:43.355188",
-    "title": "🤖 Midjourney 사용법 - 실패 극복 로드맵",
-    "title_hash": "227727bab42601506b0d472fddbc1c31",
-    "topic": "Midjourney 사용법 - 실패 극복 로드맵",
-    "url": "http://gost1227.blogspot.com/2025/10/midjourney.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-10-16T04:18:15.108933",
     "title": "🤖 AI 보안과 프라이버시 - 전문가가 알려주는 벤치마크",
     "title_hash": "68dbcaaa64e20ac1973fbc0c52cf27d6",
@@ -1391,6 +1377,20 @@
     "title_hash": "2938cb5aca5ad1f845d8a67547535592",
     "topic": "입문자을 위한 딥러닝 입문 팁 모음",
     "url": "https://gost1227.blogspot.com/2026/01/blog-post.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-01-24T04:32:25.005983",
+    "title": "🤖 디자이너을 위한 AI 글쓰기 비법 체크리스트",
+    "title_hash": "dc0d93c70df5a52caeabab6b2878d356",
+    "topic": "디자이너을 위한 AI 글쓰기 비법 체크리스트",
+    "url": "https://gost1227.blogspot.com/2026/01/ai_01314091201.html",
     "labels": [
       "AI",
       "인공지능",

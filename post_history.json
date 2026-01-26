@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-10-17T04:18:47.422313",
-    "title": "🤖 고급 사용자을 위한 노코드 AI 도구 후기",
-    "title_hash": "390e3657fcfb3486f3fadf97012692a3",
-    "topic": "고급 사용자을 위한 노코드 AI 도구 후기",
-    "url": "http://gost1227.blogspot.com/2025/10/ai_17.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-10-18T04:17:48.182627",
     "title": "🤖 AI 트렌드 분석 - 체크리스트 체크리스트",
     "title_hash": "c20cedd561883848f50ff0146ce35cad",
@@ -1391,6 +1377,20 @@
     "title_hash": "1b6654da2486122453017573c91bef86",
     "topic": "AI 영상 편집: 연구원의 전략",
     "url": "https://gost1227.blogspot.com/2026/01/ai_01483840084.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-01-26T04:52:52.845152",
+    "title": "🤖 Perplexity 검색 팁 - 최적화 가이드 가이드",
+    "title_hash": "fb145da01009c726d6d42579622ae9d9",
+    "topic": "Perplexity 검색 팁 - 최적화 가이드 가이드",
+    "url": "https://gost1227.blogspot.com/2026/01/perplexity_01374952584.html",
     "labels": [
       "AI",
       "인공지능",

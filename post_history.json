@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-10-18T04:17:48.182627",
-    "title": "🤖 AI 트렌드 분석 - 체크리스트 체크리스트",
-    "title_hash": "c20cedd561883848f50ff0146ce35cad",
-    "topic": "AI 트렌드 분석 - 체크리스트 체크리스트",
-    "url": "http://gost1227.blogspot.com/2025/10/ai_18.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-10-19T04:19:41.204843",
     "title": "🤖 실패 극복 AI 프롬프트 엔지니어링 리뷰",
     "title_hash": "4003c789dc6a002e1de4c56358374ce7",
@@ -1391,6 +1377,20 @@
     "title_hash": "fb145da01009c726d6d42579622ae9d9",
     "topic": "Perplexity 검색 팁 - 최적화 가이드 가이드",
     "url": "https://gost1227.blogspot.com/2026/01/perplexity_01374952584.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-01-27T04:43:07.294396",
+    "title": "🤖 AI 이미지 생성 - 핵심정리 가이드",
+    "title_hash": "bae06db669ea9bb1ee3f53daac9be2f9",
+    "topic": "AI 이미지 생성 - 핵심정리 가이드",
+    "url": "https://gost1227.blogspot.com/2026/01/ai_0749850781.html",
     "labels": [
       "AI",
       "인공지능",

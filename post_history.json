@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-10-20T04:21:55.037521",
-    "title": "🤖 AI 번역 활용 - 성공 사례 로드맵",
-    "title_hash": "66a559584a192b6b903fbea4bf0d6321",
-    "topic": "AI 번역 활용 - 성공 사례 로드맵",
-    "url": "http://gost1227.blogspot.com/2025/10/ai_20.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-10-21T04:18:58.946280",
     "title": "🤖 노코드 AI 도구 - 시간 단축 실험 결과",
     "title_hash": "3da70e2713cb519fffdb4ed0ac631caa",
@@ -1391,6 +1377,20 @@
     "title_hash": "5be771dafb0f2acb36e9a12fdeb36bc6",
     "topic": "직장인을 위한 Claude 사용 팁 리뷰",
     "url": "https://gost1227.blogspot.com/2026/01/claude_02133634976.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-01-29T05:03:22.495293",
+    "title": "🤖 작가을 위한 Gemini 고급 기능 체크리스트",
+    "title_hash": "4f96faadb8914bed23e630f3cfbb7ca1",
+    "topic": "작가을 위한 Gemini 고급 기능 체크리스트",
+    "url": "https://gost1227.blogspot.com/2026/01/gemini_0903835492.html",
     "labels": [
       "AI",
       "인공지능",

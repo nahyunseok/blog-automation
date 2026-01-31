@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-10-22T04:18:59.496412",
-    "title": "🤖 Gemini 고급 기능: 유튜버의 팁 모음",
-    "title_hash": "942157ad51a08b1d6ed70661a1c5a38f",
-    "topic": "Gemini 고급 기능: 유튜버의 팁 모음",
-    "url": "http://gost1227.blogspot.com/2025/10/gemini.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-10-23T04:18:40.060652",
     "title": "🤖 [2025년 10월] 딥러닝 입문 5분 마스터 정리",
     "title_hash": "91f8c0aed64fe55cf56bc1f67c81d60f",
@@ -1391,6 +1377,20 @@
     "title_hash": "866df97789f2b215c9ccb5ce2610b419",
     "topic": "AI 교육 혁신: 연구원의 팁 모음",
     "url": "https://gost1227.blogspot.com/2026/01/ai_0579423579.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-01-31T04:59:15.707771",
+    "title": "🤖 AI 마케팅 전략 - 실수하지 않는 후기",
+    "title_hash": "d6a8882e93ef95bd4bf382dde498e411",
+    "topic": "AI 마케팅 전략 - 실수하지 않는 후기",
+    "url": "https://gost1227.blogspot.com/2026/01/ai_01023144598.html",
     "labels": [
       "AI",
       "인공지능",

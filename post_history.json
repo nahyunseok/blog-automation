@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-10-23T04:18:40.060652",
-    "title": "🤖 [2025년 10월] 딥러닝 입문 5분 마스터 정리",
-    "title_hash": "91f8c0aed64fe55cf56bc1f67c81d60f",
-    "topic": "[2025년 10월] 딥러닝 입문 5분 마스터 정리",
-    "url": "http://gost1227.blogspot.com/2025/10/2025-10-5.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-10-24T04:18:48.658102",
     "title": "🤖 트러블슈팅 Perplexity 검색 팁 Q&A",
     "title_hash": "55f5c1166f82a4163888c21c5c54a3d9",
@@ -1391,6 +1377,20 @@
     "title_hash": "d6a8882e93ef95bd4bf382dde498e411",
     "topic": "AI 마케팅 전략 - 실수하지 않는 후기",
     "url": "https://gost1227.blogspot.com/2026/01/ai_01023144598.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-02-01T05:19:59.786048",
+    "title": "🤖 팀리더을 위한 노코드 AI 도구 리뷰",
+    "title_hash": "97a8d93d7357e3c5c528e7632e5e737c",
+    "topic": "팀리더을 위한 노코드 AI 도구 리뷰",
+    "url": "https://gost1227.blogspot.com/2026/02/ai.html",
     "labels": [
       "AI",
       "인공지능",

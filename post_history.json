@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-10-24T04:18:48.658102",
-    "title": "🤖 트러블슈팅 Perplexity 검색 팁 Q&A",
-    "title_hash": "55f5c1166f82a4163888c21c5c54a3d9",
-    "topic": "트러블슈팅 Perplexity 검색 팁 Q&A",
-    "url": "http://gost1227.blogspot.com/2025/10/perplexity-q.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-10-25T04:17:54.004331",
     "title": "🤖 AI 보안과 프라이버시: 콘텐츠 크리에이터의 전략",
     "title_hash": "e79a06d1691de8604eb96c77fc2621d1",
@@ -1391,6 +1377,20 @@
     "title_hash": "97a8d93d7357e3c5c528e7632e5e737c",
     "topic": "팀리더을 위한 노코드 AI 도구 리뷰",
     "url": "https://gost1227.blogspot.com/2026/02/ai.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-02-02T05:21:32.790396",
+    "title": "🤖 [2026년 02월] AI 프레젠테이션 실패 극복 정리",
+    "title_hash": "4135eec750fd8c6abaa515d750a780e3",
+    "topic": "[2026년 02월] AI 프레젠테이션 실패 극복 정리",
+    "url": "https://gost1227.blogspot.com/2026/02/2026-02-ai.html",
     "labels": [
       "AI",
       "인공지능",

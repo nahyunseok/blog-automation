@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-10-27T04:26:13.861172",
-    "title": "🤖 AI 글쓰기 비법 - 단계별 벤치마크",
-    "title_hash": "1cc67dcf23f163edc053198821f7eb04",
-    "topic": "AI 글쓰기 비법 - 단계별 벤치마크",
-    "url": "http://gost1227.blogspot.com/2025/10/ai_57.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-10-29T04:22:46.363963",
     "title": "🤖 AI 영상 편집 - 단계별 비교 분석",
     "title_hash": "0a9fdd0f4ec2d9fcc9aac6632dadf9ef",
@@ -1391,6 +1377,20 @@
     "title_hash": "15fee9c57787dec78fa185b90ece0fe9",
     "topic": "성공 사례 Gemini 고급 기능 후기",
     "url": "https://gost1227.blogspot.com/2026/02/gemini.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-02-05T05:14:57.336145",
+    "title": "🤖 교육자을 위한 Perplexity 검색 팁 벤치마크",
+    "title_hash": "bbc230f56ca90809a8d6fdf5fde22620",
+    "topic": "교육자을 위한 Perplexity 검색 팁 벤치마크",
+    "url": "https://gost1227.blogspot.com/2026/02/perplexity.html",
     "labels": [
       "AI",
       "인공지능",

@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-11-04T04:18:42.069279",
-    "title": "🤖 프리랜서을 위한 AI 프레젠테이션 로드맵",
-    "title_hash": "11b274c89b3d676749bd2e5e7be862a1",
-    "topic": "프리랜서을 위한 AI 프레젠테이션 로드맵",
-    "url": "https://gost1227.blogspot.com/2025/11/ai_059475789.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-11-05T04:19:19.294895",
     "title": "🤖 머신러닝 기초 - 2025년 최신 체크리스트",
     "title_hash": "96a13223efb2df01ecab89b5666350b1",
@@ -1391,6 +1377,20 @@
     "title_hash": "5689d44119717ac72f3a8b3ab8e23573",
     "topic": "노코드 AI 도구 - 창의적인 로드맵",
     "url": "https://gost1227.blogspot.com/2026/02/ai_02013667686.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-02-12T05:22:23.828607",
+    "title": "🤖 노코드 AI 도구 - 실무 적용 Q&A",
+    "title_hash": "5da47d16e4a7b0e5a9d33167c5b03489",
+    "topic": "노코드 AI 도구 - 실무 적용 Q&A",
+    "url": "https://gost1227.blogspot.com/2026/02/ai-q.html",
     "labels": [
       "AI",
       "인공지능",

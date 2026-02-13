@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-11-05T04:19:19.294895",
-    "title": "🤖 머신러닝 기초 - 2025년 최신 체크리스트",
-    "title_hash": "96a13223efb2df01ecab89b5666350b1",
-    "topic": "머신러닝 기초 - 2025년 최신 체크리스트",
-    "url": "https://gost1227.blogspot.com/2025/11/2025_01901775009.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-11-06T04:22:31.913935",
     "title": "🤖 초보자를 위한 Claude 사용 팁 팁 모음",
     "title_hash": "bc4d41b286b329f71e3b82ffde34ce59",
@@ -1391,6 +1377,20 @@
     "title_hash": "5da47d16e4a7b0e5a9d33167c5b03489",
     "topic": "노코드 AI 도구 - 실무 적용 Q&A",
     "url": "https://gost1227.blogspot.com/2026/02/ai-q.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-02-13T05:18:57.353715",
+    "title": "🤖 고급 사용자을 위한 Claude 사용 팁 사례 연구",
+    "title_hash": "04ad802480bdffb7a5974264b355391e",
+    "topic": "고급 사용자을 위한 Claude 사용 팁 사례 연구",
+    "url": "https://gost1227.blogspot.com/2026/02/claude.html",
     "labels": [
       "AI",
       "인공지능",

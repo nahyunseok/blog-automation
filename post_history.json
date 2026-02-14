@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-11-06T04:22:31.913935",
-    "title": "🤖 초보자를 위한 Claude 사용 팁 팁 모음",
-    "title_hash": "bc4d41b286b329f71e3b82ffde34ce59",
-    "topic": "초보자를 위한 Claude 사용 팁 팁 모음",
-    "url": "https://gost1227.blogspot.com/2025/11/claude.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-11-07T04:18:38.727954",
     "title": "🤖 숨겨진 기능 AI 프레젠테이션 리뷰",
     "title_hash": "6e62ecdfd00cea2091cfc63338a2e104",
@@ -1391,6 +1377,20 @@
     "title_hash": "04ad802480bdffb7a5974264b355391e",
     "topic": "고급 사용자을 위한 Claude 사용 팁 사례 연구",
     "url": "https://gost1227.blogspot.com/2026/02/claude.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-02-14T05:07:04.896952",
+    "title": "🤖 Midjourney 사용법 - 5분 마스터 사례 연구",
+    "title_hash": "862c77a9a7474a811fcff4c7b40319bb",
+    "topic": "Midjourney 사용법 - 5분 마스터 사례 연구",
+    "url": "https://gost1227.blogspot.com/2026/02/midjourney-5.html",
     "labels": [
       "AI",
       "인공지능",

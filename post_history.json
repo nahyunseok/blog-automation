@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-11-08T04:18:04.105039",
-    "title": "🤖 AI 교육 혁신: 마케터의 전략",
-    "title_hash": "d8ffa1acb55b9eb87da19cfc90a92060",
-    "topic": "AI 교육 혁신: 마케터의 전략",
-    "url": "https://gost1227.blogspot.com/2025/11/ai_0707899699.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-11-09T04:18:39.031564",
     "title": "🤖 교육자을 위한 Claude 사용 팁 후기",
     "title_hash": "a214f62643f61206ae8981d9365fe17f",
@@ -1391,6 +1377,20 @@
     "title_hash": "3467a29cda5457269e5352e806dcb653",
     "topic": "유튜버을 위한 AI 마케팅 전략 비교 분석",
     "url": "https://gost1227.blogspot.com/2026/02/ai_0919710259.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-02-16T05:24:27.813740",
+    "title": "🤖 머신러닝 기초: 스타트업의 체크리스트",
+    "title_hash": "8c7f4667235a90c15f72dcc18cfd7bc2",
+    "topic": "머신러닝 기초: 스타트업의 체크리스트",
+    "url": "https://gost1227.blogspot.com/2026/02/blog-post_16.html",
     "labels": [
       "AI",
       "인공지능",

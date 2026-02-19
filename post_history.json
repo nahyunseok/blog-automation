@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-11-11T04:20:50.556216",
-    "title": "🤖 스타트업을 위한 AI 글쓰기 비법 팁 모음",
-    "title_hash": "9416dc157fdcc53fe3929a5bf9eeee56",
-    "topic": "스타트업을 위한 AI 글쓰기 비법 팁 모음",
-    "url": "https://gost1227.blogspot.com/2025/11/ai_01172664950.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-11-12T04:20:08.466187",
     "title": "🤖 AI 협업 도구: 유튜버의 팁 모음",
     "title_hash": "4611c85744a415507861fe5350e0e67c",
@@ -1391,6 +1377,20 @@
     "title_hash": "afc873f2a2383f6babe6db55ad9bda8a",
     "topic": "연구원을 위한 AI 코딩 도우미 튜토리얼",
     "url": "https://gost1227.blogspot.com/2026/02/ai_01372337880.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-02-19T05:19:36.339982",
+    "title": "🤖 교육자을 위한 딥러닝 입문 로드맵",
+    "title_hash": "771b0cc64807a1df7e2e75cc185e14f7",
+    "topic": "교육자을 위한 딥러닝 입문 로드맵",
+    "url": "https://gost1227.blogspot.com/2026/02/blog-post_19.html",
     "labels": [
       "AI",
       "인공지능",

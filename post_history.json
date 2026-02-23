@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-11-15T04:18:27.943634",
-    "title": "🤖 기획자을 위한 AI 이미지 생성 튜토리얼",
-    "title_hash": "38a2a82adcac92b13142d9046eecd1bc",
-    "topic": "기획자을 위한 AI 이미지 생성 튜토리얼",
-    "url": "https://gost1227.blogspot.com/2025/11/ai_01477824809.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-11-16T04:22:25.285778",
     "title": "🤖 AI 비즈니스 활용 - 최적화 가이드 리뷰",
     "title_hash": "ed77440129793c89f526f8d61f34c045",
@@ -1391,6 +1377,20 @@
     "title_hash": "72b7bd2aa21a5af04798e1ec7fc98e68",
     "topic": "교육자을 위한 AI API 활용 로드맵",
     "url": "https://gost1227.blogspot.com/2026/02/ai-api_02035663936.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-02-23T05:23:26.257353",
+    "title": "🤖 [2026년 02월] AI 협업 도구 비용 절감 정리",
+    "title_hash": "6d2ad0f4cefa8746c449ed52f2612231",
+    "topic": "[2026년 02월] AI 협업 도구 비용 절감 정리",
+    "url": "https://gost1227.blogspot.com/2026/02/2026-02-ai_01468605128.html",
     "labels": [
       "AI",
       "인공지능",

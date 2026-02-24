@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-11-16T04:22:25.285778",
-    "title": "🤖 AI 비즈니스 활용 - 최적화 가이드 리뷰",
-    "title_hash": "ed77440129793c89f526f8d61f34c045",
-    "topic": "AI 비즈니스 활용 - 최적화 가이드 리뷰",
-    "url": "https://gost1227.blogspot.com/2025/11/ai_02127336780.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-11-17T04:22:50.423043",
     "title": "🤖 AI 번역 활용 - 실무 적용 사례 연구",
     "title_hash": "dbd131c810bd89f41ae6dd40abcef442",
@@ -1391,6 +1377,20 @@
     "title_hash": "6d2ad0f4cefa8746c449ed52f2612231",
     "topic": "[2026년 02월] AI 협업 도구 비용 절감 정리",
     "url": "https://gost1227.blogspot.com/2026/02/2026-02-ai_01468605128.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-02-24T05:19:35.857379",
+    "title": "🤖 AI 음악 제작 - 단계별 Q&A",
+    "title_hash": "3607066f9cd7cb9f54c3bc4160420773",
+    "topic": "AI 음악 제작 - 단계별 Q&A",
+    "url": "https://gost1227.blogspot.com/2026/02/ai-q_0306960844.html",
     "labels": [
       "AI",
       "인공지능",

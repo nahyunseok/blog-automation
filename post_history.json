@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-11-18T04:20:22.646774",
-    "title": "🤖 학생을 위한 Midjourney 사용법 로드맵",
-    "title_hash": "3693eac804d006c7dbf1fdc13cf2cc31",
-    "topic": "학생을 위한 Midjourney 사용법 로드맵",
-    "url": "https://gost1227.blogspot.com/2025/11/midjourney.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-11-19T04:19:55.817485",
     "title": "🤖 노코드 AI 도구: 스타트업의 팁 모음",
     "title_hash": "9733b5ce63d2bcd55aa99125598692d4",
@@ -1391,6 +1377,20 @@
     "title_hash": "666fd94d57ee2c7bda92cd8316832905",
     "topic": "블로거을 위한 AI 보안과 프라이버시 실험 결과",
     "url": "https://gost1227.blogspot.com/2026/02/ai_048794252.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-02-26T05:17:52.702107",
+    "title": "🤖 마케터을 위한 ChatGPT 활용법 전략",
+    "title_hash": "21e1adcb2aecfaecdf9a55ca27077c6e",
+    "topic": "마케터을 위한 ChatGPT 활용법 전략",
+    "url": "https://gost1227.blogspot.com/2026/02/chatgpt.html",
     "labels": [
       "AI",
       "인공지능",

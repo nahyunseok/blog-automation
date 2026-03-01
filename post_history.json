@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-11-21T04:19:47.115775",
-    "title": "🤖 노코드 AI 도구: 교육자의 가이드",
-    "title_hash": "c0ca38f0546355dde457627cd6da3ef5",
-    "topic": "노코드 AI 도구: 교육자의 가이드",
-    "url": "https://gost1227.blogspot.com/2025/11/ai_01727551601.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-11-22T04:18:40.670834",
     "title": "🤖 학생을 위한 AI 트렌드 분석 전략",
     "title_hash": "5b59df67dd879d06c6dc7c78cfa390f0",
@@ -1391,6 +1377,20 @@
     "title_hash": "70421cf928af6a2a1b562af795674aab",
     "topic": "AI 플러그인 추천 - 트러블슈팅 리뷰",
     "url": "https://gost1227.blogspot.com/2026/02/ai_01684253289.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-03-01T05:15:41.906444",
+    "title": "🤖 작가을 위한 Perplexity 검색 팁 후기",
+    "title_hash": "3288bde5d9e3a7c8e4d4553f660257b8",
+    "topic": "작가을 위한 Perplexity 검색 팁 후기",
+    "url": "https://gost1227.blogspot.com/2026/03/perplexity.html",
     "labels": [
       "AI",
       "인공지능",

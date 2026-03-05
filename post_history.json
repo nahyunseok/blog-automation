@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-11-25T04:22:51.317082",
-    "title": "🤖 스타트업을 위한 AI API 활용 전략",
-    "title_hash": "adb4abc2fd44861eb22b4a7e96d9daae",
-    "topic": "스타트업을 위한 AI API 활용 전략",
-    "url": "https://gost1227.blogspot.com/2025/11/ai-api.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-11-26T04:21:58.358438",
     "title": "🤖 Perplexity 검색 팁: 콘텐츠 크리에이터의 인터뷰",
     "title_hash": "a147a4e57a1332bc48b3d24da65547fb",
@@ -1391,6 +1377,20 @@
     "title_hash": "2a280fcdc63b681f3c80e1da64925350",
     "topic": "[2026년 03월] AI 보안과 프라이버시 최적화 가이드 정리",
     "url": "https://gost1227.blogspot.com/2026/03/2026-03-ai.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-03-05T05:10:20.152830",
+    "title": "🤖 심화 학습 AI 비즈니스 활용 비교 분석",
+    "title_hash": "d458be26075d1b32fc81d9dcc03cef23",
+    "topic": "심화 학습 AI 비즈니스 활용 비교 분석",
+    "url": "https://gost1227.blogspot.com/2026/03/ai_0233485665.html",
     "labels": [
       "AI",
       "인공지능",

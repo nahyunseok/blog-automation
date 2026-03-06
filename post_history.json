@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-11-26T04:21:58.358438",
-    "title": "🤖 Perplexity 검색 팁: 콘텐츠 크리에이터의 인터뷰",
-    "title_hash": "a147a4e57a1332bc48b3d24da65547fb",
-    "topic": "Perplexity 검색 팁: 콘텐츠 크리에이터의 인터뷰",
-    "url": "https://gost1227.blogspot.com/2025/11/perplexity_020527632.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-11-27T04:20:22.064223",
     "title": "🤖 [2025년 11월] AI 글쓰기 비법 숨겨진 기능 정리",
     "title_hash": "c021d096845d0100303f9b431d70261a",
@@ -1391,6 +1377,20 @@
     "title_hash": "d458be26075d1b32fc81d9dcc03cef23",
     "topic": "심화 학습 AI 비즈니스 활용 비교 분석",
     "url": "https://gost1227.blogspot.com/2026/03/ai_0233485665.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-03-06T05:07:54.318986",
+    "title": "🤖 AI 윤리와 미래: 연구원의 벤치마크",
+    "title_hash": "775fe0c5a8afc561a139ce6e6a17b2a8",
+    "topic": "AI 윤리와 미래: 연구원의 벤치마크",
+    "url": "https://gost1227.blogspot.com/2026/03/ai_01357816608.html",
     "labels": [
       "AI",
       "인공지능",

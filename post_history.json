@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-11-27T04:20:22.064223",
-    "title": "🤖 [2025년 11월] AI 글쓰기 비법 숨겨진 기능 정리",
-    "title_hash": "c021d096845d0100303f9b431d70261a",
-    "topic": "[2025년 11월] AI 글쓰기 비법 숨겨진 기능 정리",
-    "url": "https://gost1227.blogspot.com/2025/11/2025-11-ai_01116704988.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-11-28T04:20:11.959599",
     "title": "🤖 입문자을 위한 AI 비즈니스 활용 리뷰",
     "title_hash": "77cf9036f8841115560fe06408aa283b",
@@ -1391,6 +1377,20 @@
     "title_hash": "775fe0c5a8afc561a139ce6e6a17b2a8",
     "topic": "AI 윤리와 미래: 연구원의 벤치마크",
     "url": "https://gost1227.blogspot.com/2026/03/ai_01357816608.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-03-07T04:58:19.869591",
+    "title": "🤖 AI 창작 도구 - 트러블슈팅 팁 모음",
+    "title_hash": "259706d5b66327620e38cd01412a0fa8",
+    "topic": "AI 창작 도구 - 트러블슈팅 팁 모음",
+    "url": "https://gost1227.blogspot.com/2026/03/ai_0709994370.html",
     "labels": [
       "AI",
       "인공지능",

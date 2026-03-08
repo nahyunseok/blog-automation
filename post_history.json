@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-11-28T04:20:11.959599",
-    "title": "🤖 입문자을 위한 AI 비즈니스 활용 리뷰",
-    "title_hash": "77cf9036f8841115560fe06408aa283b",
-    "topic": "입문자을 위한 AI 비즈니스 활용 리뷰",
-    "url": "https://gost1227.blogspot.com/2025/11/ai_01907684990.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-11-29T04:19:27.107859",
     "title": "🤖 고급 사용자을 위한 Stable Diffusion 가이드 Q&A",
     "title_hash": "b5c5b121a38f42975eb5d9c683427508",
@@ -1391,6 +1377,20 @@
     "title_hash": "259706d5b66327620e38cd01412a0fa8",
     "topic": "AI 창작 도구 - 트러블슈팅 팁 모음",
     "url": "https://gost1227.blogspot.com/2026/03/ai_0709994370.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-03-08T05:07:17.009410",
+    "title": "🤖 [2026년 03월] AI 데이터 분석 시간 단축 정리",
+    "title_hash": "3d70dd96a563ff68566ea1797fa2d5c3",
+    "topic": "[2026년 03월] AI 데이터 분석 시간 단축 정리",
+    "url": "https://gost1227.blogspot.com/2026/03/2026-03-ai_01851950023.html",
     "labels": [
       "AI",
       "인공지능",

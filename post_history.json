@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-11-29T04:19:27.107859",
-    "title": "🤖 고급 사용자을 위한 Stable Diffusion 가이드 Q&A",
-    "title_hash": "b5c5b121a38f42975eb5d9c683427508",
-    "topic": "고급 사용자을 위한 Stable Diffusion 가이드 Q&A",
-    "url": "https://gost1227.blogspot.com/2025/11/stable-diffusion-q.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-11-30T04:31:09.462328",
     "title": "🤖 [2025년 11월] AI 코딩 도우미 전문가가 알려주는 정리",
     "title_hash": "47e88a43ebf1f02a8c3d282811e95c01",
@@ -1391,6 +1377,20 @@
     "title_hash": "3d70dd96a563ff68566ea1797fa2d5c3",
     "topic": "[2026년 03월] AI 데이터 분석 시간 단축 정리",
     "url": "https://gost1227.blogspot.com/2026/03/2026-03-ai_01851950023.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-03-09T05:17:50.325954",
+    "title": "🤖 개발자을 위한 AI 협업 도구 Q&A",
+    "title_hash": "2870f3731abdfd928cb2afb48ef609e2",
+    "topic": "개발자을 위한 AI 협업 도구 Q&A",
+    "url": "https://gost1227.blogspot.com/2026/03/ai-q.html",
     "labels": [
       "AI",
       "인공지능",

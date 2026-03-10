@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-11-30T04:31:09.462328",
-    "title": "🤖 [2025년 11월] AI 코딩 도우미 전문가가 알려주는 정리",
-    "title_hash": "47e88a43ebf1f02a8c3d282811e95c01",
-    "topic": "[2025년 11월] AI 코딩 도우미 전문가가 알려주는 정리",
-    "url": "https://gost1227.blogspot.com/2025/11/2025-11-ai_084932009.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-12-01T04:45:40.630163",
     "title": "🤖 디자이너을 위한 ChatGPT 활용법 체크리스트",
     "title_hash": "1d6fdc3fe4c77c3b5f458a5bce39c38d",
@@ -1391,6 +1377,20 @@
     "title_hash": "2870f3731abdfd928cb2afb48ef609e2",
     "topic": "개발자을 위한 AI 협업 도구 Q&A",
     "url": "https://gost1227.blogspot.com/2026/03/ai-q.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-03-10T05:07:20.935937",
+    "title": "🤖 직장인을 위한 AI 창작 도구 리뷰",
+    "title_hash": "f3b716b75627910f5e472e680f5a975f",
+    "topic": "직장인을 위한 AI 창작 도구 리뷰",
+    "url": "https://gost1227.blogspot.com/2026/03/ai_01167153726.html",
     "labels": [
       "AI",
       "인공지능",

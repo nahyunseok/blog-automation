@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-12-03T04:25:32.598122",
-    "title": "🤖 AI 창작 도구 - 완전정복 Q&A",
-    "title_hash": "91ad1df44f39815957b2ed2f21fa5e89",
-    "topic": "AI 창작 도구 - 완전정복 Q&A",
-    "url": "https://gost1227.blogspot.com/2025/12/ai-q_01082082585.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-12-04T04:27:37.820661",
     "title": "🤖 AI 창작 도구: 기획자의 튜토리얼",
     "title_hash": "c39a6befd54858a73e47bd0055897da3",
@@ -1391,6 +1377,20 @@
     "title_hash": "e1de67b9473309d718cacc6735fbd173",
     "topic": "AI 영상 편집: 학생의 실험 결과",
     "url": "https://gost1227.blogspot.com/2026/03/ai_01617281439.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-03-13T05:11:06.154088",
+    "title": "🤖 완전정복 딥러닝 입문 가이드",
+    "title_hash": "efc1a978020f98a5c0fa7d8112bcfcea",
+    "topic": "완전정복 딥러닝 입문 가이드",
+    "url": "https://gost1227.blogspot.com/2026/03/blog-post.html",
     "labels": [
       "AI",
       "인공지능",

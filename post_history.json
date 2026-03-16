@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-12-06T04:18:35.929249",
-    "title": "🤖 콘텐츠 크리에이터을 위한 AI API 활용 Q&A",
-    "title_hash": "c53a984dca03586023005fbbe4c6949a",
-    "topic": "콘텐츠 크리에이터을 위한 AI API 활용 Q&A",
-    "url": "https://gost1227.blogspot.com/2025/12/ai-api-q.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-12-07T04:30:07.951425",
     "title": "🤖 [2025년 12월] AI 이미지 생성 효율 200% 높이는 정리",
     "title_hash": "cb7af87f6fc34416deef9e6ffa66d2e3",
@@ -1391,6 +1377,20 @@
     "title_hash": "51e9b39a474f4c39ab5cb7db839925ed",
     "topic": "[2026년 03월] AI 음악 제작 창의적인 정리",
     "url": "https://gost1227.blogspot.com/2026/03/2026-03-ai_0659010948.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-03-16T05:47:22.169118",
+    "title": "🤖 실패 극복 AI 창작 도구 전략",
+    "title_hash": "e715bdcb18d87645db40e06aaa2ccd99",
+    "topic": "실패 극복 AI 창작 도구 전략",
+    "url": "https://gost1227.blogspot.com/2026/03/ai_01253052995.html",
     "labels": [
       "AI",
       "인공지능",

@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-12-08T04:30:44.882866",
-    "title": "🤖 AI 보안과 프라이버시: 기획자의 체크리스트",
-    "title_hash": "2c6a72df61558e67c71e54a17e974f18",
-    "topic": "AI 보안과 프라이버시: 기획자의 체크리스트",
-    "url": "https://gost1227.blogspot.com/2025/12/ai_01666132417.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-12-09T04:26:26.857627",
     "title": "🤖 Perplexity 검색 팁 - 초보자를 위한 실험 결과",
     "title_hash": "4f138196cdc281a50747b0e6dd71474f",
@@ -1391,6 +1377,20 @@
     "title_hash": "cbd51fba0cb760792c95bc4a28d5abee",
     "topic": "딥러닝 입문 - 케이스 스터디 벤치마크",
     "url": "https://gost1227.blogspot.com/2026/03/blog-post_17.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-03-18T05:23:23.009068",
+    "title": "🤖 마케터을 위한 Perplexity 검색 팁 리뷰",
+    "title_hash": "e765b5a4e21977c5e8bba97cc9190098",
+    "topic": "마케터을 위한 Perplexity 검색 팁 리뷰",
+    "url": "https://gost1227.blogspot.com/2026/03/perplexity_01559820893.html",
     "labels": [
       "AI",
       "인공지능",

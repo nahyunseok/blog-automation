@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-12-11T04:32:19.235793",
-    "title": "🤖 성공 사례 AI 이미지 생성 체크리스트",
-    "title_hash": "470f450e62e740cbef3f4d76909ba1e9",
-    "topic": "성공 사례 AI 이미지 생성 체크리스트",
-    "url": "https://gost1227.blogspot.com/2025/12/ai_01465837571.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-12-12T04:31:13.090708",
     "title": "🤖 AI 음악 제작: 프리랜서의 인터뷰",
     "title_hash": "0c9445475a0901cfc9cd090262c3d1f4",
@@ -1391,6 +1377,20 @@
     "title_hash": "fd226d88a81be3739ff5f2eed351bd2a",
     "topic": "[2026년 03월] AI 영상 편집 비용 절감 정리",
     "url": "https://gost1227.blogspot.com/2026/03/2026-03-ai_01335454909.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-03-21T05:04:23.164917",
+    "title": "🤖 노코드 AI 도구 - 숨겨진 기능 사례 연구",
+    "title_hash": "04599da1ea01819269faa26698e53f2c",
+    "topic": "노코드 AI 도구 - 숨겨진 기능 사례 연구",
+    "url": "https://gost1227.blogspot.com/2026/03/ai_01875719326.html",
     "labels": [
       "AI",
       "인공지능",

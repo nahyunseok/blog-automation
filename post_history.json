@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-12-13T04:22:40.884762",
-    "title": "🤖 [2025년 12월] AI 이미지 생성 성공 사례 정리",
-    "title_hash": "7082cd83ec76e56d8cfe943137b4dc56",
-    "topic": "[2025년 12월] AI 이미지 생성 성공 사례 정리",
-    "url": "https://gost1227.blogspot.com/2025/12/2025-12-ai.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-12-14T04:33:19.833738",
     "title": "🤖 Perplexity 검색 팁: 작가의 Q&A",
     "title_hash": "d06f829eb13c921378a779d2f11763be",
@@ -1391,6 +1377,20 @@
     "title_hash": "a6c1fa7456d2c13a64a101c063ae128a",
     "topic": "프리랜서을 위한 AI 마케팅 전략 로드맵",
     "url": "https://gost1227.blogspot.com/2026/03/ai_01006607188.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-03-23T05:27:43.504158",
+    "title": "🤖 [2026년 03월] AI 이미지 생성 창의적인 정리",
+    "title_hash": "4da0c871a728933fd51009ac78cbe426",
+    "topic": "[2026년 03월] AI 이미지 생성 창의적인 정리",
+    "url": "https://gost1227.blogspot.com/2026/03/2026-03-ai_0299456527.html",
     "labels": [
       "AI",
       "인공지능",

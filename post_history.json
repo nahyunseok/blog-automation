@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-12-15T04:36:44.845590",
-    "title": "🤖 단계별 AI 영상 편집 로드맵",
-    "title_hash": "8fdb0586d8c396e9061617bd35c03622",
-    "topic": "단계별 AI 영상 편집 로드맵",
-    "url": "https://gost1227.blogspot.com/2025/12/ai_01637241193.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-12-16T04:32:26.302686",
     "title": "🤖 머신러닝 기초 - 전문가가 알려주는 리뷰",
     "title_hash": "f2ea2f9a482558444623f9bcd8049127",
@@ -1391,6 +1377,20 @@
     "title_hash": "c504520187eb93dbf8a938fddd5b001e",
     "topic": "성공 사례 Midjourney 사용법 튜토리얼",
     "url": "https://gost1227.blogspot.com/2026/03/midjourney.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-03-25T05:21:30.593112",
+    "title": "🤖 창의적인 AI 음악 제작 사례 연구",
+    "title_hash": "1533354bb2d851d9b8444e7b9a3e63ac",
+    "topic": "창의적인 AI 음악 제작 사례 연구",
+    "url": "https://gost1227.blogspot.com/2026/03/ai_01487182419.html",
     "labels": [
       "AI",
       "인공지능",

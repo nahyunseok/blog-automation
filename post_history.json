@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-12-17T04:29:46.547436",
-    "title": "🤖 [2025년 12월] AI 마케팅 전략 핵심정리 정리",
-    "title_hash": "76d89039d36d9d7da61b8ce8e137350e",
-    "topic": "[2025년 12월] AI 마케팅 전략 핵심정리 정리",
-    "url": "https://gost1227.blogspot.com/2025/12/2025-12-ai_0656667923.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-12-18T04:30:49.646860",
     "title": "🤖 실수하지 않는 AI 트렌드 분석 실험 결과",
     "title_hash": "0cf8f155c409d16511bc05090939b9d6",
@@ -1391,6 +1377,20 @@
     "title_hash": "ffcbe5de44903f3e89df7804a183248c",
     "topic": "AI 생산성 향상 - 케이스 스터디 로드맵",
     "url": "https://gost1227.blogspot.com/2026/03/ai_01103096444.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-03-27T05:40:14.274536",
+    "title": "🤖 [2026년 03월] AI 음악 제작 핵심정리 정리",
+    "title_hash": "d5abc44f00399bf8ef770439e20dc16b",
+    "topic": "[2026년 03월] AI 음악 제작 핵심정리 정리",
+    "url": "https://gost1227.blogspot.com/2026/03/2026-03-ai_0104801966.html",
     "labels": [
       "AI",
       "인공지능",

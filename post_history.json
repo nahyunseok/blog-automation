@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-12-18T04:30:49.646860",
-    "title": "🤖 실수하지 않는 AI 트렌드 분석 실험 결과",
-    "title_hash": "0cf8f155c409d16511bc05090939b9d6",
-    "topic": "실수하지 않는 AI 트렌드 분석 실험 결과",
-    "url": "https://gost1227.blogspot.com/2025/12/ai_01511810514.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-12-19T04:30:59.455911",
     "title": "🤖 Gemini 고급 기능 - 완전정복 실험 결과",
     "title_hash": "6e844d4774f6edf812d222aebcbf0686",
@@ -1391,6 +1377,20 @@
     "title_hash": "d5abc44f00399bf8ef770439e20dc16b",
     "topic": "[2026년 03월] AI 음악 제작 핵심정리 정리",
     "url": "https://gost1227.blogspot.com/2026/03/2026-03-ai_0104801966.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-03-28T05:19:25.160101",
+    "title": "🤖 유튜버을 위한 AI 비즈니스 활용 가이드",
+    "title_hash": "b4ef33763caec576c06084fd3ba89974",
+    "topic": "유튜버을 위한 AI 비즈니스 활용 가이드",
+    "url": "https://gost1227.blogspot.com/2026/03/ai_01429778187.html",
     "labels": [
       "AI",
       "인공지능",

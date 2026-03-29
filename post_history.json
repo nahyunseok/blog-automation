@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-12-19T04:30:59.455911",
-    "title": "🤖 Gemini 고급 기능 - 완전정복 실험 결과",
-    "title_hash": "6e844d4774f6edf812d222aebcbf0686",
-    "topic": "Gemini 고급 기능 - 완전정복 실험 결과",
-    "url": "https://gost1227.blogspot.com/2025/12/gemini.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-12-20T04:22:40.572931",
     "title": "🤖 AI 프레젠테이션 - 실무 적용 튜토리얼",
     "title_hash": "5d91adf4b1e1ed72f994b166c553af9a",
@@ -1391,6 +1377,20 @@
     "title_hash": "b4ef33763caec576c06084fd3ba89974",
     "topic": "유튜버을 위한 AI 비즈니스 활용 가이드",
     "url": "https://gost1227.blogspot.com/2026/03/ai_01429778187.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-03-29T05:41:11.790941",
+    "title": "🤖 숨겨진 기능 노코드 AI 도구 벤치마크",
+    "title_hash": "56cf050ba2a69582fcf21047454e2a22",
+    "topic": "숨겨진 기능 노코드 AI 도구 벤치마크",
+    "url": "https://gost1227.blogspot.com/2026/03/ai_01736499090.html",
     "labels": [
       "AI",
       "인공지능",

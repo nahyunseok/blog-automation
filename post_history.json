@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-12-21T04:34:08.842293",
-    "title": "🤖 연구원을 위한 AI 비즈니스 활용 팁 모음",
-    "title_hash": "a40a5306f6a86eebfd387bb1353a1439",
-    "topic": "연구원을 위한 AI 비즈니스 활용 팁 모음",
-    "url": "https://gost1227.blogspot.com/2025/12/ai_0346284060.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-12-22T04:36:42.598858",
     "title": "🤖 노코드 AI 도구: 기획자의 인터뷰",
     "title_hash": "435c448ed9c9087f64d9273180a36d2a",
@@ -1391,6 +1377,20 @@
     "title_hash": "ee129e602c6a4f85117f824f2abf853b",
     "topic": "AI 트렌드 분석: 개발자의 팁 모음",
     "url": "https://gost1227.blogspot.com/2026/03/ai_0769886819.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-03-31T05:42:13.378686",
+    "title": "🤖 디자이너을 위한 AI 자동화 시스템 팁 모음",
+    "title_hash": "2ea7e6343d0774b9f4f241c696741bac",
+    "topic": "디자이너을 위한 AI 자동화 시스템 팁 모음",
+    "url": "https://gost1227.blogspot.com/2026/03/ai_0776635715.html",
     "labels": [
       "AI",
       "인공지능",

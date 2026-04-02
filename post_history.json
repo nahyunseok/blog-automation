@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-12-23T04:34:56.245219",
-    "title": "🤖 [2025년 12월] AI 이미지 생성 케이스 스터디 정리",
-    "title_hash": "9b20cc5fc70db54cbe2074f8b507db49",
-    "topic": "[2025년 12월] AI 이미지 생성 케이스 스터디 정리",
-    "url": "https://gost1227.blogspot.com/2025/12/2025-12-ai_0104118443.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-12-24T04:32:49.050807",
     "title": "🤖 스타트업을 위한 AI 음악 제작 인터뷰",
     "title_hash": "f21cb1939dea03af73fa51e01b5175b1",
@@ -1391,6 +1377,20 @@
     "title_hash": "c05f436d1b1cc264b2e04ff2a4bb1a6b",
     "topic": "AI 프롬프트 엔지니어링: 개발자의 리뷰",
     "url": "https://gost1227.blogspot.com/2026/04/ai.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-02T05:39:24.738554",
+    "title": "🤖 AI 음악 제작 - 최적화 가이드 가이드",
+    "title_hash": "0ffbe89255262f896674870ed026c174",
+    "topic": "AI 음악 제작 - 최적화 가이드 가이드",
+    "url": "https://gost1227.blogspot.com/2026/04/ai_0986841958.html",
     "labels": [
       "AI",
       "인공지능",

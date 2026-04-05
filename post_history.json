@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-12-26T04:32:03.179326",
-    "title": "🤖 [2025년 12월] AI 창작 도구 성공 사례 정리",
-    "title_hash": "eb76bf283285677e8a7771bdc245612c",
-    "topic": "[2025년 12월] AI 창작 도구 성공 사례 정리",
-    "url": "https://gost1227.blogspot.com/2025/12/2025-12-ai_0976419886.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-12-27T04:29:22.423948",
     "title": "🤖 AI 생산성 향상: 유튜버의 Q&A",
     "title_hash": "7a17a82b182b37f3a63547134698908b",
@@ -1391,6 +1377,20 @@
     "title_hash": "e9d222411e848ca5fa84b9736def8180",
     "topic": "[2026년 04월] AI 생산성 향상 초보자를 위한 정리",
     "url": "https://gost1227.blogspot.com/2026/04/2026-04-ai_0648434151.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-05T05:42:46.657168",
+    "title": "🤖 비용 절감 머신러닝 기초 실험 결과",
+    "title_hash": "bee50fbe7af86a8e26fa5b96d4f270aa",
+    "topic": "비용 절감 머신러닝 기초 실험 결과",
+    "url": "https://gost1227.blogspot.com/2026/04/blog-post.html",
     "labels": [
       "AI",
       "인공지능",

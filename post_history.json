@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-12-28T04:40:55.787867",
-    "title": "🤖 AI 비즈니스 활용 - 비용 절감 로드맵",
-    "title_hash": "22920733034d884f9e593d334a2f0742",
-    "topic": "AI 비즈니스 활용 - 비용 절감 로드맵",
-    "url": "https://gost1227.blogspot.com/2025/12/ai_0307944130.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-12-29T04:45:18.363922",
     "title": "🤖 [2025년 12월] 딥러닝 입문 비용 절감 정리",
     "title_hash": "2739e352eb379c39e8406db9c3744b1d",
@@ -1391,6 +1377,20 @@
     "title_hash": "fdc9f2972625ac5e51ab700c0f2083f1",
     "topic": "AI 트렌드 분석 - 비교 분석 벤치마크",
     "url": "https://gost1227.blogspot.com/2026/04/ai_0235746045.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-07T05:44:40.551186",
+    "title": "🤖 머신러닝 기초 - 비교 분석 인터뷰",
+    "title_hash": "35326119ddb91e9f1b8fe510953d2b4b",
+    "topic": "머신러닝 기초 - 비교 분석 인터뷰",
+    "url": "https://gost1227.blogspot.com/2026/04/blog-post_07.html",
     "labels": [
       "AI",
       "인공지능",

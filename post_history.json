@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-12-29T04:45:18.363922",
-    "title": "🤖 [2025년 12월] 딥러닝 입문 비용 절감 정리",
-    "title_hash": "2739e352eb379c39e8406db9c3744b1d",
-    "topic": "[2025년 12월] 딥러닝 입문 비용 절감 정리",
-    "url": "https://gost1227.blogspot.com/2025/12/2025-12.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-12-30T04:36:13.410796",
     "title": "🤖 [2025년 12월] AI 이미지 생성 실패 극복 정리",
     "title_hash": "ac145f84821011ac55878b852bcef048",
@@ -1391,6 +1377,20 @@
     "title_hash": "35326119ddb91e9f1b8fe510953d2b4b",
     "topic": "머신러닝 기초 - 비교 분석 인터뷰",
     "url": "https://gost1227.blogspot.com/2026/04/blog-post_07.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-08T05:44:34.136190",
+    "title": "🤖 연구원을 위한 AI 프롬프트 엔지니어링 튜토리얼",
+    "title_hash": "280d098d1c64a8df2354e9355512c1a1",
+    "topic": "연구원을 위한 AI 프롬프트 엔지니어링 튜토리얼",
+    "url": "https://gost1227.blogspot.com/2026/04/ai_01336266963.html",
     "labels": [
       "AI",
       "인공지능",

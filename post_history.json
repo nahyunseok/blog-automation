@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-12-30T04:36:13.410796",
-    "title": "🤖 [2025년 12월] AI 이미지 생성 실패 극복 정리",
-    "title_hash": "ac145f84821011ac55878b852bcef048",
-    "topic": "[2025년 12월] AI 이미지 생성 실패 극복 정리",
-    "url": "https://gost1227.blogspot.com/2025/12/2025-12-ai_0289808760.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2025-12-31T04:35:37.170839",
     "title": "🤖 AI 이미지 생성: 학생의 전략",
     "title_hash": "504b7361daf2a1404f73123a372b4c57",
@@ -1391,6 +1377,20 @@
     "title_hash": "280d098d1c64a8df2354e9355512c1a1",
     "topic": "연구원을 위한 AI 프롬프트 엔지니어링 튜토리얼",
     "url": "https://gost1227.blogspot.com/2026/04/ai_01336266963.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-09T05:46:33.169849",
+    "title": "🤖 콘텐츠 크리에이터을 위한 AI 영상 편집 체크리스트",
+    "title_hash": "c1328a7f794e61ec14c9b94c948dab84",
+    "topic": "콘텐츠 크리에이터을 위한 AI 영상 편집 체크리스트",
+    "url": "https://gost1227.blogspot.com/2026/04/ai_01607682996.html",
     "labels": [
       "AI",
       "인공지능",

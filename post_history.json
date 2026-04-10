@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2025-12-31T04:35:37.170839",
-    "title": "🤖 AI 이미지 생성: 학생의 전략",
-    "title_hash": "504b7361daf2a1404f73123a372b4c57",
-    "topic": "AI 이미지 생성: 학생의 전략",
-    "url": "https://gost1227.blogspot.com/2025/12/ai_039665550.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-01T04:44:09.760879",
     "title": "🤖 고급 사용자을 위한 AI 데이터 분석 사례 연구",
     "title_hash": "919150e20bc201e463533875cc8ec76f",
@@ -1391,6 +1377,20 @@
     "title_hash": "c1328a7f794e61ec14c9b94c948dab84",
     "topic": "콘텐츠 크리에이터을 위한 AI 영상 편집 체크리스트",
     "url": "https://gost1227.blogspot.com/2026/04/ai_01607682996.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-10T05:54:44.102499",
+    "title": "🤖 AI 이미지 생성: 중장년층의 Q&A",
+    "title_hash": "1bdd03d0fedb055043cc261125e98f2d",
+    "topic": "AI 이미지 생성: 중장년층의 Q&A",
+    "url": "https://gost1227.blogspot.com/2026/04/ai-q.html",
     "labels": [
       "AI",
       "인공지능",

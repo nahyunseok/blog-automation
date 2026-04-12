@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-02T04:37:36.101572",
-    "title": "🤖 [2026년 01월] AI 이미지 생성 창의적인 정리",
-    "title_hash": "2fc9d369f9cab75db391229e4ddeeb9b",
-    "topic": "[2026년 01월] AI 이미지 생성 창의적인 정리",
-    "url": "https://gost1227.blogspot.com/2026/01/2026-01-ai.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-03T04:29:25.481791",
     "title": "🤖 Midjourney 사용법: 직장인의 후기",
     "title_hash": "0d6def22dfb5056360b8fd0e6c7907db",
@@ -1391,6 +1377,20 @@
     "title_hash": "f68dd5a3c6b652ccd52528a31edac5f9",
     "topic": "[2026년 04월] AI 비즈니스 활용 효율 200% 높이는 정리",
     "url": "https://gost1227.blogspot.com/2026/04/2026-04-ai-200.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-12T05:51:32.905052",
+    "title": "🤖 AI 이미지 생성 - 숨겨진 기능 로드맵",
+    "title_hash": "67dfccc4d3bbf3a95caa8188fb4fd04f",
+    "topic": "AI 이미지 생성 - 숨겨진 기능 로드맵",
+    "url": "https://gost1227.blogspot.com/2026/04/ai_01280071088.html",
     "labels": [
       "AI",
       "인공지능",

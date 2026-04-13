@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-03T04:29:25.481791",
-    "title": "🤖 Midjourney 사용법: 직장인의 후기",
-    "title_hash": "0d6def22dfb5056360b8fd0e6c7907db",
-    "topic": "Midjourney 사용법: 직장인의 후기",
-    "url": "https://gost1227.blogspot.com/2026/01/midjourney.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-04T04:45:17.060904",
     "title": "🤖 AI 보안과 프라이버시 - 실무 적용 가이드",
     "title_hash": "b7b47243320832b4216a088bd7c96985",
@@ -1391,6 +1377,20 @@
     "title_hash": "67dfccc4d3bbf3a95caa8188fb4fd04f",
     "topic": "AI 이미지 생성 - 숨겨진 기능 로드맵",
     "url": "https://gost1227.blogspot.com/2026/04/ai_01280071088.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-13T06:10:58.069924",
+    "title": "🤖 작가을 위한 노코드 AI 도구 팁 모음",
+    "title_hash": "50dae185d9336610d45f661d9847fc94",
+    "topic": "작가을 위한 노코드 AI 도구 팁 모음",
+    "url": "https://gost1227.blogspot.com/2026/04/ai_0231454190.html",
     "labels": [
       "AI",
       "인공지능",

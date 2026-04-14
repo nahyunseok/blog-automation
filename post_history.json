@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-04T04:45:17.060904",
-    "title": "🤖 AI 보안과 프라이버시 - 실무 적용 가이드",
-    "title_hash": "b7b47243320832b4216a088bd7c96985",
-    "topic": "AI 보안과 프라이버시 - 실무 적용 가이드",
-    "url": "https://gost1227.blogspot.com/2026/01/ai_02013210714.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-05T04:54:03.015762",
     "title": "🤖 Gemini 고급 기능: 유튜버의 전략",
     "title_hash": "ad16d21ecbfb05f1c7378803e5376bcb",
@@ -1391,6 +1377,20 @@
     "title_hash": "50dae185d9336610d45f661d9847fc94",
     "topic": "작가을 위한 노코드 AI 도구 팁 모음",
     "url": "https://gost1227.blogspot.com/2026/04/ai_0231454190.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-14T05:58:02.130470",
+    "title": "🤖 기획자을 위한 AI 자동화 시스템 벤치마크",
+    "title_hash": "98e5ecb0a568e1053edf99434b83cfe7",
+    "topic": "기획자을 위한 AI 자동화 시스템 벤치마크",
+    "url": "https://gost1227.blogspot.com/2026/04/ai_01539065883.html",
     "labels": [
       "AI",
       "인공지능",

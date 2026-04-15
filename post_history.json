@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-05T04:54:03.015762",
-    "title": "🤖 Gemini 고급 기능: 유튜버의 전략",
-    "title_hash": "ad16d21ecbfb05f1c7378803e5376bcb",
-    "topic": "Gemini 고급 기능: 유튜버의 전략",
-    "url": "https://gost1227.blogspot.com/2026/01/gemini.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-06T04:36:24.193144",
     "title": "🤖 Claude 사용 팁: 중급자의 튜토리얼",
     "title_hash": "eb188bc1079f0edb5de8d351d5beeda9",
@@ -1391,6 +1377,20 @@
     "title_hash": "98e5ecb0a568e1053edf99434b83cfe7",
     "topic": "기획자을 위한 AI 자동화 시스템 벤치마크",
     "url": "https://gost1227.blogspot.com/2026/04/ai_01539065883.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-15T05:57:54.332185",
+    "title": "🤖 Stable Diffusion 가이드: 마케터의 Q&A",
+    "title_hash": "3091fa262cd5ef538fb6a343bb637a0f",
+    "topic": "Stable Diffusion 가이드: 마케터의 Q&A",
+    "url": "https://gost1227.blogspot.com/2026/04/stable-diffusion-q.html",
     "labels": [
       "AI",
       "인공지능",

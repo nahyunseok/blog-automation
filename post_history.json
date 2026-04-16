@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-06T04:36:24.193144",
-    "title": "🤖 Claude 사용 팁: 중급자의 튜토리얼",
-    "title_hash": "eb188bc1079f0edb5de8d351d5beeda9",
-    "topic": "Claude 사용 팁: 중급자의 튜토리얼",
-    "url": "https://gost1227.blogspot.com/2026/01/claude.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-07T04:37:26.485339",
     "title": "🤖 [2026년 01월] Midjourney 사용법 심화 학습 정리",
     "title_hash": "28f15d5e1f0f3aa862cbdd1f0521b4b9",
@@ -1391,6 +1377,20 @@
     "title_hash": "3091fa262cd5ef538fb6a343bb637a0f",
     "topic": "Stable Diffusion 가이드: 마케터의 Q&A",
     "url": "https://gost1227.blogspot.com/2026/04/stable-diffusion-q.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-16T05:58:57.336463",
+    "title": "🤖 AI 이미지 생성: 개발자의 팁 모음",
+    "title_hash": "ee06b3eb2dbd7c57c4f734900eb63f8c",
+    "topic": "AI 이미지 생성: 개발자의 팁 모음",
+    "url": "https://gost1227.blogspot.com/2026/04/ai_0266627931.html",
     "labels": [
       "AI",
       "인공지능",

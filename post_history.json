@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-07T04:37:26.485339",
-    "title": "🤖 [2026년 01월] Midjourney 사용법 심화 학습 정리",
-    "title_hash": "28f15d5e1f0f3aa862cbdd1f0521b4b9",
-    "topic": "[2026년 01월] Midjourney 사용법 심화 학습 정리",
-    "url": "https://gost1227.blogspot.com/2026/01/2026-01-midjourney.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-08T04:36:15.414414",
     "title": "🤖 Stable Diffusion 가이드 - 체크리스트 튜토리얼",
     "title_hash": "d1fa2bf7111716ccca4321cc604881c7",
@@ -1391,6 +1377,20 @@
     "title_hash": "ee06b3eb2dbd7c57c4f734900eb63f8c",
     "topic": "AI 이미지 생성: 개발자의 팁 모음",
     "url": "https://gost1227.blogspot.com/2026/04/ai_0266627931.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-17T06:00:34.813380",
+    "title": "🤖 연구원을 위한 AI 이미지 생성 후기",
+    "title_hash": "d6f6fab1e2fd289e10801fc84736a5da",
+    "topic": "연구원을 위한 AI 이미지 생성 후기",
+    "url": "https://gost1227.blogspot.com/2026/04/ai_01155687726.html",
     "labels": [
       "AI",
       "인공지능",

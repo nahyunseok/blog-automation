@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-09T04:37:04.098614",
-    "title": "🤖 유튜버을 위한 AI 트렌드 분석 전략",
-    "title_hash": "3839d0ae36fc0a8e462d5cef450de211",
-    "topic": "유튜버을 위한 AI 트렌드 분석 전략",
-    "url": "https://gost1227.blogspot.com/2026/01/ai_0967974680.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-10T04:30:51.238148",
     "title": "🤖 AI 자동화 시스템 - 5분 마스터 가이드",
     "title_hash": "c5d8ba8c51f8cebf2e1621a58a66b3b4",
@@ -1391,6 +1377,20 @@
     "title_hash": "4a3ed01b86afd588c208aa65f9a7cb04",
     "topic": "AI 창작 도구: 작가의 인터뷰",
     "url": "https://gost1227.blogspot.com/2026/04/ai_0613916243.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-19T05:55:48.355962",
+    "title": "🤖 AI 협업 도구 - 비용 절감 Q&A",
+    "title_hash": "2d17427f55e5c0fc33b91e2093ef3819",
+    "topic": "AI 협업 도구 - 비용 절감 Q&A",
+    "url": "https://gost1227.blogspot.com/2026/04/ai-q_01272170438.html",
     "labels": [
       "AI",
       "인공지능",

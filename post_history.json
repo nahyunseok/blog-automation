@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-10T04:30:51.238148",
-    "title": "🤖 AI 자동화 시스템 - 5분 마스터 가이드",
-    "title_hash": "c5d8ba8c51f8cebf2e1621a58a66b3b4",
-    "topic": "AI 자동화 시스템 - 5분 마스터 가이드",
-    "url": "https://gost1227.blogspot.com/2026/01/ai-5.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-11T04:43:56.087516",
     "title": "🤖 입문자을 위한 Claude 사용 팁 리뷰",
     "title_hash": "ca2b9324d6975ac853a2905bb8ec01db",
@@ -1391,6 +1377,20 @@
     "title_hash": "2d17427f55e5c0fc33b91e2093ef3819",
     "topic": "AI 협업 도구 - 비용 절감 Q&A",
     "url": "https://gost1227.blogspot.com/2026/04/ai-q_01272170438.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-20T06:11:36.191303",
+    "title": "🤖 [2026년 04월] AI API 활용 케이스 스터디 정리",
+    "title_hash": "64c8957395aa4af5d8607ee3276546b2",
+    "topic": "[2026년 04월] AI API 활용 케이스 스터디 정리",
+    "url": "https://gost1227.blogspot.com/2026/04/2026-04-ai-api.html",
     "labels": [
       "AI",
       "인공지능",

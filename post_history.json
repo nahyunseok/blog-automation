@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-11T04:43:56.087516",
-    "title": "🤖 입문자을 위한 Claude 사용 팁 리뷰",
-    "title_hash": "ca2b9324d6975ac853a2905bb8ec01db",
-    "topic": "입문자을 위한 Claude 사용 팁 리뷰",
-    "url": "https://gost1227.blogspot.com/2026/01/claude_01149957196.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-12T04:46:33.377821",
     "title": "🤖 심화 학습 ChatGPT 활용법 후기",
     "title_hash": "cd68cf2c15fc414da596b42b407c08d2",
@@ -1391,6 +1377,20 @@
     "title_hash": "64c8957395aa4af5d8607ee3276546b2",
     "topic": "[2026년 04월] AI API 활용 케이스 스터디 정리",
     "url": "https://gost1227.blogspot.com/2026/04/2026-04-ai-api.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-21T05:59:37.068115",
+    "title": "🤖 실패 극복 딥러닝 입문 가이드",
+    "title_hash": "7679f762e97274fac7d103623e1e2952",
+    "topic": "실패 극복 딥러닝 입문 가이드",
+    "url": "https://gost1227.blogspot.com/2026/04/blog-post_21.html",
     "labels": [
       "AI",
       "인공지능",

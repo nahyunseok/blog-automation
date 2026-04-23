@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-13T04:36:57.083755",
-    "title": "🤖 Claude 사용 팁 - 완전정복 인터뷰",
-    "title_hash": "96bfd0dbf5d626eace2d5206f6864731",
-    "topic": "Claude 사용 팁 - 완전정복 인터뷰",
-    "url": "https://gost1227.blogspot.com/2026/01/claude_0117155069.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-14T04:43:21.455004",
     "title": "🤖 AI 비즈니스 활용: 유튜버의 체크리스트",
     "title_hash": "ea4b57bb86c84318798c865823aef99e",
@@ -1391,6 +1377,20 @@
     "title_hash": "e4331eeda560b54b1585a72ca52c070a",
     "topic": "직장인을 위한 Gemini 고급 기능 실험 결과",
     "url": "https://gost1227.blogspot.com/2026/04/gemini.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-23T06:02:40.955761",
+    "title": "🤖 AI 이미지 생성: 마케터의 전략",
+    "title_hash": "23fdb28aca1ca3715caf083a63aec99c",
+    "topic": "AI 이미지 생성: 마케터의 전략",
+    "url": "https://gost1227.blogspot.com/2026/04/ai_0760526184.html",
     "labels": [
       "AI",
       "인공지능",

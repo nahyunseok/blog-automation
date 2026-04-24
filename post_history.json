@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-14T04:43:21.455004",
-    "title": "🤖 AI 비즈니스 활용: 유튜버의 체크리스트",
-    "title_hash": "ea4b57bb86c84318798c865823aef99e",
-    "topic": "AI 비즈니스 활용: 유튜버의 체크리스트",
-    "url": "https://gost1227.blogspot.com/2026/01/ai_01921210233.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-15T04:36:59.041841",
     "title": "🤖 중장년층을 위한 AI 생산성 향상 Q&A",
     "title_hash": "8f3f2731d9a42b11965e0cee3d3c45e4",
@@ -1391,6 +1377,20 @@
     "title_hash": "23fdb28aca1ca3715caf083a63aec99c",
     "topic": "AI 이미지 생성: 마케터의 전략",
     "url": "https://gost1227.blogspot.com/2026/04/ai_0760526184.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-24T06:05:50.341808",
+    "title": "🤖 [2026년 04월] AI 창작 도구 케이스 스터디 정리",
+    "title_hash": "3d0ebaceb1d30a5e185228b8929e4640",
+    "topic": "[2026년 04월] AI 창작 도구 케이스 스터디 정리",
+    "url": "https://gost1227.blogspot.com/2026/04/2026-04-ai_01361825732.html",
     "labels": [
       "AI",
       "인공지능",

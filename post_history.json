@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-15T04:36:59.041841",
-    "title": "🤖 중장년층을 위한 AI 생산성 향상 Q&A",
-    "title_hash": "8f3f2731d9a42b11965e0cee3d3c45e4",
-    "topic": "중장년층을 위한 AI 생산성 향상 Q&A",
-    "url": "https://gost1227.blogspot.com/2026/01/ai-q.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-16T04:36:50.483443",
     "title": "🤖 학생을 위한 AI 윤리와 미래 튜토리얼",
     "title_hash": "6d383e415cd3e35992a41e330f972819",
@@ -1391,6 +1377,20 @@
     "title_hash": "3d0ebaceb1d30a5e185228b8929e4640",
     "topic": "[2026년 04월] AI 창작 도구 케이스 스터디 정리",
     "url": "https://gost1227.blogspot.com/2026/04/2026-04-ai_01361825732.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-25T05:45:24.414210",
+    "title": "🤖 중급자을 위한 AI 자동화 시스템 Q&A",
+    "title_hash": "e9ef5175e9f50c17352a5e644c1325fc",
+    "topic": "중급자을 위한 AI 자동화 시스템 Q&A",
+    "url": "https://gost1227.blogspot.com/2026/04/ai-q_058030680.html",
     "labels": [
       "AI",
       "인공지능",

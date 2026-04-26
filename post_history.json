@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-16T04:36:50.483443",
-    "title": "🤖 학생을 위한 AI 윤리와 미래 튜토리얼",
-    "title_hash": "6d383e415cd3e35992a41e330f972819",
-    "topic": "학생을 위한 AI 윤리와 미래 튜토리얼",
-    "url": "https://gost1227.blogspot.com/2026/01/ai_01209012098.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-17T04:29:14.182095",
     "title": "🤖 AI 플러그인 추천 - 초보자를 위한 가이드",
     "title_hash": "672f141993a33a32c101928cf81615ee",
@@ -1391,6 +1377,20 @@
     "title_hash": "e9ef5175e9f50c17352a5e644c1325fc",
     "topic": "중급자을 위한 AI 자동화 시스템 Q&A",
     "url": "https://gost1227.blogspot.com/2026/04/ai-q_058030680.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-26T06:03:50.753423",
+    "title": "🤖 AI 자동화 시스템: 스타트업의 체크리스트",
+    "title_hash": "8f7635ca4feab1c8d39953e030a0f9c9",
+    "topic": "AI 자동화 시스템: 스타트업의 체크리스트",
+    "url": "https://gost1227.blogspot.com/2026/04/ai_0144538803.html",
     "labels": [
       "AI",
       "인공지능",

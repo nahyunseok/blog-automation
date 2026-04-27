@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-17T04:29:14.182095",
-    "title": "🤖 AI 플러그인 추천 - 초보자를 위한 가이드",
-    "title_hash": "672f141993a33a32c101928cf81615ee",
-    "topic": "AI 플러그인 추천 - 초보자를 위한 가이드",
-    "url": "https://gost1227.blogspot.com/2026/01/ai_01793983154.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-18T04:38:45.040985",
     "title": "🤖 작가을 위한 AI 번역 활용 벤치마크",
     "title_hash": "1af7167ab792ae687565c412f226d087",
@@ -1391,6 +1377,20 @@
     "title_hash": "8f7635ca4feab1c8d39953e030a0f9c9",
     "topic": "AI 자동화 시스템: 스타트업의 체크리스트",
     "url": "https://gost1227.blogspot.com/2026/04/ai_0144538803.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-27T06:24:49.683489",
+    "title": "🤖 작가을 위한 Midjourney 사용법 사례 연구",
+    "title_hash": "8da421c90face129e70e3a3eff9de905",
+    "topic": "작가을 위한 Midjourney 사용법 사례 연구",
+    "url": "https://gost1227.blogspot.com/2026/04/midjourney.html",
     "labels": [
       "AI",
       "인공지능",

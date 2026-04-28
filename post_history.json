@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-18T04:38:45.040985",
-    "title": "🤖 작가을 위한 AI 번역 활용 벤치마크",
-    "title_hash": "1af7167ab792ae687565c412f226d087",
-    "topic": "작가을 위한 AI 번역 활용 벤치마크",
-    "url": "https://gost1227.blogspot.com/2026/01/ai_087218661.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-19T04:48:08.760604",
     "title": "🤖 콘텐츠 크리에이터을 위한 AI 이미지 생성 전략",
     "title_hash": "ac0c74507dda5a2f201176dd3f1912ea",
@@ -1391,6 +1377,20 @@
     "title_hash": "8da421c90face129e70e3a3eff9de905",
     "topic": "작가을 위한 Midjourney 사용법 사례 연구",
     "url": "https://gost1227.blogspot.com/2026/04/midjourney.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-04-28T06:26:13.463824",
+    "title": "🤖 꿀팁 모음 Claude 사용 팁 튜토리얼",
+    "title_hash": "5d324b1848392e840adae7603676dbe7",
+    "topic": "꿀팁 모음 Claude 사용 팁 튜토리얼",
+    "url": "https://gost1227.blogspot.com/2026/04/claude.html",
     "labels": [
       "AI",
       "인공지능",

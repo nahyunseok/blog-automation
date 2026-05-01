@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-21T04:40:27.367498",
-    "title": "🤖 [2026년 01월] AI 마케팅 전략 비교 분석 정리",
-    "title_hash": "92ca12f1d4afd8fca08a9303c1b6f6de",
-    "topic": "[2026년 01월] AI 마케팅 전략 비교 분석 정리",
-    "url": "https://gost1227.blogspot.com/2026/01/2026-01-ai_0991979526.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-22T04:44:05.605526",
     "title": "🤖 5분 마스터 AI 데이터 분석 팁 모음",
     "title_hash": "563761c533555ad3c5d49ddce5b4a6fe",
@@ -1391,6 +1377,20 @@
     "title_hash": "d8e75ec63511ef7c6b385110417f4446",
     "topic": "AI 이미지 생성: 블로거의 Q&A",
     "url": "https://gost1227.blogspot.com/2026/04/ai-q_0841238592.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-01T06:33:34.439331",
+    "title": "🤖 AI 번역 활용 - 숨겨진 기능 벤치마크",
+    "title_hash": "9b5696281722b63043af7ca106d9ca29",
+    "topic": "AI 번역 활용 - 숨겨진 기능 벤치마크",
+    "url": "https://gost1227.blogspot.com/2026/05/ai.html",
     "labels": [
       "AI",
       "인공지능",

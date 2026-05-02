@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-22T04:44:05.605526",
-    "title": "🤖 5분 마스터 AI 데이터 분석 팁 모음",
-    "title_hash": "563761c533555ad3c5d49ddce5b4a6fe",
-    "topic": "5분 마스터 AI 데이터 분석 팁 모음",
-    "url": "https://gost1227.blogspot.com/2026/01/5-ai.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-23T04:39:04.988696",
     "title": "🤖 입문자을 위한 딥러닝 입문 팁 모음",
     "title_hash": "2938cb5aca5ad1f845d8a67547535592",
@@ -1391,6 +1377,20 @@
     "title_hash": "9b5696281722b63043af7ca106d9ca29",
     "topic": "AI 번역 활용 - 숨겨진 기능 벤치마크",
     "url": "https://gost1227.blogspot.com/2026/05/ai.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-02T06:03:57.241595",
+    "title": "🤖 입문자을 위한 노코드 AI 도구 후기",
+    "title_hash": "66bc0eb0ad0fe5f5a512878e31903e43",
+    "topic": "입문자을 위한 노코드 AI 도구 후기",
+    "url": "https://gost1227.blogspot.com/2026/05/ai_01868735854.html",
     "labels": [
       "AI",
       "인공지능",

@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-23T04:39:04.988696",
-    "title": "🤖 입문자을 위한 딥러닝 입문 팁 모음",
-    "title_hash": "2938cb5aca5ad1f845d8a67547535592",
-    "topic": "입문자을 위한 딥러닝 입문 팁 모음",
-    "url": "https://gost1227.blogspot.com/2026/01/blog-post.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-24T04:32:25.005983",
     "title": "🤖 디자이너을 위한 AI 글쓰기 비법 체크리스트",
     "title_hash": "dc0d93c70df5a52caeabab6b2878d356",
@@ -1391,6 +1377,20 @@
     "title_hash": "66bc0eb0ad0fe5f5a512878e31903e43",
     "topic": "입문자을 위한 노코드 AI 도구 후기",
     "url": "https://gost1227.blogspot.com/2026/05/ai_01868735854.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-03T06:23:53.271660",
+    "title": "🤖 실수하지 않는 AI 번역 활용 실험 결과",
+    "title_hash": "5abf74aa88b5a0e47b37b97e6a570214",
+    "topic": "실수하지 않는 AI 번역 활용 실험 결과",
+    "url": "https://gost1227.blogspot.com/2026/05/ai_0373944894.html",
     "labels": [
       "AI",
       "인공지능",

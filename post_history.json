@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-25T04:48:58.443730",
-    "title": "🤖 AI 영상 편집: 연구원의 전략",
-    "title_hash": "1b6654da2486122453017573c91bef86",
-    "topic": "AI 영상 편집: 연구원의 전략",
-    "url": "https://gost1227.blogspot.com/2026/01/ai_01483840084.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-26T04:52:52.845152",
     "title": "🤖 Perplexity 검색 팁 - 최적화 가이드 가이드",
     "title_hash": "fb145da01009c726d6d42579622ae9d9",
@@ -1391,6 +1377,20 @@
     "title_hash": "7c67e1a4d7f4257610c0462ee402a536",
     "topic": "AI 교육 혁신 - 케이스 스터디 튜토리얼",
     "url": "https://gost1227.blogspot.com/2026/05/ai_01201726958.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-05T06:12:16.680276",
+    "title": "🤖 Midjourney 사용법 - 꿀팁 모음 리뷰",
+    "title_hash": "e5ce999e1cf90a0e67de6d4dbcb67a94",
+    "topic": "Midjourney 사용법 - 꿀팁 모음 리뷰",
+    "url": "https://gost1227.blogspot.com/2026/05/midjourney.html",
     "labels": [
       "AI",
       "인공지능",

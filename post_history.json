@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-26T04:52:52.845152",
-    "title": "🤖 Perplexity 검색 팁 - 최적화 가이드 가이드",
-    "title_hash": "fb145da01009c726d6d42579622ae9d9",
-    "topic": "Perplexity 검색 팁 - 최적화 가이드 가이드",
-    "url": "https://gost1227.blogspot.com/2026/01/perplexity_01374952584.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-27T04:43:07.294396",
     "title": "🤖 AI 이미지 생성 - 핵심정리 가이드",
     "title_hash": "bae06db669ea9bb1ee3f53daac9be2f9",
@@ -1391,6 +1377,20 @@
     "title_hash": "e5ce999e1cf90a0e67de6d4dbcb67a94",
     "topic": "Midjourney 사용법 - 꿀팁 모음 리뷰",
     "url": "https://gost1227.blogspot.com/2026/05/midjourney.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-06T06:26:34.114698",
+    "title": "🤖 Perplexity 검색 팁: 마케터의 팁 모음",
+    "title_hash": "313b2b20c6169e7421ea01182886f193",
+    "topic": "Perplexity 검색 팁: 마케터의 팁 모음",
+    "url": "https://gost1227.blogspot.com/2026/05/perplexity.html",
     "labels": [
       "AI",
       "인공지능",

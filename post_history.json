@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-27T04:43:07.294396",
-    "title": "🤖 AI 이미지 생성 - 핵심정리 가이드",
-    "title_hash": "bae06db669ea9bb1ee3f53daac9be2f9",
-    "topic": "AI 이미지 생성 - 핵심정리 가이드",
-    "url": "https://gost1227.blogspot.com/2026/01/ai_0749850781.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-28T04:40:34.985795",
     "title": "🤖 직장인을 위한 Claude 사용 팁 리뷰",
     "title_hash": "5be771dafb0f2acb36e9a12fdeb36bc6",
@@ -1391,6 +1377,20 @@
     "title_hash": "313b2b20c6169e7421ea01182886f193",
     "topic": "Perplexity 검색 팁: 마케터의 팁 모음",
     "url": "https://gost1227.blogspot.com/2026/05/perplexity.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-07T06:31:43.781792",
+    "title": "🤖 Claude 사용 팁 - 숨겨진 기능 체크리스트",
+    "title_hash": "a84b24d840d6d83fb256196d9bfebe25",
+    "topic": "Claude 사용 팁 - 숨겨진 기능 체크리스트",
+    "url": "https://gost1227.blogspot.com/2026/05/claude.html",
     "labels": [
       "AI",
       "인공지능",

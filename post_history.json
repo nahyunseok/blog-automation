@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-28T04:40:34.985795",
-    "title": "🤖 직장인을 위한 Claude 사용 팁 리뷰",
-    "title_hash": "5be771dafb0f2acb36e9a12fdeb36bc6",
-    "topic": "직장인을 위한 Claude 사용 팁 리뷰",
-    "url": "https://gost1227.blogspot.com/2026/01/claude_02133634976.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-29T05:03:22.495293",
     "title": "🤖 작가을 위한 Gemini 고급 기능 체크리스트",
     "title_hash": "4f96faadb8914bed23e630f3cfbb7ca1",
@@ -1391,6 +1377,20 @@
     "title_hash": "a84b24d840d6d83fb256196d9bfebe25",
     "topic": "Claude 사용 팁 - 숨겨진 기능 체크리스트",
     "url": "https://gost1227.blogspot.com/2026/05/claude.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-08T05:53:46.219031",
+    "title": "🤖 AI 자동화 시스템 - 꿀팁 모음 후기",
+    "title_hash": "81285f6f0d65dcb0da70fb5b247ec10c",
+    "topic": "AI 자동화 시스템 - 꿀팁 모음 후기",
+    "url": "https://gost1227.blogspot.com/2026/05/ai_0162248401.html",
     "labels": [
       "AI",
       "인공지능",

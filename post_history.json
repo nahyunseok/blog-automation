@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-29T05:03:22.495293",
-    "title": "🤖 작가을 위한 Gemini 고급 기능 체크리스트",
-    "title_hash": "4f96faadb8914bed23e630f3cfbb7ca1",
-    "topic": "작가을 위한 Gemini 고급 기능 체크리스트",
-    "url": "https://gost1227.blogspot.com/2026/01/gemini_0903835492.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-30T05:06:21.721530",
     "title": "🤖 AI 교육 혁신: 연구원의 팁 모음",
     "title_hash": "866df97789f2b215c9ccb5ce2610b419",
@@ -1391,6 +1377,20 @@
     "title_hash": "81285f6f0d65dcb0da70fb5b247ec10c",
     "topic": "AI 자동화 시스템 - 꿀팁 모음 후기",
     "url": "https://gost1227.blogspot.com/2026/05/ai_0162248401.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-09T06:12:00.780836",
+    "title": "🤖 AI 플러그인 추천 - 초보자를 위한 후기",
+    "title_hash": "26be2b0167586fe96604867596fd093a",
+    "topic": "AI 플러그인 추천 - 초보자를 위한 후기",
+    "url": "https://gost1227.blogspot.com/2026/05/ai_0649798605.html",
     "labels": [
       "AI",
       "인공지능",

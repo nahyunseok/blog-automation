@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-30T05:06:21.721530",
-    "title": "🤖 AI 교육 혁신: 연구원의 팁 모음",
-    "title_hash": "866df97789f2b215c9ccb5ce2610b419",
-    "topic": "AI 교육 혁신: 연구원의 팁 모음",
-    "url": "https://gost1227.blogspot.com/2026/01/ai_0579423579.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-01-31T04:59:15.707771",
     "title": "🤖 AI 마케팅 전략 - 실수하지 않는 후기",
     "title_hash": "d6a8882e93ef95bd4bf382dde498e411",
@@ -1391,6 +1377,20 @@
     "title_hash": "26be2b0167586fe96604867596fd093a",
     "topic": "AI 플러그인 추천 - 초보자를 위한 후기",
     "url": "https://gost1227.blogspot.com/2026/05/ai_0649798605.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-10T06:30:29.700414",
+    "title": "🤖 단계별 AI API 활용 리뷰",
+    "title_hash": "5dbba079d2e52945f3ed817616d4c10a",
+    "topic": "단계별 AI API 활용 리뷰",
+    "url": "https://gost1227.blogspot.com/2026/05/ai-api.html",
     "labels": [
       "AI",
       "인공지능",

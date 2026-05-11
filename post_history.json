@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-01-31T04:59:15.707771",
-    "title": "🤖 AI 마케팅 전략 - 실수하지 않는 후기",
-    "title_hash": "d6a8882e93ef95bd4bf382dde498e411",
-    "topic": "AI 마케팅 전략 - 실수하지 않는 후기",
-    "url": "https://gost1227.blogspot.com/2026/01/ai_01023144598.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-02-01T05:19:59.786048",
     "title": "🤖 팀리더을 위한 노코드 AI 도구 리뷰",
     "title_hash": "97a8d93d7357e3c5c528e7632e5e737c",
@@ -1391,6 +1377,20 @@
     "title_hash": "5dbba079d2e52945f3ed817616d4c10a",
     "topic": "단계별 AI API 활용 리뷰",
     "url": "https://gost1227.blogspot.com/2026/05/ai-api.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-11T07:37:11.846869",
+    "title": "🤖 [2026년 05월] 노코드 AI 도구 꿀팁 모음 정리",
+    "title_hash": "42dc05bf8ec2c99788ab52cb09ad4516",
+    "topic": "[2026년 05월] 노코드 AI 도구 꿀팁 모음 정리",
+    "url": "https://gost1227.blogspot.com/2026/05/2026-05-ai.html",
     "labels": [
       "AI",
       "인공지능",

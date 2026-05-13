@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-02-02T05:21:32.790396",
-    "title": "🤖 [2026년 02월] AI 프레젠테이션 실패 극복 정리",
-    "title_hash": "4135eec750fd8c6abaa515d750a780e3",
-    "topic": "[2026년 02월] AI 프레젠테이션 실패 극복 정리",
-    "url": "https://gost1227.blogspot.com/2026/02/2026-02-ai.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-02-03T05:13:16.039233",
     "title": "🤖 [2026년 02월] 노코드 AI 도구 퀄리티 높이는 정리",
     "title_hash": "ab6da0f2517f48d07f019b233bd2b92f",
@@ -1391,6 +1377,20 @@
     "title_hash": "bb75160fcba7a80bc5b0319e95d15dd7",
     "topic": "[2026년 05월] AI 윤리와 미래 체크리스트 정리",
     "url": "https://gost1227.blogspot.com/2026/05/2026-05-ai_016904816.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-13T06:44:37.079614",
+    "title": "🤖 AI 생산성 향상: 직장인의 인터뷰",
+    "title_hash": "45f96a162943ba200e83212aaf7e71df",
+    "topic": "AI 생산성 향상: 직장인의 인터뷰",
+    "url": "https://gost1227.blogspot.com/2026/05/ai_0956783745.html",
     "labels": [
       "AI",
       "인공지능",

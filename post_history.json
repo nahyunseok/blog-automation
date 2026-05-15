@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-02-04T05:06:53.309484",
-    "title": "🤖 성공 사례 Gemini 고급 기능 후기",
-    "title_hash": "15fee9c57787dec78fa185b90ece0fe9",
-    "topic": "성공 사례 Gemini 고급 기능 후기",
-    "url": "https://gost1227.blogspot.com/2026/02/gemini.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-02-05T05:14:57.336145",
     "title": "🤖 교육자을 위한 Perplexity 검색 팁 벤치마크",
     "title_hash": "bbc230f56ca90809a8d6fdf5fde22620",
@@ -1391,6 +1377,20 @@
     "title_hash": "ea293613e5f1a2d55b392aab9b439122",
     "topic": "디자이너을 위한 AI 마케팅 전략 Q&A",
     "url": "https://gost1227.blogspot.com/2026/05/ai-q.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-15T06:52:21.286692",
+    "title": "🤖 프리랜서을 위한 노코드 AI 도구 후기",
+    "title_hash": "822ebe5f6c6ad5af7fea9679c9681dd5",
+    "topic": "프리랜서을 위한 노코드 AI 도구 후기",
+    "url": "https://gost1227.blogspot.com/2026/05/ai_089991590.html",
     "labels": [
       "AI",
       "인공지능",

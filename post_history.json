@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-02-05T05:14:57.336145",
-    "title": "🤖 교육자을 위한 Perplexity 검색 팁 벤치마크",
-    "title_hash": "bbc230f56ca90809a8d6fdf5fde22620",
-    "topic": "교육자을 위한 Perplexity 검색 팁 벤치마크",
-    "url": "https://gost1227.blogspot.com/2026/02/perplexity.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-02-06T05:13:27.270627",
     "title": "🤖 AI 윤리와 미래: 스타트업의 팁 모음",
     "title_hash": "a467395b047f2d590f66f115d35710de",
@@ -1391,6 +1377,20 @@
     "title_hash": "822ebe5f6c6ad5af7fea9679c9681dd5",
     "topic": "프리랜서을 위한 노코드 AI 도구 후기",
     "url": "https://gost1227.blogspot.com/2026/05/ai_089991590.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-16T06:18:58.486118",
+    "title": "🤖 Claude 사용 팁: 유튜버의 체크리스트",
+    "title_hash": "03a84ea0af80a9339331400f682730bc",
+    "topic": "Claude 사용 팁: 유튜버의 체크리스트",
+    "url": "https://gost1227.blogspot.com/2026/05/claude_0609626549.html",
     "labels": [
       "AI",
       "인공지능",

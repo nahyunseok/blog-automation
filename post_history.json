@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-02-07T05:03:27.965512",
-    "title": "🤖 AI 영상 편집 - 창의적인 가이드",
-    "title_hash": "085bab0903c8ef6dc0fa85e0f3b0c606",
-    "topic": "AI 영상 편집 - 창의적인 가이드",
-    "url": "https://gost1227.blogspot.com/2026/02/ai_01541251373.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-02-08T05:21:36.355719",
     "title": "🤖 중급자을 위한 딥러닝 입문 벤치마크",
     "title_hash": "a27b265b4f65dfb779e77c5d94cd9d3c",
@@ -1391,6 +1377,20 @@
     "title_hash": "87f4c577a9832c889872a62c515a4b7c",
     "topic": "실전 Midjourney 사용법 후기",
     "url": "https://gost1227.blogspot.com/2026/05/midjourney_0272257698.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-18T07:58:11.386379",
+    "title": "🤖 [2026년 05월] AI 데이터 분석 5분 마스터 정리",
+    "title_hash": "7de92fea90377d0622f2278269912326",
+    "topic": "[2026년 05월] AI 데이터 분석 5분 마스터 정리",
+    "url": "https://gost1227.blogspot.com/2026/05/2026-05-ai-5.html",
     "labels": [
       "AI",
       "인공지능",

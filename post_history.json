@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-02-08T05:21:36.355719",
-    "title": "🤖 중급자을 위한 딥러닝 입문 벤치마크",
-    "title_hash": "a27b265b4f65dfb779e77c5d94cd9d3c",
-    "topic": "중급자을 위한 딥러닝 입문 벤치마크",
-    "url": "https://gost1227.blogspot.com/2026/02/blog-post.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-02-09T05:25:25.632788",
     "title": "🤖 중급자을 위한 AI 프롬프트 엔지니어링 리뷰",
     "title_hash": "7259df0ef936269ca51b68d801fad66e",
@@ -1391,6 +1377,20 @@
     "title_hash": "7de92fea90377d0622f2278269912326",
     "topic": "[2026년 05월] AI 데이터 분석 5분 마스터 정리",
     "url": "https://gost1227.blogspot.com/2026/05/2026-05-ai-5.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-19T07:41:20.365282",
+    "title": "🤖 Stable Diffusion 가이드: 블로거의 비교 분석",
+    "title_hash": "16f2b536b73d21be83fd2284ca695ae4",
+    "topic": "Stable Diffusion 가이드: 블로거의 비교 분석",
+    "url": "https://gost1227.blogspot.com/2026/05/stable-diffusion.html",
     "labels": [
       "AI",
       "인공지능",

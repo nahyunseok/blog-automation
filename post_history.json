@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-02-09T05:25:25.632788",
-    "title": "🤖 중급자을 위한 AI 프롬프트 엔지니어링 리뷰",
-    "title_hash": "7259df0ef936269ca51b68d801fad66e",
-    "topic": "중급자을 위한 AI 프롬프트 엔지니어링 리뷰",
-    "url": "https://gost1227.blogspot.com/2026/02/ai_01264887922.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-02-10T05:25:37.027034",
     "title": "🤖 AI 보안과 프라이버시 - 효율 200% 높이는 사례 연구",
     "title_hash": "af4e1362b75adb17b37a1d446ce12f64",
@@ -1391,6 +1377,20 @@
     "title_hash": "16f2b536b73d21be83fd2284ca695ae4",
     "topic": "Stable Diffusion 가이드: 블로거의 비교 분석",
     "url": "https://gost1227.blogspot.com/2026/05/stable-diffusion.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-20T07:39:30.511891",
+    "title": "🤖 직장인을 위한 AI 마케팅 전략 벤치마크",
+    "title_hash": "477296966e41aba4c75c71d4593c62d9",
+    "topic": "직장인을 위한 AI 마케팅 전략 벤치마크",
+    "url": "https://gost1227.blogspot.com/2026/05/ai_02020800372.html",
     "labels": [
       "AI",
       "인공지능",

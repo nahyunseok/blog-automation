@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-02-10T05:25:37.027034",
-    "title": "🤖 AI 보안과 프라이버시 - 효율 200% 높이는 사례 연구",
-    "title_hash": "af4e1362b75adb17b37a1d446ce12f64",
-    "topic": "AI 보안과 프라이버시 - 효율 200% 높이는 사례 연구",
-    "url": "https://gost1227.blogspot.com/2026/02/ai-200.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-02-11T05:24:32.641487",
     "title": "🤖 노코드 AI 도구 - 창의적인 로드맵",
     "title_hash": "5689d44119717ac72f3a8b3ab8e23573",
@@ -1391,6 +1377,20 @@
     "title_hash": "477296966e41aba4c75c71d4593c62d9",
     "topic": "직장인을 위한 AI 마케팅 전략 벤치마크",
     "url": "https://gost1227.blogspot.com/2026/05/ai_02020800372.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-21T07:44:50.033018",
+    "title": "🤖 [2026년 05월] AI 글쓰기 비법 심화 학습 정리",
+    "title_hash": "6f940d8d522862e794e2c4945aadea72",
+    "topic": "[2026년 05월] AI 글쓰기 비법 심화 학습 정리",
+    "url": "https://gost1227.blogspot.com/2026/05/2026-05-ai_01779027132.html",
     "labels": [
       "AI",
       "인공지능",

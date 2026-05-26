@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-02-15T05:16:59.850757",
-    "title": "🤖 유튜버을 위한 AI 마케팅 전략 비교 분석",
-    "title_hash": "3467a29cda5457269e5352e806dcb653",
-    "topic": "유튜버을 위한 AI 마케팅 전략 비교 분석",
-    "url": "https://gost1227.blogspot.com/2026/02/ai_0919710259.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-02-16T05:24:27.813740",
     "title": "🤖 머신러닝 기초: 스타트업의 체크리스트",
     "title_hash": "8c7f4667235a90c15f72dcc18cfd7bc2",
@@ -1391,6 +1377,20 @@
     "title_hash": "0259f848b50fad5841ea2df977d1a9ed",
     "topic": "고급 사용자을 위한 AI 플러그인 추천 리뷰",
     "url": "https://gost1227.blogspot.com/2026/05/ai_0624329567.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-26T07:40:48.017520",
+    "title": "🤖 [2026년 05월] AI 비즈니스 활용 실전 정리",
+    "title_hash": "7db604460debbe6d9af3a54876cf8bcc",
+    "topic": "[2026년 05월] AI 비즈니스 활용 실전 정리",
+    "url": "https://gost1227.blogspot.com/2026/05/2026-05-ai_01706707862.html",
     "labels": [
       "AI",
       "인공지능",

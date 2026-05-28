@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-02-17T05:18:58.463578",
-    "title": "🤖 AI 이미지 생성: 블로거의 로드맵",
-    "title_hash": "de89a8c009cd397ccd82df6033e2ce8d",
-    "topic": "AI 이미지 생성: 블로거의 로드맵",
-    "url": "https://gost1227.blogspot.com/2026/02/ai_01560754286.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-02-18T05:21:23.726943",
     "title": "🤖 연구원을 위한 AI 코딩 도우미 튜토리얼",
     "title_hash": "afc873f2a2383f6babe6db55ad9bda8a",
@@ -1391,6 +1377,20 @@
     "title_hash": "3d074db1b6ff92246c6b40ae5a028120",
     "topic": "성공 사례 AI 창작 도구 튜토리얼",
     "url": "https://gost1227.blogspot.com/2026/05/ai_01947619769.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-28T07:53:26.138944",
+    "title": "🤖 AI 코딩 도우미: 기획자의 체크리스트",
+    "title_hash": "00cdde36f88ec503f8b111ef90390e06",
+    "topic": "AI 코딩 도우미: 기획자의 체크리스트",
+    "url": "https://gost1227.blogspot.com/2026/05/ai_01413603912.html",
     "labels": [
       "AI",
       "인공지능",

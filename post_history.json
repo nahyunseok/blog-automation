@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-02-18T05:21:23.726943",
-    "title": "🤖 연구원을 위한 AI 코딩 도우미 튜토리얼",
-    "title_hash": "afc873f2a2383f6babe6db55ad9bda8a",
-    "topic": "연구원을 위한 AI 코딩 도우미 튜토리얼",
-    "url": "https://gost1227.blogspot.com/2026/02/ai_01372337880.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-02-19T05:19:36.339982",
     "title": "🤖 교육자을 위한 딥러닝 입문 로드맵",
     "title_hash": "771b0cc64807a1df7e2e75cc185e14f7",
@@ -1391,6 +1377,20 @@
     "title_hash": "00cdde36f88ec503f8b111ef90390e06",
     "topic": "AI 코딩 도우미: 기획자의 체크리스트",
     "url": "https://gost1227.blogspot.com/2026/05/ai_01413603912.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-29T07:51:25.127738",
+    "title": "🤖 성공 사례 AI 데이터 분석 실험 결과",
+    "title_hash": "ddc995a9ab117ebb122e477257cffdb6",
+    "topic": "성공 사례 AI 데이터 분석 실험 결과",
+    "url": "https://gost1227.blogspot.com/2026/05/ai_01808455026.html",
     "labels": [
       "AI",
       "인공지능",

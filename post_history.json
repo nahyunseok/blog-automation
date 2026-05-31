@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-02-20T05:14:13.704641",
-    "title": "🤖 AI 보안과 프라이버시 - 비용 절감 팁 모음",
-    "title_hash": "7647979a8e29a189f75b00dda8a86011",
-    "topic": "AI 보안과 프라이버시 - 비용 절감 팁 모음",
-    "url": "https://gost1227.blogspot.com/2026/02/ai_01433181885.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-02-21T05:03:33.652037",
     "title": "🤖 트러블슈팅 AI 플러그인 추천 사례 연구",
     "title_hash": "72331b580fc49d6b2e5dc4d659210291",
@@ -1391,6 +1377,20 @@
     "title_hash": "f7e0720a36b1cd7e7582e4887a697966",
     "topic": "개발자을 위한 ChatGPT 활용법 팁 모음",
     "url": "https://gost1227.blogspot.com/2026/05/chatgpt.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-05-31T07:41:27.921725",
+    "title": "🤖 AI 이미지 생성: 기획자의 튜토리얼",
+    "title_hash": "eb22eb5673290915dd668f421661b79a",
+    "topic": "AI 이미지 생성: 기획자의 튜토리얼",
+    "url": "https://gost1227.blogspot.com/2026/05/ai_01054277477.html",
     "labels": [
       "AI",
       "인공지능",

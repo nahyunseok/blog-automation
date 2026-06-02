@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-02-22T05:14:03.425596",
-    "title": "🤖 교육자을 위한 AI API 활용 로드맵",
-    "title_hash": "72b7bd2aa21a5af04798e1ec7fc98e68",
-    "topic": "교육자을 위한 AI API 활용 로드맵",
-    "url": "https://gost1227.blogspot.com/2026/02/ai-api_02035663936.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-02-23T05:23:26.257353",
     "title": "🤖 [2026년 02월] AI 협업 도구 비용 절감 정리",
     "title_hash": "6d2ad0f4cefa8746c449ed52f2612231",
@@ -1391,6 +1377,20 @@
     "title_hash": "bbd39a2dd15cad09ffce50d5690d500e",
     "topic": "Gemini 고급 기능 - 심화 학습 벤치마크",
     "url": "https://gost1227.blogspot.com/2026/06/gemini.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-02T08:24:30.709324",
+    "title": "🤖 머신러닝 기초 - 핵심정리 실험 결과",
+    "title_hash": "40cbe650a183459ea841119264aec7b7",
+    "topic": "머신러닝 기초 - 핵심정리 실험 결과",
+    "url": "https://gost1227.blogspot.com/2026/06/blog-post.html",
     "labels": [
       "AI",
       "인공지능",

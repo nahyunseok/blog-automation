@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-02-24T05:19:35.857379",
-    "title": "🤖 AI 음악 제작 - 단계별 Q&A",
-    "title_hash": "3607066f9cd7cb9f54c3bc4160420773",
-    "topic": "AI 음악 제작 - 단계별 Q&A",
-    "url": "https://gost1227.blogspot.com/2026/02/ai-q_0306960844.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-02-25T05:21:14.255428",
     "title": "🤖 블로거을 위한 AI 보안과 프라이버시 실험 결과",
     "title_hash": "666fd94d57ee2c7bda92cd8316832905",
@@ -1391,6 +1377,20 @@
     "title_hash": "8ea03bd608d1ed66b402764a4886802b",
     "topic": "교육자을 위한 AI 데이터 분석 리뷰",
     "url": "https://gost1227.blogspot.com/2026/06/ai.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-04T08:16:11.739135",
+    "title": "🤖 AI 이미지 생성 - 케이스 스터디 로드맵",
+    "title_hash": "9cef6fa2db2e7e05f86e4df27bf23ddf",
+    "topic": "AI 이미지 생성 - 케이스 스터디 로드맵",
+    "url": "https://gost1227.blogspot.com/2026/06/ai_0906236308.html",
     "labels": [
       "AI",
       "인공지능",

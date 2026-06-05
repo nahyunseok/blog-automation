@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-02-25T05:21:14.255428",
-    "title": "🤖 블로거을 위한 AI 보안과 프라이버시 실험 결과",
-    "title_hash": "666fd94d57ee2c7bda92cd8316832905",
-    "topic": "블로거을 위한 AI 보안과 프라이버시 실험 결과",
-    "url": "https://gost1227.blogspot.com/2026/02/ai_048794252.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-02-26T05:17:52.702107",
     "title": "🤖 마케터을 위한 ChatGPT 활용법 전략",
     "title_hash": "21e1adcb2aecfaecdf9a55ca27077c6e",
@@ -1391,6 +1377,20 @@
     "title_hash": "9cef6fa2db2e7e05f86e4df27bf23ddf",
     "topic": "AI 이미지 생성 - 케이스 스터디 로드맵",
     "url": "https://gost1227.blogspot.com/2026/06/ai_0906236308.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-05T08:02:36.350221",
+    "title": "🤖 AI 자동화 시스템: 작가의 튜토리얼",
+    "title_hash": "4fa87eb379526b6e1bb771525a3d3803",
+    "topic": "AI 자동화 시스템: 작가의 튜토리얼",
+    "url": "https://gost1227.blogspot.com/2026/06/ai_0591002690.html",
     "labels": [
       "AI",
       "인공지능",

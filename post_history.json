@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-02-26T05:17:52.702107",
-    "title": "🤖 마케터을 위한 ChatGPT 활용법 전략",
-    "title_hash": "21e1adcb2aecfaecdf9a55ca27077c6e",
-    "topic": "마케터을 위한 ChatGPT 활용법 전략",
-    "url": "https://gost1227.blogspot.com/2026/02/chatgpt.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-02-27T05:12:53.697126",
     "title": "🤖 [2026년 02월] 머신러닝 기초 단계별 정리",
     "title_hash": "428700d76f13c34bdffa75db599dc887",
@@ -1391,6 +1377,20 @@
     "title_hash": "4fa87eb379526b6e1bb771525a3d3803",
     "topic": "AI 자동화 시스템: 작가의 튜토리얼",
     "url": "https://gost1227.blogspot.com/2026/06/ai_0591002690.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-06T06:49:37.239212",
+    "title": "🤖 ChatGPT 활용법: 입문자의 벤치마크",
+    "title_hash": "ea027d6118c9c490f31b154496cf3d29",
+    "topic": "ChatGPT 활용법: 입문자의 벤치마크",
+    "url": "https://gost1227.blogspot.com/2026/06/chatgpt.html",
     "labels": [
       "AI",
       "인공지능",

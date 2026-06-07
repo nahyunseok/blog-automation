@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-02-27T05:12:53.697126",
-    "title": "🤖 [2026년 02월] 머신러닝 기초 단계별 정리",
-    "title_hash": "428700d76f13c34bdffa75db599dc887",
-    "topic": "[2026년 02월] 머신러닝 기초 단계별 정리",
-    "url": "https://gost1227.blogspot.com/2026/02/2026-02_02113345809.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-02-28T04:51:54.036792",
     "title": "🤖 AI 플러그인 추천 - 트러블슈팅 리뷰",
     "title_hash": "70421cf928af6a2a1b562af795674aab",
@@ -1391,6 +1377,20 @@
     "title_hash": "ea027d6118c9c490f31b154496cf3d29",
     "topic": "ChatGPT 활용법: 입문자의 벤치마크",
     "url": "https://gost1227.blogspot.com/2026/06/chatgpt.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-07T07:50:42.845545",
+    "title": "🤖 퀄리티 높이는 Gemini 고급 기능 체크리스트",
+    "title_hash": "bd9b1add67cb470674d42aeb0d24a233",
+    "topic": "퀄리티 높이는 Gemini 고급 기능 체크리스트",
+    "url": "https://gost1227.blogspot.com/2026/06/gemini_01959674747.html",
     "labels": [
       "AI",
       "인공지능",

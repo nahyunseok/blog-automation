@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-02-28T04:51:54.036792",
-    "title": "🤖 AI 플러그인 추천 - 트러블슈팅 리뷰",
-    "title_hash": "70421cf928af6a2a1b562af795674aab",
-    "topic": "AI 플러그인 추천 - 트러블슈팅 리뷰",
-    "url": "https://gost1227.blogspot.com/2026/02/ai_01684253289.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-01T05:15:41.906444",
     "title": "🤖 작가을 위한 Perplexity 검색 팁 후기",
     "title_hash": "3288bde5d9e3a7c8e4d4553f660257b8",
@@ -1391,6 +1377,20 @@
     "title_hash": "bd9b1add67cb470674d42aeb0d24a233",
     "topic": "퀄리티 높이는 Gemini 고급 기능 체크리스트",
     "url": "https://gost1227.blogspot.com/2026/06/gemini_01959674747.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-08T08:49:30.759987",
+    "title": "🤖 [2026년 06월] AI 트렌드 분석 완전정복 정리",
+    "title_hash": "b4b47f83e7111a63a4ed95ac55bdb1d7",
+    "topic": "[2026년 06월] AI 트렌드 분석 완전정복 정리",
+    "url": "https://gost1227.blogspot.com/2026/06/2026-06-ai.html",
     "labels": [
       "AI",
       "인공지능",

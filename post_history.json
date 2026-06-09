@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-01T05:15:41.906444",
-    "title": "🤖 작가을 위한 Perplexity 검색 팁 후기",
-    "title_hash": "3288bde5d9e3a7c8e4d4553f660257b8",
-    "topic": "작가을 위한 Perplexity 검색 팁 후기",
-    "url": "https://gost1227.blogspot.com/2026/03/perplexity.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-02T05:13:16.344029",
     "title": "🤖 AI 생산성 향상 - 2025년 최신 팁 모음",
     "title_hash": "45acdcb309c161e393ce8f196d436eeb",
@@ -1391,6 +1377,20 @@
     "title_hash": "b4b47f83e7111a63a4ed95ac55bdb1d7",
     "topic": "[2026년 06월] AI 트렌드 분석 완전정복 정리",
     "url": "https://gost1227.blogspot.com/2026/06/2026-06-ai.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-09T07:42:20.623772",
+    "title": "🤖 꿀팁 모음 AI 영상 편집 가이드",
+    "title_hash": "78c7655dfda62a512d974ce1c397bd74",
+    "topic": "꿀팁 모음 AI 영상 편집 가이드",
+    "url": "https://gost1227.blogspot.com/2026/06/ai_0380936792.html",
     "labels": [
       "AI",
       "인공지능",

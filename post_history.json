@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-02T05:13:16.344029",
-    "title": "🤖 AI 생산성 향상 - 2025년 최신 팁 모음",
-    "title_hash": "45acdcb309c161e393ce8f196d436eeb",
-    "topic": "AI 생산성 향상 - 2025년 최신 팁 모음",
-    "url": "https://gost1227.blogspot.com/2026/03/ai-2025.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-03T05:12:38.149746",
     "title": "🤖 AI 코딩 도우미 - 시간 단축 실험 결과",
     "title_hash": "81b9991c9cdaae32074c1d2620bb098c",
@@ -1391,6 +1377,20 @@
     "title_hash": "78c7655dfda62a512d974ce1c397bd74",
     "topic": "꿀팁 모음 AI 영상 편집 가이드",
     "url": "https://gost1227.blogspot.com/2026/06/ai_0380936792.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-10T08:03:26.938704",
+    "title": "🤖 노코드 AI 도구: 고급 사용자의 벤치마크",
+    "title_hash": "269e980a4d1840d9c1b4000d21d36a2d",
+    "topic": "노코드 AI 도구: 고급 사용자의 벤치마크",
+    "url": "https://gost1227.blogspot.com/2026/06/ai_0130776599.html",
     "labels": [
       "AI",
       "인공지능",

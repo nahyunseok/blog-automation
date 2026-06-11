@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-03T05:12:38.149746",
-    "title": "🤖 AI 코딩 도우미 - 시간 단축 실험 결과",
-    "title_hash": "81b9991c9cdaae32074c1d2620bb098c",
-    "topic": "AI 코딩 도우미 - 시간 단축 실험 결과",
-    "url": "https://gost1227.blogspot.com/2026/03/ai.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-04T05:06:19.451302",
     "title": "🤖 [2026년 03월] AI 보안과 프라이버시 최적화 가이드 정리",
     "title_hash": "2a280fcdc63b681f3c80e1da64925350",
@@ -1391,6 +1377,20 @@
     "title_hash": "269e980a4d1840d9c1b4000d21d36a2d",
     "topic": "노코드 AI 도구: 고급 사용자의 벤치마크",
     "url": "https://gost1227.blogspot.com/2026/06/ai_0130776599.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-11T08:41:26.542443",
+    "title": "🤖 Perplexity 검색 팁: 중급자의 사례 연구",
+    "title_hash": "470d1f9d7a5b63427ba9183f18f2e07e",
+    "topic": "Perplexity 검색 팁: 중급자의 사례 연구",
+    "url": "https://gost1227.blogspot.com/2026/06/perplexity.html",
     "labels": [
       "AI",
       "인공지능",

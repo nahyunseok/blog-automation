@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-04T05:06:19.451302",
-    "title": "🤖 [2026년 03월] AI 보안과 프라이버시 최적화 가이드 정리",
-    "title_hash": "2a280fcdc63b681f3c80e1da64925350",
-    "topic": "[2026년 03월] AI 보안과 프라이버시 최적화 가이드 정리",
-    "url": "https://gost1227.blogspot.com/2026/03/2026-03-ai.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-05T05:10:20.152830",
     "title": "🤖 심화 학습 AI 비즈니스 활용 비교 분석",
     "title_hash": "d458be26075d1b32fc81d9dcc03cef23",
@@ -1391,6 +1377,20 @@
     "title_hash": "470d1f9d7a5b63427ba9183f18f2e07e",
     "topic": "Perplexity 검색 팁: 중급자의 사례 연구",
     "url": "https://gost1227.blogspot.com/2026/06/perplexity.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-12T08:20:47.550043",
+    "title": "🤖 스타트업을 위한 AI 글쓰기 비법 팁 모음",
+    "title_hash": "9416dc157fdcc53fe3929a5bf9eeee56",
+    "topic": "스타트업을 위한 AI 글쓰기 비법 팁 모음",
+    "url": "https://gost1227.blogspot.com/2026/06/ai_061157768.html",
     "labels": [
       "AI",
       "인공지능",

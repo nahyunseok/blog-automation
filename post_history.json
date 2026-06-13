@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-05T05:10:20.152830",
-    "title": "🤖 심화 학습 AI 비즈니스 활용 비교 분석",
-    "title_hash": "d458be26075d1b32fc81d9dcc03cef23",
-    "topic": "심화 학습 AI 비즈니스 활용 비교 분석",
-    "url": "https://gost1227.blogspot.com/2026/03/ai_0233485665.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-06T05:07:54.318986",
     "title": "🤖 AI 윤리와 미래: 연구원의 벤치마크",
     "title_hash": "775fe0c5a8afc561a139ce6e6a17b2a8",
@@ -1391,6 +1377,20 @@
     "title_hash": "9416dc157fdcc53fe3929a5bf9eeee56",
     "topic": "스타트업을 위한 AI 글쓰기 비법 팁 모음",
     "url": "https://gost1227.blogspot.com/2026/06/ai_061157768.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-13T07:42:12.873219",
+    "title": "🤖 블로거을 위한 AI 이미지 생성 체크리스트",
+    "title_hash": "0ab3d9c966bf542e574cc841a3d058f6",
+    "topic": "블로거을 위한 AI 이미지 생성 체크리스트",
+    "url": "https://gost1227.blogspot.com/2026/06/ai_02051862437.html",
     "labels": [
       "AI",
       "인공지능",

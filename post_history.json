@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-06T05:07:54.318986",
-    "title": "🤖 AI 윤리와 미래: 연구원의 벤치마크",
-    "title_hash": "775fe0c5a8afc561a139ce6e6a17b2a8",
-    "topic": "AI 윤리와 미래: 연구원의 벤치마크",
-    "url": "https://gost1227.blogspot.com/2026/03/ai_01357816608.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-07T04:58:19.869591",
     "title": "🤖 AI 창작 도구 - 트러블슈팅 팁 모음",
     "title_hash": "259706d5b66327620e38cd01412a0fa8",
@@ -1391,6 +1377,20 @@
     "title_hash": "0ab3d9c966bf542e574cc841a3d058f6",
     "topic": "블로거을 위한 AI 이미지 생성 체크리스트",
     "url": "https://gost1227.blogspot.com/2026/06/ai_02051862437.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-14T08:11:49.482379",
+    "title": "🤖 트러블슈팅 AI 프레젠테이션 체크리스트",
+    "title_hash": "70f598dba476c40f3ec30b051211fefb",
+    "topic": "트러블슈팅 AI 프레젠테이션 체크리스트",
+    "url": "https://gost1227.blogspot.com/2026/06/ai_02074075767.html",
     "labels": [
       "AI",
       "인공지능",

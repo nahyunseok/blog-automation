@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-07T04:58:19.869591",
-    "title": "🤖 AI 창작 도구 - 트러블슈팅 팁 모음",
-    "title_hash": "259706d5b66327620e38cd01412a0fa8",
-    "topic": "AI 창작 도구 - 트러블슈팅 팁 모음",
-    "url": "https://gost1227.blogspot.com/2026/03/ai_0709994370.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-08T05:07:17.009410",
     "title": "🤖 [2026년 03월] AI 데이터 분석 시간 단축 정리",
     "title_hash": "3d70dd96a563ff68566ea1797fa2d5c3",
@@ -1391,6 +1377,20 @@
     "title_hash": "70f598dba476c40f3ec30b051211fefb",
     "topic": "트러블슈팅 AI 프레젠테이션 체크리스트",
     "url": "https://gost1227.blogspot.com/2026/06/ai_02074075767.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-15T09:58:50.281800",
+    "title": "🤖 [2026년 06월] AI 창작 도구 실전 정리",
+    "title_hash": "ab53994c2a4c69ffdaf8c7bff2dd35bc",
+    "topic": "[2026년 06월] AI 창작 도구 실전 정리",
+    "url": "https://gost1227.blogspot.com/2026/06/2026-06-ai_0250518296.html",
     "labels": [
       "AI",
       "인공지능",

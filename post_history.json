@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-09T05:17:50.325954",
-    "title": "🤖 개발자을 위한 AI 협업 도구 Q&A",
-    "title_hash": "2870f3731abdfd928cb2afb48ef609e2",
-    "topic": "개발자을 위한 AI 협업 도구 Q&A",
-    "url": "https://gost1227.blogspot.com/2026/03/ai-q.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-10T05:07:20.935937",
     "title": "🤖 직장인을 위한 AI 창작 도구 리뷰",
     "title_hash": "f3b716b75627910f5e472e680f5a975f",
@@ -1391,6 +1377,20 @@
     "title_hash": "fe0f0b3daefe0b6fab7b33b884f4d374",
     "topic": "트러블슈팅 AI 프레젠테이션 사례 연구",
     "url": "https://gost1227.blogspot.com/2026/06/ai_01618578726.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-17T08:58:16.970463",
+    "title": "🤖 최적화 가이드 Perplexity 검색 팁 인터뷰",
+    "title_hash": "9ff2a56f79216f727180deb2326b1b1d",
+    "topic": "최적화 가이드 Perplexity 검색 팁 인터뷰",
+    "url": "https://gost1227.blogspot.com/2026/06/perplexity_02043571472.html",
     "labels": [
       "AI",
       "인공지능",

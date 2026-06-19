@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-11T05:09:39.482270",
-    "title": "🤖 [2026년 03월] AI 생산성 향상 퀄리티 높이는 정리",
-    "title_hash": "c3e2ed7e33d365780b6e6a1434cfeb11",
-    "topic": "[2026년 03월] AI 생산성 향상 퀄리티 높이는 정리",
-    "url": "https://gost1227.blogspot.com/2026/03/2026-03-ai_0540262090.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-12T05:13:50.474035",
     "title": "🤖 AI 영상 편집: 학생의 실험 결과",
     "title_hash": "e1de67b9473309d718cacc6735fbd173",
@@ -1391,6 +1377,20 @@
     "title_hash": "fe33e0e6dcc695263d96159c04b944d4",
     "topic": "[2026년 06월] AI 교육 혁신 5분 마스터 정리",
     "url": "https://gost1227.blogspot.com/2026/06/2026-06-ai-5.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-19T09:03:18.435168",
+    "title": "🤖 [2026년 06월] AI 데이터 분석 숨겨진 기능 정리",
+    "title_hash": "2d7e4f3c50a24b7dbf6748c41b733814",
+    "topic": "[2026년 06월] AI 데이터 분석 숨겨진 기능 정리",
+    "url": "https://gost1227.blogspot.com/2026/06/2026-06-ai_01450144958.html",
     "labels": [
       "AI",
       "인공지능",

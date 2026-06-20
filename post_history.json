@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-12T05:13:50.474035",
-    "title": "🤖 AI 영상 편집: 학생의 실험 결과",
-    "title_hash": "e1de67b9473309d718cacc6735fbd173",
-    "topic": "AI 영상 편집: 학생의 실험 결과",
-    "url": "https://gost1227.blogspot.com/2026/03/ai_01617281439.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-13T05:11:06.154088",
     "title": "🤖 완전정복 딥러닝 입문 가이드",
     "title_hash": "efc1a978020f98a5c0fa7d8112bcfcea",
@@ -1391,6 +1377,20 @@
     "title_hash": "2d7e4f3c50a24b7dbf6748c41b733814",
     "topic": "[2026년 06월] AI 데이터 분석 숨겨진 기능 정리",
     "url": "https://gost1227.blogspot.com/2026/06/2026-06-ai_01450144958.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-20T07:46:27.989034",
+    "title": "🤖 기획자을 위한 AI 자동화 시스템 인터뷰",
+    "title_hash": "b64017a42206bf56fbf4146b72a26ec3",
+    "topic": "기획자을 위한 AI 자동화 시스템 인터뷰",
+    "url": "https://gost1227.blogspot.com/2026/06/ai_01000246776.html",
     "labels": [
       "AI",
       "인공지능",

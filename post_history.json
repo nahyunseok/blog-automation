@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-13T05:11:06.154088",
-    "title": "🤖 완전정복 딥러닝 입문 가이드",
-    "title_hash": "efc1a978020f98a5c0fa7d8112bcfcea",
-    "topic": "완전정복 딥러닝 입문 가이드",
-    "url": "https://gost1227.blogspot.com/2026/03/blog-post.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-14T05:08:50.815236",
     "title": "🤖 머신러닝 기초: 콘텐츠 크리에이터의 후기",
     "title_hash": "1a140c9d56d365cdaf36bc843a8b4eb2",
@@ -1391,6 +1377,20 @@
     "title_hash": "b64017a42206bf56fbf4146b72a26ec3",
     "topic": "기획자을 위한 AI 자동화 시스템 인터뷰",
     "url": "https://gost1227.blogspot.com/2026/06/ai_01000246776.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-21T08:25:43.447267",
+    "title": "🤖 AI 프롬프트 엔지니어링: 디자이너의 비교 분석",
+    "title_hash": "81688833d369e97369c9e1373f785a47",
+    "topic": "AI 프롬프트 엔지니어링: 디자이너의 비교 분석",
+    "url": "https://gost1227.blogspot.com/2026/06/ai_01239234862.html",
     "labels": [
       "AI",
       "인공지능",

@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-14T05:08:50.815236",
-    "title": "🤖 머신러닝 기초: 콘텐츠 크리에이터의 후기",
-    "title_hash": "1a140c9d56d365cdaf36bc843a8b4eb2",
-    "topic": "머신러닝 기초: 콘텐츠 크리에이터의 후기",
-    "url": "https://gost1227.blogspot.com/2026/03/blog-post_14.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-15T05:25:56.442760",
     "title": "🤖 [2026년 03월] AI 음악 제작 창의적인 정리",
     "title_hash": "51e9b39a474f4c39ab5cb7db839925ed",
@@ -1391,6 +1377,20 @@
     "title_hash": "81688833d369e97369c9e1373f785a47",
     "topic": "AI 프롬프트 엔지니어링: 디자이너의 비교 분석",
     "url": "https://gost1227.blogspot.com/2026/06/ai_01239234862.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-22T09:44:51.792659",
+    "title": "🤖 AI 프롬프트 엔지니어링: 고급 사용자의 비교 분석",
+    "title_hash": "2f318438a01ff844cfa356fd71565b93",
+    "topic": "AI 프롬프트 엔지니어링: 고급 사용자의 비교 분석",
+    "url": "https://gost1227.blogspot.com/2026/06/ai_01324800691.html",
     "labels": [
       "AI",
       "인공지능",

@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-15T05:25:56.442760",
-    "title": "🤖 [2026년 03월] AI 음악 제작 창의적인 정리",
-    "title_hash": "51e9b39a474f4c39ab5cb7db839925ed",
-    "topic": "[2026년 03월] AI 음악 제작 창의적인 정리",
-    "url": "https://gost1227.blogspot.com/2026/03/2026-03-ai_0659010948.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-16T05:47:22.169118",
     "title": "🤖 실패 극복 AI 창작 도구 전략",
     "title_hash": "e715bdcb18d87645db40e06aaa2ccd99",
@@ -1391,6 +1377,20 @@
     "title_hash": "2f318438a01ff844cfa356fd71565b93",
     "topic": "AI 프롬프트 엔지니어링: 고급 사용자의 비교 분석",
     "url": "https://gost1227.blogspot.com/2026/06/ai_01324800691.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-23T07:43:15.127288",
+    "title": "🤖 유튜버을 위한 AI 자동화 시스템 벤치마크",
+    "title_hash": "5262c37b6628d1177f001d2889b6a130",
+    "topic": "유튜버을 위한 AI 자동화 시스템 벤치마크",
+    "url": "https://gost1227.blogspot.com/2026/06/ai_01241643690.html",
     "labels": [
       "AI",
       "인공지능",

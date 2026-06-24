@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-16T05:47:22.169118",
-    "title": "🤖 실패 극복 AI 창작 도구 전략",
-    "title_hash": "e715bdcb18d87645db40e06aaa2ccd99",
-    "topic": "실패 극복 AI 창작 도구 전략",
-    "url": "https://gost1227.blogspot.com/2026/03/ai_01253052995.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-17T05:19:39.671750",
     "title": "🤖 딥러닝 입문 - 케이스 스터디 벤치마크",
     "title_hash": "cbd51fba0cb760792c95bc4a28d5abee",
@@ -1391,6 +1377,20 @@
     "title_hash": "5262c37b6628d1177f001d2889b6a130",
     "topic": "유튜버을 위한 AI 자동화 시스템 벤치마크",
     "url": "https://gost1227.blogspot.com/2026/06/ai_01241643690.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-24T07:35:58.252344",
+    "title": "🤖 연구원을 위한 노코드 AI 도구 후기",
+    "title_hash": "1451e626cb776e24a8f03ca6d50c5ab9",
+    "topic": "연구원을 위한 노코드 AI 도구 후기",
+    "url": "https://gost1227.blogspot.com/2026/06/ai_02019448468.html",
     "labels": [
       "AI",
       "인공지능",

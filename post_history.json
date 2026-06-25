@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-17T05:19:39.671750",
-    "title": "🤖 딥러닝 입문 - 케이스 스터디 벤치마크",
-    "title_hash": "cbd51fba0cb760792c95bc4a28d5abee",
-    "topic": "딥러닝 입문 - 케이스 스터디 벤치마크",
-    "url": "https://gost1227.blogspot.com/2026/03/blog-post_17.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-18T05:23:23.009068",
     "title": "🤖 마케터을 위한 Perplexity 검색 팁 리뷰",
     "title_hash": "e765b5a4e21977c5e8bba97cc9190098",
@@ -1391,6 +1377,20 @@
     "title_hash": "1451e626cb776e24a8f03ca6d50c5ab9",
     "topic": "연구원을 위한 노코드 AI 도구 후기",
     "url": "https://gost1227.blogspot.com/2026/06/ai_02019448468.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-25T07:38:33.692221",
+    "title": "🤖 시간 단축 딥러닝 입문 체크리스트",
+    "title_hash": "0717c859f369f91437f30cc5f55b13a0",
+    "topic": "시간 단축 딥러닝 입문 체크리스트",
+    "url": "https://gost1227.blogspot.com/2026/06/blog-post_25.html",
     "labels": [
       "AI",
       "인공지능",

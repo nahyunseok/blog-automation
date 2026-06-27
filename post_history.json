@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-19T05:20:23.152468",
-    "title": "🤖 [2026년 03월] Perplexity 검색 팁 완전정복 정리",
-    "title_hash": "a277c1b46d7b1984ae2bc76d01758493",
-    "topic": "[2026년 03월] Perplexity 검색 팁 완전정복 정리",
-    "url": "https://gost1227.blogspot.com/2026/03/2026-03-perplexity.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-20T05:13:41.678143",
     "title": "🤖 [2026년 03월] AI 영상 편집 비용 절감 정리",
     "title_hash": "fd226d88a81be3739ff5f2eed351bd2a",
@@ -1391,6 +1377,20 @@
     "title_hash": "ce248293f98ee3ffc3aba97a0785f02d",
     "topic": "AI 협업 도구 - 효율 200% 높이는 인터뷰",
     "url": "https://gost1227.blogspot.com/2026/06/ai-200.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-27T06:49:27.272870",
+    "title": "🤖 [2026년 06월] ChatGPT 활용법 트러블슈팅 정리",
+    "title_hash": "375145accca02d3c3a74fc63b5e7b5f1",
+    "topic": "[2026년 06월] ChatGPT 활용법 트러블슈팅 정리",
+    "url": "https://gost1227.blogspot.com/2026/06/2026-06-chatgpt.html",
     "labels": [
       "AI",
       "인공지능",

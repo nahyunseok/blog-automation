@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-20T05:13:41.678143",
-    "title": "🤖 [2026년 03월] AI 영상 편집 비용 절감 정리",
-    "title_hash": "fd226d88a81be3739ff5f2eed351bd2a",
-    "topic": "[2026년 03월] AI 영상 편집 비용 절감 정리",
-    "url": "https://gost1227.blogspot.com/2026/03/2026-03-ai_01335454909.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-21T05:04:23.164917",
     "title": "🤖 노코드 AI 도구 - 숨겨진 기능 사례 연구",
     "title_hash": "04599da1ea01819269faa26698e53f2c",
@@ -1391,6 +1377,20 @@
     "title_hash": "375145accca02d3c3a74fc63b5e7b5f1",
     "topic": "[2026년 06월] ChatGPT 활용법 트러블슈팅 정리",
     "url": "https://gost1227.blogspot.com/2026/06/2026-06-chatgpt.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-28T07:47:03.861294",
+    "title": "🤖 초보자를 위한 ChatGPT 활용법 팁 모음",
+    "title_hash": "6c9cbfcd8d169672aed73dd9d15e32ae",
+    "topic": "초보자를 위한 ChatGPT 활용법 팁 모음",
+    "url": "https://gost1227.blogspot.com/2026/06/chatgpt_01494303678.html",
     "labels": [
       "AI",
       "인공지능",

@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-21T05:04:23.164917",
-    "title": "🤖 노코드 AI 도구 - 숨겨진 기능 사례 연구",
-    "title_hash": "04599da1ea01819269faa26698e53f2c",
-    "topic": "노코드 AI 도구 - 숨겨진 기능 사례 연구",
-    "url": "https://gost1227.blogspot.com/2026/03/ai_01875719326.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-22T05:17:04.628345",
     "title": "🤖 프리랜서을 위한 AI 마케팅 전략 로드맵",
     "title_hash": "a6c1fa7456d2c13a64a101c063ae128a",
@@ -1391,6 +1377,20 @@
     "title_hash": "6c9cbfcd8d169672aed73dd9d15e32ae",
     "topic": "초보자를 위한 ChatGPT 활용법 팁 모음",
     "url": "https://gost1227.blogspot.com/2026/06/chatgpt_01494303678.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-29T08:54:29.965271",
+    "title": "🤖 고급 사용자을 위한 Claude 사용 팁 리뷰",
+    "title_hash": "cd757972a01af34a5c4961b402f4ef24",
+    "topic": "고급 사용자을 위한 Claude 사용 팁 리뷰",
+    "url": "https://gost1227.blogspot.com/2026/06/claude.html",
     "labels": [
       "AI",
       "인공지능",

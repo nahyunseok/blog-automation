@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-22T05:17:04.628345",
-    "title": "🤖 프리랜서을 위한 AI 마케팅 전략 로드맵",
-    "title_hash": "a6c1fa7456d2c13a64a101c063ae128a",
-    "topic": "프리랜서을 위한 AI 마케팅 전략 로드맵",
-    "url": "https://gost1227.blogspot.com/2026/03/ai_01006607188.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-23T05:27:43.504158",
     "title": "🤖 [2026년 03월] AI 이미지 생성 창의적인 정리",
     "title_hash": "4da0c871a728933fd51009ac78cbe426",
@@ -1391,6 +1377,20 @@
     "title_hash": "cd757972a01af34a5c4961b402f4ef24",
     "topic": "고급 사용자을 위한 Claude 사용 팁 리뷰",
     "url": "https://gost1227.blogspot.com/2026/06/claude.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-06-30T07:50:12.164725",
+    "title": "🤖 [2026년 06월] AI 생산성 향상 완전정복 정리",
+    "title_hash": "095f87cb22b0ac10aa59fb9b15d14e60",
+    "topic": "[2026년 06월] AI 생산성 향상 완전정복 정리",
+    "url": "https://gost1227.blogspot.com/2026/06/2026-06-ai_01494294853.html",
     "labels": [
       "AI",
       "인공지능",

@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-28T05:19:25.160101",
-    "title": "🤖 유튜버을 위한 AI 비즈니스 활용 가이드",
-    "title_hash": "b4ef33763caec576c06084fd3ba89974",
-    "topic": "유튜버을 위한 AI 비즈니스 활용 가이드",
-    "url": "https://gost1227.blogspot.com/2026/03/ai_01429778187.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-29T05:41:11.790941",
     "title": "🤖 숨겨진 기능 노코드 AI 도구 벤치마크",
     "title_hash": "56cf050ba2a69582fcf21047454e2a22",
@@ -1391,6 +1377,20 @@
     "title_hash": "9971915158ad6bcb2162f3d6e27ed2fe",
     "topic": "AI 글쓰기 비법 - 심화 학습 로드맵",
     "url": "https://gost1227.blogspot.com/2026/07/ai_0837371077.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-07-06T08:15:44.351151",
+    "title": "🤖 AI 영상 편집 - 퀄리티 높이는 팁 모음",
+    "title_hash": "4bdd428e4ba612e8dcff04257ab326f8",
+    "topic": "AI 영상 편집 - 퀄리티 높이는 팁 모음",
+    "url": "https://gost1227.blogspot.com/2026/07/ai_0967967463.html",
     "labels": [
       "AI",
       "인공지능",

@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-03-29T05:41:11.790941",
-    "title": "🤖 숨겨진 기능 노코드 AI 도구 벤치마크",
-    "title_hash": "56cf050ba2a69582fcf21047454e2a22",
-    "topic": "숨겨진 기능 노코드 AI 도구 벤치마크",
-    "url": "https://gost1227.blogspot.com/2026/03/ai_01736499090.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-03-30T05:56:31.004229",
     "title": "🤖 AI 트렌드 분석: 개발자의 팁 모음",
     "title_hash": "ee129e602c6a4f85117f824f2abf853b",
@@ -1391,6 +1377,20 @@
     "title_hash": "4bdd428e4ba612e8dcff04257ab326f8",
     "topic": "AI 영상 편집 - 퀄리티 높이는 팁 모음",
     "url": "https://gost1227.blogspot.com/2026/07/ai_0967967463.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-07-07T07:33:47.992477",
+    "title": "🤖 개발자을 위한 Gemini 고급 기능 팁 모음",
+    "title_hash": "add2b8bf14483f25da7fb6beb9f34707",
+    "topic": "개발자을 위한 Gemini 고급 기능 팁 모음",
+    "url": "https://gost1227.blogspot.com/2026/07/gemini.html",
     "labels": [
       "AI",
       "인공지능",

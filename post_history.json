@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-04T05:19:33.726931",
-    "title": "🤖 [2026년 04월] AI 생산성 향상 초보자를 위한 정리",
-    "title_hash": "e9d222411e848ca5fa84b9736def8180",
-    "topic": "[2026년 04월] AI 생산성 향상 초보자를 위한 정리",
-    "url": "https://gost1227.blogspot.com/2026/04/2026-04-ai_0648434151.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-04-05T05:42:46.657168",
     "title": "🤖 비용 절감 머신러닝 기초 실험 결과",
     "title_hash": "bee50fbe7af86a8e26fa5b96d4f270aa",
@@ -1391,6 +1377,20 @@
     "title_hash": "f39a8c931bf6b3489f1d0558bd515952",
     "topic": "AI 보안과 프라이버시 - 최적화 가이드 팁 모음",
     "url": "https://gost1227.blogspot.com/2026/07/ai_01896411502.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-07-13T06:49:10.929234",
+    "title": "🤖 창업자을 위한 AI 영상 편집 팁 모음",
+    "title_hash": "5b0d0d03d34fca48a0b7dbac5f54b63f",
+    "topic": "창업자을 위한 AI 영상 편집 팁 모음",
+    "url": "https://gost1227.blogspot.com/2026/07/ai_0431064637.html",
     "labels": [
       "AI",
       "인공지능",

@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-05T05:42:46.657168",
-    "title": "🤖 비용 절감 머신러닝 기초 실험 결과",
-    "title_hash": "bee50fbe7af86a8e26fa5b96d4f270aa",
-    "topic": "비용 절감 머신러닝 기초 실험 결과",
-    "url": "https://gost1227.blogspot.com/2026/04/blog-post.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-04-06T05:56:44.012149",
     "title": "🤖 AI 트렌드 분석 - 비교 분석 벤치마크",
     "title_hash": "fdc9f2972625ac5e51ab700c0f2083f1",
@@ -1391,6 +1377,20 @@
     "title_hash": "5b0d0d03d34fca48a0b7dbac5f54b63f",
     "topic": "창업자을 위한 AI 영상 편집 팁 모음",
     "url": "https://gost1227.blogspot.com/2026/07/ai_0431064637.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-07-14T06:06:59.414911",
+    "title": "🤖 Perplexity 검색 팁: 블로거의 튜토리얼",
+    "title_hash": "73c5ec9de01ebeac921f3a9154cd14a1",
+    "topic": "Perplexity 검색 팁: 블로거의 튜토리얼",
+    "url": "https://gost1227.blogspot.com/2026/07/perplexity.html",
     "labels": [
       "AI",
       "인공지능",

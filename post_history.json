@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-08T05:44:34.136190",
-    "title": "🤖 연구원을 위한 AI 프롬프트 엔지니어링 튜토리얼",
-    "title_hash": "280d098d1c64a8df2354e9355512c1a1",
-    "topic": "연구원을 위한 AI 프롬프트 엔지니어링 튜토리얼",
-    "url": "https://gost1227.blogspot.com/2026/04/ai_01336266963.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-04-09T05:46:33.169849",
     "title": "🤖 콘텐츠 크리에이터을 위한 AI 영상 편집 체크리스트",
     "title_hash": "c1328a7f794e61ec14c9b94c948dab84",
@@ -1391,6 +1377,20 @@
     "title_hash": "a813765e78ede976462546e95bc60e4e",
     "topic": "AI 코딩 도우미: 프리랜서의 후기",
     "url": "https://gost1227.blogspot.com/2026/07/ai_0554280715.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-07-17T06:11:12.860139",
+    "title": "🤖 성공 사례 AI 번역 활용 체크리스트",
+    "title_hash": "b544cc552de02381865ff83a25303b3d",
+    "topic": "성공 사례 AI 번역 활용 체크리스트",
+    "url": "https://gost1227.blogspot.com/2026/07/ai_02049834913.html",
     "labels": [
       "AI",
       "인공지능",

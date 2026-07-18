@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-09T05:46:33.169849",
-    "title": "🤖 콘텐츠 크리에이터을 위한 AI 영상 편집 체크리스트",
-    "title_hash": "c1328a7f794e61ec14c9b94c948dab84",
-    "topic": "콘텐츠 크리에이터을 위한 AI 영상 편집 체크리스트",
-    "url": "https://gost1227.blogspot.com/2026/04/ai_01607682996.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-04-10T05:54:44.102499",
     "title": "🤖 AI 이미지 생성: 중장년층의 Q&A",
     "title_hash": "1bdd03d0fedb055043cc261125e98f2d",
@@ -1391,6 +1377,20 @@
     "title_hash": "b544cc552de02381865ff83a25303b3d",
     "topic": "성공 사례 AI 번역 활용 체크리스트",
     "url": "https://gost1227.blogspot.com/2026/07/ai_02049834913.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-07-18T06:00:55.493827",
+    "title": "🤖 Gemini 고급 기능 - 심화 학습 체크리스트",
+    "title_hash": "54ed3dfab66d1c1514fe9f5ed17b985a",
+    "topic": "Gemini 고급 기능 - 심화 학습 체크리스트",
+    "url": "https://gost1227.blogspot.com/2026/07/gemini_01227237187.html",
     "labels": [
       "AI",
       "인공지능",

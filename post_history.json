@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-11T05:22:43.882269",
-    "title": "🤖 [2026년 04월] AI 비즈니스 활용 효율 200% 높이는 정리",
-    "title_hash": "f68dd5a3c6b652ccd52528a31edac5f9",
-    "topic": "[2026년 04월] AI 비즈니스 활용 효율 200% 높이는 정리",
-    "url": "https://gost1227.blogspot.com/2026/04/2026-04-ai-200.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-04-12T05:51:32.905052",
     "title": "🤖 AI 이미지 생성 - 숨겨진 기능 로드맵",
     "title_hash": "67dfccc4d3bbf3a95caa8188fb4fd04f",
@@ -1391,6 +1377,20 @@
     "title_hash": "af72691fdcdd2ef52d0c30e1be1baada",
     "topic": "[2026년 07월] Claude 사용 팁 효율 200% 높이는 정리",
     "url": "https://gost1227.blogspot.com/2026/07/2026-07-claude-200.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-07-20T06:41:40.867884",
+    "title": "🤖 학생을 위한 AI 프레젠테이션 벤치마크",
+    "title_hash": "a05fc009958fc9ca7dc8a5dee7dad185",
+    "topic": "학생을 위한 AI 프레젠테이션 벤치마크",
+    "url": "https://gost1227.blogspot.com/2026/07/ai_01834093780.html",
     "labels": [
       "AI",
       "인공지능",

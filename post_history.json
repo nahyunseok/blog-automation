@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-12T05:51:32.905052",
-    "title": "🤖 AI 이미지 생성 - 숨겨진 기능 로드맵",
-    "title_hash": "67dfccc4d3bbf3a95caa8188fb4fd04f",
-    "topic": "AI 이미지 생성 - 숨겨진 기능 로드맵",
-    "url": "https://gost1227.blogspot.com/2026/04/ai_01280071088.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-04-13T06:10:58.069924",
     "title": "🤖 작가을 위한 노코드 AI 도구 팁 모음",
     "title_hash": "50dae185d9336610d45f661d9847fc94",
@@ -1391,6 +1377,20 @@
     "title_hash": "a05fc009958fc9ca7dc8a5dee7dad185",
     "topic": "학생을 위한 AI 프레젠테이션 벤치마크",
     "url": "https://gost1227.blogspot.com/2026/07/ai_01834093780.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-07-21T06:24:21.749595",
+    "title": "🤖 AI 창작 도구: 직장인의 전략",
+    "title_hash": "fc650a2b8ff8a7cca85e13a14f779b4f",
+    "topic": "AI 창작 도구: 직장인의 전략",
+    "url": "https://gost1227.blogspot.com/2026/07/ai_01176340830.html",
     "labels": [
       "AI",
       "인공지능",

@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-13T06:10:58.069924",
-    "title": "🤖 작가을 위한 노코드 AI 도구 팁 모음",
-    "title_hash": "50dae185d9336610d45f661d9847fc94",
-    "topic": "작가을 위한 노코드 AI 도구 팁 모음",
-    "url": "https://gost1227.blogspot.com/2026/04/ai_0231454190.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-04-14T05:58:02.130470",
     "title": "🤖 기획자을 위한 AI 자동화 시스템 벤치마크",
     "title_hash": "98e5ecb0a568e1053edf99434b83cfe7",
@@ -1391,6 +1377,20 @@
     "title_hash": "fc650a2b8ff8a7cca85e13a14f779b4f",
     "topic": "AI 창작 도구: 직장인의 전략",
     "url": "https://gost1227.blogspot.com/2026/07/ai_01176340830.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-07-22T06:24:00.480334",
+    "title": "🤖 Perplexity 검색 팁: 연구원의 사례 연구",
+    "title_hash": "9d613d977cc906c8ca29ff2ea0776320",
+    "topic": "Perplexity 검색 팁: 연구원의 사례 연구",
+    "url": "https://gost1227.blogspot.com/2026/07/perplexity_01970124452.html",
     "labels": [
       "AI",
       "인공지능",

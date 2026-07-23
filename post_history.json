@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-14T05:58:02.130470",
-    "title": "🤖 기획자을 위한 AI 자동화 시스템 벤치마크",
-    "title_hash": "98e5ecb0a568e1053edf99434b83cfe7",
-    "topic": "기획자을 위한 AI 자동화 시스템 벤치마크",
-    "url": "https://gost1227.blogspot.com/2026/04/ai_01539065883.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-04-15T05:57:54.332185",
     "title": "🤖 Stable Diffusion 가이드: 마케터의 Q&A",
     "title_hash": "3091fa262cd5ef538fb6a343bb637a0f",
@@ -1391,6 +1377,20 @@
     "title_hash": "9d613d977cc906c8ca29ff2ea0776320",
     "topic": "Perplexity 검색 팁: 연구원의 사례 연구",
     "url": "https://gost1227.blogspot.com/2026/07/perplexity_01970124452.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-07-23T06:26:43.820610",
+    "title": "🤖 디자이너을 위한 AI 프롬프트 엔지니어링 Q&A",
+    "title_hash": "b9c7809867f5702bb7306e7daf48532a",
+    "topic": "디자이너을 위한 AI 프롬프트 엔지니어링 Q&A",
+    "url": "https://gost1227.blogspot.com/2026/07/ai-q.html",
     "labels": [
       "AI",
       "인공지능",

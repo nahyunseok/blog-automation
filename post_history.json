@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-15T05:57:54.332185",
-    "title": "🤖 Stable Diffusion 가이드: 마케터의 Q&A",
-    "title_hash": "3091fa262cd5ef538fb6a343bb637a0f",
-    "topic": "Stable Diffusion 가이드: 마케터의 Q&A",
-    "url": "https://gost1227.blogspot.com/2026/04/stable-diffusion-q.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-04-16T05:58:57.336463",
     "title": "🤖 AI 이미지 생성: 개발자의 팁 모음",
     "title_hash": "ee06b3eb2dbd7c57c4f734900eb63f8c",
@@ -1391,6 +1377,20 @@
     "title_hash": "b9c7809867f5702bb7306e7daf48532a",
     "topic": "디자이너을 위한 AI 프롬프트 엔지니어링 Q&A",
     "url": "https://gost1227.blogspot.com/2026/07/ai-q.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-07-24T06:21:31.374331",
+    "title": "🤖 AI 보안과 프라이버시: 직장인의 실험 결과",
+    "title_hash": "75b6a4ae596f2642280c2622f09ca35c",
+    "topic": "AI 보안과 프라이버시: 직장인의 실험 결과",
+    "url": "https://gost1227.blogspot.com/2026/07/ai_02132311960.html",
     "labels": [
       "AI",
       "인공지능",

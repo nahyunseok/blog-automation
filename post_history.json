@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-17T06:00:34.813380",
-    "title": "🤖 연구원을 위한 AI 이미지 생성 후기",
-    "title_hash": "d6f6fab1e2fd289e10801fc84736a5da",
-    "topic": "연구원을 위한 AI 이미지 생성 후기",
-    "url": "https://gost1227.blogspot.com/2026/04/ai_01155687726.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-04-18T05:39:14.703294",
     "title": "🤖 AI 창작 도구: 작가의 인터뷰",
     "title_hash": "4a3ed01b86afd588c208aa65f9a7cb04",
@@ -1391,6 +1377,20 @@
     "title_hash": "352be647d1c79e22eac0a3d4cea7c833",
     "topic": "[2026년 07월] AI 자동화 시스템 실패 극복 정리",
     "url": "https://gost1227.blogspot.com/2026/07/2026-07-ai_01473283713.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-07-26T06:31:52.856775",
+    "title": "🤖 [2026년 07월] AI 이미지 생성 핵심정리 정리",
+    "title_hash": "2acfe144a6f5099fcc185ccc61c01731",
+    "topic": "[2026년 07월] AI 이미지 생성 핵심정리 정리",
+    "url": "https://gost1227.blogspot.com/2026/07/2026-07-ai_01869021800.html",
     "labels": [
       "AI",
       "인공지능",

@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-18T05:39:14.703294",
-    "title": "🤖 AI 창작 도구: 작가의 인터뷰",
-    "title_hash": "4a3ed01b86afd588c208aa65f9a7cb04",
-    "topic": "AI 창작 도구: 작가의 인터뷰",
-    "url": "https://gost1227.blogspot.com/2026/04/ai_0613916243.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-04-19T05:55:48.355962",
     "title": "🤖 AI 협업 도구 - 비용 절감 Q&A",
     "title_hash": "2d17427f55e5c0fc33b91e2093ef3819",
@@ -1391,6 +1377,20 @@
     "title_hash": "2acfe144a6f5099fcc185ccc61c01731",
     "topic": "[2026년 07월] AI 이미지 생성 핵심정리 정리",
     "url": "https://gost1227.blogspot.com/2026/07/2026-07-ai_01869021800.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-07-27T06:58:20.296648",
+    "title": "🤖 [2026년 07월] AI 번역 활용 효율 200% 높이는 정리",
+    "title_hash": "6e480945496401aad79eb0d65ca2edb9",
+    "topic": "[2026년 07월] AI 번역 활용 효율 200% 높이는 정리",
+    "url": "https://gost1227.blogspot.com/2026/07/2026-07-ai-200.html",
     "labels": [
       "AI",
       "인공지능",

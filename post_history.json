@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-19T05:55:48.355962",
-    "title": "🤖 AI 협업 도구 - 비용 절감 Q&A",
-    "title_hash": "2d17427f55e5c0fc33b91e2093ef3819",
-    "topic": "AI 협업 도구 - 비용 절감 Q&A",
-    "url": "https://gost1227.blogspot.com/2026/04/ai-q_01272170438.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-04-20T06:11:36.191303",
     "title": "🤖 [2026년 04월] AI API 활용 케이스 스터디 정리",
     "title_hash": "64c8957395aa4af5d8607ee3276546b2",
@@ -1391,6 +1377,20 @@
     "title_hash": "6e480945496401aad79eb0d65ca2edb9",
     "topic": "[2026년 07월] AI 번역 활용 효율 200% 높이는 정리",
     "url": "https://gost1227.blogspot.com/2026/07/2026-07-ai-200.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-07-28T06:22:02.810574",
+    "title": "🤖 작가을 위한 ChatGPT 활용법 인터뷰",
+    "title_hash": "749f8bd021b831d5cbcd4e796bcaf2f9",
+    "topic": "작가을 위한 ChatGPT 활용법 인터뷰",
+    "url": "https://gost1227.blogspot.com/2026/07/chatgpt.html",
     "labels": [
       "AI",
       "인공지능",

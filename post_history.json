@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-20T06:11:36.191303",
-    "title": "🤖 [2026년 04월] AI API 활용 케이스 스터디 정리",
-    "title_hash": "64c8957395aa4af5d8607ee3276546b2",
-    "topic": "[2026년 04월] AI API 활용 케이스 스터디 정리",
-    "url": "https://gost1227.blogspot.com/2026/04/2026-04-ai-api.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-04-21T05:59:37.068115",
     "title": "🤖 실패 극복 딥러닝 입문 가이드",
     "title_hash": "7679f762e97274fac7d103623e1e2952",
@@ -1391,6 +1377,20 @@
     "title_hash": "749f8bd021b831d5cbcd4e796bcaf2f9",
     "topic": "작가을 위한 ChatGPT 활용법 인터뷰",
     "url": "https://gost1227.blogspot.com/2026/07/chatgpt.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-07-29T06:26:40.525785",
+    "title": "🤖 AI 프레젠테이션: 기획자의 사례 연구",
+    "title_hash": "4192bf9fb5c77e82141288575386463d",
+    "topic": "AI 프레젠테이션: 기획자의 사례 연구",
+    "url": "https://gost1227.blogspot.com/2026/07/ai_01629808800.html",
     "labels": [
       "AI",
       "인공지능",

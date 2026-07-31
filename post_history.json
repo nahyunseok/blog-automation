@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-22T05:57:14.394184",
-    "title": "🤖 직장인을 위한 Gemini 고급 기능 실험 결과",
-    "title_hash": "e4331eeda560b54b1585a72ca52c070a",
-    "topic": "직장인을 위한 Gemini 고급 기능 실험 결과",
-    "url": "https://gost1227.blogspot.com/2026/04/gemini.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-04-23T06:02:40.955761",
     "title": "🤖 AI 이미지 생성: 마케터의 전략",
     "title_hash": "23fdb28aca1ca3715caf083a63aec99c",
@@ -1391,6 +1377,20 @@
     "title_hash": "c79a3a8bbfb5a081813327cffde0760f",
     "topic": "ChatGPT 활용법: 마케터의 인터뷰",
     "url": "https://gost1227.blogspot.com/2026/07/chatgpt_0641844933.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-07-31T06:39:51.228656",
+    "title": "🤖 [2026년 07월] Gemini 고급 기능 퀄리티 높이는 정리",
+    "title_hash": "4c2c3ecff76a72721c2fc2b933457d0d",
+    "topic": "[2026년 07월] Gemini 고급 기능 퀄리티 높이는 정리",
+    "url": "https://gost1227.blogspot.com/2026/07/2026-07-gemini.html",
     "labels": [
       "AI",
       "인공지능",

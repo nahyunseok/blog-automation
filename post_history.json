@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-24T06:05:50.341808",
-    "title": "🤖 [2026년 04월] AI 창작 도구 케이스 스터디 정리",
-    "title_hash": "3d0ebaceb1d30a5e185228b8929e4640",
-    "topic": "[2026년 04월] AI 창작 도구 케이스 스터디 정리",
-    "url": "https://gost1227.blogspot.com/2026/04/2026-04-ai_01361825732.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-04-25T05:45:24.414210",
     "title": "🤖 중급자을 위한 AI 자동화 시스템 Q&A",
     "title_hash": "e9ef5175e9f50c17352a5e644c1325fc",
@@ -1391,6 +1377,20 @@
     "title_hash": "5bde490ced180acea8f173b038005f21",
     "topic": "딥러닝 입문: 프리랜서의 팁 모음",
     "url": "https://gost1227.blogspot.com/2026/08/blog-post.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-08-02T06:28:46.002342",
+    "title": "🤖 AI 창작 도구: 마케터의 전략",
+    "title_hash": "aa83360fa85d191349e53686107bd941",
+    "topic": "AI 창작 도구: 마케터의 전략",
+    "url": "https://gost1227.blogspot.com/2026/08/ai.html",
     "labels": [
       "AI",
       "인공지능",

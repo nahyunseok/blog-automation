@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-25T05:45:24.414210",
-    "title": "🤖 중급자을 위한 AI 자동화 시스템 Q&A",
-    "title_hash": "e9ef5175e9f50c17352a5e644c1325fc",
-    "topic": "중급자을 위한 AI 자동화 시스템 Q&A",
-    "url": "https://gost1227.blogspot.com/2026/04/ai-q_058030680.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-04-26T06:03:50.753423",
     "title": "🤖 AI 자동화 시스템: 스타트업의 체크리스트",
     "title_hash": "8f7635ca4feab1c8d39953e030a0f9c9",
@@ -1391,6 +1377,20 @@
     "title_hash": "aa83360fa85d191349e53686107bd941",
     "topic": "AI 창작 도구: 마케터의 전략",
     "url": "https://gost1227.blogspot.com/2026/08/ai.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-08-03T06:55:23.142293",
+    "title": "🤖 트러블슈팅 머신러닝 기초 가이드",
+    "title_hash": "45361c9043354e248fa343c4ddb65b28",
+    "topic": "트러블슈팅 머신러닝 기초 가이드",
+    "url": "https://gost1227.blogspot.com/2026/08/blog-post_03.html",
     "labels": [
       "AI",
       "인공지능",

@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-26T06:03:50.753423",
-    "title": "🤖 AI 자동화 시스템: 스타트업의 체크리스트",
-    "title_hash": "8f7635ca4feab1c8d39953e030a0f9c9",
-    "topic": "AI 자동화 시스템: 스타트업의 체크리스트",
-    "url": "https://gost1227.blogspot.com/2026/04/ai_0144538803.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-04-27T06:24:49.683489",
     "title": "🤖 작가을 위한 Midjourney 사용법 사례 연구",
     "title_hash": "8da421c90face129e70e3a3eff9de905",
@@ -1391,6 +1377,20 @@
     "title_hash": "45361c9043354e248fa343c4ddb65b28",
     "topic": "트러블슈팅 머신러닝 기초 가이드",
     "url": "https://gost1227.blogspot.com/2026/08/blog-post_03.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-08-04T06:23:07.411020",
+    "title": "🤖 [2026년 08월] ChatGPT 활용법 실전 정리",
+    "title_hash": "31a7c2eaa94beef5d3955faf45c35d1e",
+    "topic": "[2026년 08월] ChatGPT 활용법 실전 정리",
+    "url": "https://gost1227.blogspot.com/2026/08/2026-08-chatgpt.html",
     "labels": [
       "AI",
       "인공지능",

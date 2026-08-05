@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-27T06:24:49.683489",
-    "title": "🤖 작가을 위한 Midjourney 사용법 사례 연구",
-    "title_hash": "8da421c90face129e70e3a3eff9de905",
-    "topic": "작가을 위한 Midjourney 사용법 사례 연구",
-    "url": "https://gost1227.blogspot.com/2026/04/midjourney.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-04-28T06:26:13.463824",
     "title": "🤖 꿀팁 모음 Claude 사용 팁 튜토리얼",
     "title_hash": "5d324b1848392e840adae7603676dbe7",
@@ -1391,6 +1377,20 @@
     "title_hash": "31a7c2eaa94beef5d3955faf45c35d1e",
     "topic": "[2026년 08월] ChatGPT 활용법 실전 정리",
     "url": "https://gost1227.blogspot.com/2026/08/2026-08-chatgpt.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-08-05T06:23:40.738741",
+    "title": "🤖 AI 글쓰기 비법: 작가의 비교 분석",
+    "title_hash": "97c7ee41d4bbe20c07e3d8acf24070c0",
+    "topic": "AI 글쓰기 비법: 작가의 비교 분석",
+    "url": "https://gost1227.blogspot.com/2026/08/ai_01086900822.html",
     "labels": [
       "AI",
       "인공지능",

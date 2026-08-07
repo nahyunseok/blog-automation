@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-29T06:20:13.984477",
-    "title": "🤖 AI 프레젠테이션 - 실전 가이드",
-    "title_hash": "21eb3969ea7387202f0f17540b97b629",
-    "topic": "AI 프레젠테이션 - 실전 가이드",
-    "url": "https://gost1227.blogspot.com/2026/04/ai_024358102.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-04-30T06:24:42.640233",
     "title": "🤖 AI 이미지 생성: 블로거의 Q&A",
     "title_hash": "d8e75ec63511ef7c6b385110417f4446",
@@ -1391,6 +1377,20 @@
     "title_hash": "f420d48d2a5ddb967464865df482ca01",
     "topic": "비용 절감 Claude 사용 팁 인터뷰",
     "url": "https://gost1227.blogspot.com/2026/08/claude.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-08-07T05:36:31.754495",
+    "title": "🤖 노코드 AI 도구: 유튜버의 후기",
+    "title_hash": "c3ebd44b7af499279af9aabd7b81c742",
+    "topic": "노코드 AI 도구: 유튜버의 후기",
+    "url": "https://gost1227.blogspot.com/2026/08/ai_0783110910.html",
     "labels": [
       "AI",
       "인공지능",

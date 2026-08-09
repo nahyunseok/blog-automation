@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-05-01T06:33:34.439331",
-    "title": "🤖 AI 번역 활용 - 숨겨진 기능 벤치마크",
-    "title_hash": "9b5696281722b63043af7ca106d9ca29",
-    "topic": "AI 번역 활용 - 숨겨진 기능 벤치마크",
-    "url": "https://gost1227.blogspot.com/2026/05/ai.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-05-02T06:03:57.241595",
     "title": "🤖 입문자을 위한 노코드 AI 도구 후기",
     "title_hash": "66bc0eb0ad0fe5f5a512878e31903e43",
@@ -1391,6 +1377,20 @@
     "title_hash": "eefb4c64c6e2b5b964ee0eeacaf11774",
     "topic": "[2026년 08월] ChatGPT 활용법 초보자를 위한 정리",
     "url": "https://gost1227.blogspot.com/2026/08/2026-08-chatgpt_01566630058.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-08-09T04:59:36.462784",
+    "title": "🤖 꿀팁 모음 노코드 AI 도구 리뷰",
+    "title_hash": "ffdfc9d34bb70d3281cc8dd3b0b10a6f",
+    "topic": "꿀팁 모음 노코드 AI 도구 리뷰",
+    "url": "https://gost1227.blogspot.com/2026/08/ai_02018926238.html",
     "labels": [
       "AI",
       "인공지능",

@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-05-04T06:35:35.480474",
-    "title": "🤖 AI 교육 혁신 - 케이스 스터디 튜토리얼",
-    "title_hash": "7c67e1a4d7f4257610c0462ee402a536",
-    "topic": "AI 교육 혁신 - 케이스 스터디 튜토리얼",
-    "url": "https://gost1227.blogspot.com/2026/05/ai_01201726958.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-05-05T06:12:16.680276",
     "title": "🤖 Midjourney 사용법 - 꿀팁 모음 리뷰",
     "title_hash": "e5ce999e1cf90a0e67de6d4dbcb67a94",
@@ -1391,6 +1377,20 @@
     "title_hash": "b285907f663a40cb39eeef130ee890b8",
     "topic": "AI 이미지 생성: 교육자의 가이드",
     "url": "https://gost1227.blogspot.com/2026/08/ai_02013006157.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-08-12T05:27:17.668600",
+    "title": "🤖 노코드 AI 도구 - 최적화 가이드 체크리스트",
+    "title_hash": "b61766d85e24e6b784d9356b6f7e1f47",
+    "topic": "노코드 AI 도구 - 최적화 가이드 체크리스트",
+    "url": "https://gost1227.blogspot.com/2026/08/ai_01724904861.html",
     "labels": [
       "AI",
       "인공지능",

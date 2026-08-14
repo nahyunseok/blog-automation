@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-05-06T06:26:34.114698",
-    "title": "🤖 Perplexity 검색 팁: 마케터의 팁 모음",
-    "title_hash": "313b2b20c6169e7421ea01182886f193",
-    "topic": "Perplexity 검색 팁: 마케터의 팁 모음",
-    "url": "https://gost1227.blogspot.com/2026/05/perplexity.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-05-07T06:31:43.781792",
     "title": "🤖 Claude 사용 팁 - 숨겨진 기능 체크리스트",
     "title_hash": "a84b24d840d6d83fb256196d9bfebe25",
@@ -1391,6 +1377,20 @@
     "title_hash": "820d49296da2fb5e1bfe37b56f8e054f",
     "topic": "[2026년 08월] 머신러닝 기초 비용 절감 정리",
     "url": "https://gost1227.blogspot.com/2026/08/2026-08.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-08-14T05:28:03.676543",
+    "title": "🤖 AI 창작 도구 - 창의적인 팁 모음",
+    "title_hash": "6f89924562da4233ff8318761b93d840",
+    "topic": "AI 창작 도구 - 창의적인 팁 모음",
+    "url": "https://gost1227.blogspot.com/2026/08/ai_01843577906.html",
     "labels": [
       "AI",
       "인공지능",

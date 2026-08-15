@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-05-07T06:31:43.781792",
-    "title": "🤖 Claude 사용 팁 - 숨겨진 기능 체크리스트",
-    "title_hash": "a84b24d840d6d83fb256196d9bfebe25",
-    "topic": "Claude 사용 팁 - 숨겨진 기능 체크리스트",
-    "url": "https://gost1227.blogspot.com/2026/05/claude.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-05-08T05:53:46.219031",
     "title": "🤖 AI 자동화 시스템 - 꿀팁 모음 후기",
     "title_hash": "81285f6f0d65dcb0da70fb5b247ec10c",
@@ -1391,6 +1377,20 @@
     "title_hash": "6f89924562da4233ff8318761b93d840",
     "topic": "AI 창작 도구 - 창의적인 팁 모음",
     "url": "https://gost1227.blogspot.com/2026/08/ai_01843577906.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-08-15T04:24:44.478555",
+    "title": "🤖 AI 창작 도구 - 효율 200% 높이는 가이드",
+    "title_hash": "d6f51679342cc367bc2814e1e308ca8c",
+    "topic": "AI 창작 도구 - 효율 200% 높이는 가이드",
+    "url": "https://gost1227.blogspot.com/2026/08/ai-200.html",
     "labels": [
       "AI",
       "인공지능",

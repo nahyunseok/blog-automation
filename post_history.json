@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-05-08T05:53:46.219031",
-    "title": "🤖 AI 자동화 시스템 - 꿀팁 모음 후기",
-    "title_hash": "81285f6f0d65dcb0da70fb5b247ec10c",
-    "topic": "AI 자동화 시스템 - 꿀팁 모음 후기",
-    "url": "https://gost1227.blogspot.com/2026/05/ai_0162248401.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-05-09T06:12:00.780836",
     "title": "🤖 AI 플러그인 추천 - 초보자를 위한 후기",
     "title_hash": "26be2b0167586fe96604867596fd093a",
@@ -1391,6 +1377,20 @@
     "title_hash": "d6f51679342cc367bc2814e1e308ca8c",
     "topic": "AI 창작 도구 - 효율 200% 높이는 가이드",
     "url": "https://gost1227.blogspot.com/2026/08/ai-200.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-08-16T04:30:37.042663",
+    "title": "🤖 [2026년 08월] AI 플러그인 추천 비교 분석 정리",
+    "title_hash": "bbb186d5feb2db3904683e79fb4aa1d6",
+    "topic": "[2026년 08월] AI 플러그인 추천 비교 분석 정리",
+    "url": "https://gost1227.blogspot.com/2026/08/2026-08-ai.html",
     "labels": [
       "AI",
       "인공지능",

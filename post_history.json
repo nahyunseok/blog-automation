@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-05-11T07:37:11.846869",
-    "title": "🤖 [2026년 05월] 노코드 AI 도구 꿀팁 모음 정리",
-    "title_hash": "42dc05bf8ec2c99788ab52cb09ad4516",
-    "topic": "[2026년 05월] 노코드 AI 도구 꿀팁 모음 정리",
-    "url": "https://gost1227.blogspot.com/2026/05/2026-05-ai.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-05-12T06:33:48.161143",
     "title": "🤖 [2026년 05월] AI 윤리와 미래 체크리스트 정리",
     "title_hash": "bb75160fcba7a80bc5b0319e95d15dd7",
@@ -1391,6 +1377,20 @@
     "title_hash": "3e92e7bc8778abcbefe45bf8d4151669",
     "topic": "[2026년 08월] AI 영상 편집 실패 극복 정리",
     "url": "https://gost1227.blogspot.com/2026/08/2026-08-ai_0233972905.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-08-19T04:32:12.380744",
+    "title": "🤖 [2026년 08월] Midjourney 사용법 시간 단축 정리",
+    "title_hash": "c6898a7e18ddb53ecf90499acdea71f6",
+    "topic": "[2026년 08월] Midjourney 사용법 시간 단축 정리",
+    "url": "https://gost1227.blogspot.com/2026/08/2026-08-midjourney.html",
     "labels": [
       "AI",
       "인공지능",

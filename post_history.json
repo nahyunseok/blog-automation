@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-05-14T06:43:12.124392",
-    "title": "🤖 디자이너을 위한 AI 마케팅 전략 Q&A",
-    "title_hash": "ea293613e5f1a2d55b392aab9b439122",
-    "topic": "디자이너을 위한 AI 마케팅 전략 Q&A",
-    "url": "https://gost1227.blogspot.com/2026/05/ai-q.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-05-15T06:52:21.286692",
     "title": "🤖 프리랜서을 위한 노코드 AI 도구 후기",
     "title_hash": "822ebe5f6c6ad5af7fea9679c9681dd5",
@@ -1391,6 +1377,20 @@
     "title_hash": "3ab3e60dc18c458012651dc15c002d32",
     "topic": "시간 단축 딥러닝 입문 사례 연구",
     "url": "https://gost1227.blogspot.com/2026/08/blog-post_21.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-08-22T04:27:42.338654",
+    "title": "🤖 AI 코딩 도우미 - 무료로 시작하는 사례 연구",
+    "title_hash": "29e677db58dce1fea7def12c8b9d36b6",
+    "topic": "AI 코딩 도우미 - 무료로 시작하는 사례 연구",
+    "url": "https://gost1227.blogspot.com/2026/08/ai_0304444786.html",
     "labels": [
       "AI",
       "인공지능",

@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-05-15T06:52:21.286692",
-    "title": "🤖 프리랜서을 위한 노코드 AI 도구 후기",
-    "title_hash": "822ebe5f6c6ad5af7fea9679c9681dd5",
-    "topic": "프리랜서을 위한 노코드 AI 도구 후기",
-    "url": "https://gost1227.blogspot.com/2026/05/ai_089991590.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-05-16T06:18:58.486118",
     "title": "🤖 Claude 사용 팁: 유튜버의 체크리스트",
     "title_hash": "03a84ea0af80a9339331400f682730bc",
@@ -1391,6 +1377,20 @@
     "title_hash": "29e677db58dce1fea7def12c8b9d36b6",
     "topic": "AI 코딩 도우미 - 무료로 시작하는 사례 연구",
     "url": "https://gost1227.blogspot.com/2026/08/ai_0304444786.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-08-23T04:31:37.525390",
+    "title": "🤖 단계별 Claude 사용 팁 체크리스트",
+    "title_hash": "a0ed9793b83afc67529199a5af9918a5",
+    "topic": "단계별 Claude 사용 팁 체크리스트",
+    "url": "https://gost1227.blogspot.com/2026/08/claude_0274894789.html",
     "labels": [
       "AI",
       "인공지능",

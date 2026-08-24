@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-05-16T06:18:58.486118",
-    "title": "🤖 Claude 사용 팁: 유튜버의 체크리스트",
-    "title_hash": "03a84ea0af80a9339331400f682730bc",
-    "topic": "Claude 사용 팁: 유튜버의 체크리스트",
-    "url": "https://gost1227.blogspot.com/2026/05/claude_0609626549.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-05-17T06:41:28.769316",
     "title": "🤖 실전 Midjourney 사용법 후기",
     "title_hash": "87f4c577a9832c889872a62c515a4b7c",
@@ -1391,6 +1377,20 @@
     "title_hash": "a0ed9793b83afc67529199a5af9918a5",
     "topic": "단계별 Claude 사용 팁 체크리스트",
     "url": "https://gost1227.blogspot.com/2026/08/claude_0274894789.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-08-24T04:39:24.982654",
+    "title": "🤖 중장년층을 위한 Claude 사용 팁 리뷰",
+    "title_hash": "650f0a7b203e75edf03c1fbeb748f5b3",
+    "topic": "중장년층을 위한 Claude 사용 팁 리뷰",
+    "url": "https://gost1227.blogspot.com/2026/08/claude_01681064719.html",
     "labels": [
       "AI",
       "인공지능",

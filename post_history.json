@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-05-17T06:41:28.769316",
-    "title": "🤖 실전 Midjourney 사용법 후기",
-    "title_hash": "87f4c577a9832c889872a62c515a4b7c",
-    "topic": "실전 Midjourney 사용법 후기",
-    "url": "https://gost1227.blogspot.com/2026/05/midjourney_0272257698.html",
-    "labels": [
-      "AI",
-      "인공지능",
-      "자동화"
-    ],
-    "method": "github_actions_v2",
-    "success": true
-  },
-  {
     "timestamp": "2026-05-18T07:58:11.386379",
     "title": "🤖 [2026년 05월] AI 데이터 분석 5분 마스터 정리",
     "title_hash": "7de92fea90377d0622f2278269912326",
@@ -1391,6 +1377,20 @@
     "title_hash": "650f0a7b203e75edf03c1fbeb748f5b3",
     "topic": "중장년층을 위한 Claude 사용 팁 리뷰",
     "url": "https://gost1227.blogspot.com/2026/08/claude_01681064719.html",
+    "labels": [
+      "AI",
+      "인공지능",
+      "자동화"
+    ],
+    "method": "github_actions_v2",
+    "success": true
+  },
+  {
+    "timestamp": "2026-08-25T04:33:43.740138",
+    "title": "🤖 AI 이미지 생성: 중급자의 리뷰",
+    "title_hash": "43f8c267545a340396a52ed8d22aab43",
+    "topic": "AI 이미지 생성: 중급자의 리뷰",
+    "url": "https://gost1227.blogspot.com/2026/08/ai_0870461237.html",
     "labels": [
       "AI",
       "인공지능",
